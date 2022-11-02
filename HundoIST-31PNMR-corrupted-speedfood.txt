@@ -1,0 +1,138 @@
+Initialize 4 TreeBranch 1 Torch 1 WoodcuttersAxe 1 SearedSteak 1 Slate
+Equip TreeBranch
+Save As PlateauHard
+Drop 4 TreeBranch 1 WoodcuttersAxe
+Eat 1 SearedSteak
+Pickup 1 NormalArrow 3 SpicyPepper 2 Apple 3 HyruleHerb 4 SpiritOrb 1 Paraglider 1 Flint 1 LuminousStone 1 Amber 1 ForestDwellersBow 1 SpiritOrb 4 EnduraCarrot 1 Rushroom 1 ForestDwellersBow 1 Acorn 2 Endurashroom 4 Sunshroom 2 Hylianshroom 2 Zapshroom 2 Ironshroom 2 Chillshroom 2 Razorshroom 2 Honey 2 SilentPrincess 4 FleetLotusSeed 2 SilentPrincess 3 EnduraCarrot 1 SilentPrincess 10 HeartyDurian 1 Wood 1 ShockArrow 1 RoyalGuardsBow 1 AncientArrow 1 RoyalBow 2 Shaft 2 Spring 2 Screw 2 Gear 1 Core 1 SpiritOrb 
+Cook 4 SpeedFood
+Remove 2 EnduraCarrot 2 Endurashroom
+Pickup 1 Beetle 1 MindsEye 1 Opal 1 SpiritOrb 1 DoubleAxe 1 SpiritOrb 1 FaroshScale 1 FaroshHorn 1 FaroshClaw 5 MightyBananas 1 LizalfosTail 2 LizalfosHorn 2 LizalfosTalon 5 HyruleBass 1 HeartyBass
+Eat 4 SpeedFood
+Save As HatenoAuto
+Reload PlateauHard
+Unequip TreeBranch
+Save As PlateauAuto
+Reload HatenoAuto
+Equip ShockArrow
+D&P 2 ForestDwellersBow
+Break 4 Slots
+Remove 3 SpicyPepper 2 Apple 3 HyruleHerb 2 Hylianshroom
+D&P 1 Acorn
+Drop 1 RoyalGuardsBow
+Pickup 1 ForestDwellersBow
+Break 4 Slots
+Remove 2 Zapshroom 2 Ironshroom 2 Chillshroom 2 Razorshroom
+D&P 1 FaroshHorn
+D&P 2 Shaft 2 Spring 2 LizalfosHorn 2 LizalfosTalon 
+Save As HatenoHard
+Reload HatenoHard
+D&P 1 FaroshHorn 2 Shaft 2 Spring 2 LizalfosHorn 2 LizalfosTalon
+Save As HatenoHard
+Reload HatenoHard
+D&P 4 Shaft 4 Spring 4 LizalfosHorn 4 LizalfosTalon
+Save As HatenoHard
+Reload HatenoHard
+D&P 8 LizalfosHorn 8 LizalfosTalon
+Remove 8 SpiritOrb
+Save As HatenoHard
+Reload HatenoHard
+Remove 112 SpiritOrb
+D&P 2 FaroshHorn 2 Screw 1 Acorn 1 Flint 1 LuminousStone 1 Amber
+Save As HatenoHard
+Reload HatenoHard
+D&P 2 FaroshHorn 2 Screw 1 Acorn 1 Flint 1 LuminousStone 1 Amber
+Save As HatenoHard
+Reload HatenoHard
+D&P 4 FaroshHorn 4 Screw 2 Acorn 2 Flint 2 LuminousStone 2 Amber 2 Gear
+Save As HatenoHard
+Reload HatenoHard
+D&P 8 Screw 4 Acorn 4 Flint 4 LuminousStone 4 Amber 2 Gear 
+D&P 1 FaroshScale
+Save As HatenoHard
+Reload HatenoHard
+D&P 8 Acorn 8 Flint 8 LuminousStone 8 Amber 8 Gear 1 FaroshScale
+Cook 1 SimmeredFruit
+Remove 5 Durian
+D&P 8 Spring 5 HyruleBass 5 SilentPrincess 2 Honey
+Save As HatenoHard
+Reload HatenoHard
+D&P 8 Gear 8 Spring 5 SilentPrincess 8 Shaft 4 Honey
+Save As HatenoHard
+Reload HatenoHard
+Eat 2 SimmeredFruit
+Cook 1 Food
+Remove 1 FaroshHorn 4 MightyBananas
+D&P 10 HyruleBass 10 SilentPrincess 8 Shaft 4 Honey 7 FaroshHorn 1 FaroshClaw
+Save As HatenoHard
+Reload HatenoHard
+D&P 8 Honey 7 FaroshHorn 1 FaroshClaw 5 EnduraCarrot 4 Sunshroom 4 FleetLotusSeeds 5 Durian 1 MightyBananas 
+Equip DoubleAxe
+D&P 1 RoyalBow
+Equip RoyalBow
+Equip MindsEye
+Save As HatenoHard
+Reload PlateauAuto
+Drop 3 TreeBranch 
+# Eat 4 Food
+Eat 2 SimmeredFruit 1 Food 1 SimmeredFruit
+Reload HatenoHard
+Save As HatenoHard
+Reload HatenoHard
+Equip AncientArrow
+Drop 10 Core
+Remove 989 Core
+Pickup 10 Core
+Save As HatenoHard
+Reload PlateauAuto
+# Eat all food
+Eat 2 SimmeredFruit 1 Food 2 SimmeredFruit 1 Food 1 SearedSteak
+Reload HatenoHard
+Shoot 1 Arrow
+Save As HatenoHard
+Reload PlateauAuto
+Drop 2 TreeBranch
+#  Eat 5 Food
+Eat 2 SimmeredFruit 1 Food 2 SimmeredFruit
+Reload HatenoHard
+Shoot 1 Arrow
+Save As HatenoHard
+Reload HatenoHard
+Buy 1 BombArrow
+Equip ShockArrow
+Save As HatenoHard
+Reload PlateauAuto
+Drop 4 TreeBranch 1 Torch
+Eat 2 SimmeredFruit
+Reload HatenoHard
+Shoot 1 Arrow
+Save As HatenoHard
+Reload HatenoHard
+Cook 1 EnduraFood 1 SpeedFood
+Remove 5 EnduraCarrot 1 FaroshHorn 4 FleetLotusSeeds
+# Get an autosave. Finish house upgrades or horned statue quest should do it?
+Save As HatenoAuto
+Reload PlateauAuto
+Equip WoodcuttersAxe
+Eat 1 Food 2 SimmeredFruit 1 Food 1 SearedSteak
+Save as PlateauHard
+Drop 4 Branch 1 Torch
+Unequip WoodcuttersAxe
+Reload PlateauHard
+Save As PlateauHard
+Reload PlateauHard
+Drop 1 Torch 1 WoodcuttersAxe 4 TreeBranch
+Eat 1 EnduraFood 1 SpeedFood 1 EnduraFood 1 SpeedFood
+Unequip WoodcuttersAxe
+Reload PlateauHard
+Save As PlateauHard
+Reload PlateauHard
+Eat 2 SpeedFood 
+Drop 1 Torch 1 WoodcuttersAxe 4 TreeBranch 1 Torch 1 WoodcuttersAxe
+Reload HatenoAuto
+# Profit
+Unequip DoubleAxe
+Save As HatenoHard
+Close Game
+Reload HatenoHard
+
+https://dupl.itntpiston.app/?c=H4sIAAAAAAACA71XW2%2FbNhR%2B168gEGCPRaTIqPo0%2BBLHBbrViFMM2BsjMRERilQpcpnz63coUhbJyLVdFIMfLIrk%2Bc7lOxd95lRRzOgbQTl6kIQsJOZljVL0IGT%2F%2F5cQVamVIrKb%2F0vgxY5gSaqdIvjFrBhWJLn9rmnr3U92%2BB%2BC5h3amm2sN1hWyUqKNkYJpSe3WIUIyZaWL7qFl38K2WA2l1K8ohu0a2m535K2JRJlaN62jMDbzV5qRjZEPgIOHJFUfYXnFG2xxM%2BMVnA6RWtGuYH5ohvKhe52SnBj2Lx5tPtCkk6tXgljoNYC8FJPWI5ueaUlXmJQxYi5110thWiO3JyXQnLQ0d5yR0E7zd1zBmozisfl37g9PH%2BWYtxY1pSxw%2Boevwk5ygAb9vC%2Fo4xwtZWUl6TrAGjNCFFfhAI7Canen7iJ7Yn202u0gXio%2FUpL0NLFzJyrRfli4wFOEHvM7jSEeTCblxTEBPtmB%2FBr%2FKTMfwsQz%2BahlMRs3AEMHF2CEwOPJ0shXvqAggFrAE%2FuSSOAX1moeujjkTkLcAAzIv%2BgvOpu9%2Bbxa4tZAJKildCPjDiOe%2B%2FXWIqu3pW4l2FXGxPTYbFk%2BBXNQPpzrfYLzOHXGXrRN8yeRPeAKQPdhuXG0mHcZYLDbUvdBTYedw43iz4jfNOHxNpAXnEx10qAN5jAVZBq3zg5kZH%2BTU%2BWTeQxtMnqty1o%2B47YyUKa%2FAfNmFDdEJAz8jJkey%2Fe5YitDzGVxjCeqcPP5I9TY4ytM%2FsdVX8YxCg2fSACD9sqGEFdCnM%2BSu4E54PgPBSc%2F6zgIpRTRHJcIIoxi84T7e6laebddPwL3NXXi6Gynqjn51v1%2F6DkPkp%2BqH1Dl7AoWYSSud5ka%2BQlgbLycyc%2Fd%2FLzSH4eyEcBR%2FvCdwmkhSocVBFBFQ6qGMq9j9IXetOBmobABLCWmqqBFjNkG9BgmKV0UDhnce9ybfES7XutPPGRxOKQUxdINjU8i6xypvrtLA2pEfQTG5LroE1cn1AOfTzWrS5xyAlR4KKgCfuTTTx8dIcg9s3Yb5eu8Rx6sKPgMDa47Wg59PMfmON3u76%2F3PjzZ3KFbH%2FtwzARJhehCU7GzjqPCL3a%2Fmjkmt51P%2FUMRPhUfLLrofe57fPMtDZhxtDTCauOG%2BsN4BOm1qIfFK0BF%2Fg%2B8%2BeRK9TrOTvp%2B%2By0789UyHuz0HszGYrm0V56N%2FdcYNbUh9Nkzv8SzV3hsEk3xCuejGfxUB9UligrIRR3BBjDEQabOlDiA1pTTrsa1VC3CdLts8QV6ZCQ8EZy%2BIzoFFaaoO8aRjLUwTFWoUogqn4%2FPaF6g%2Bbk59%2F53Oyh8ORXZhSOYSCOACdG56kv14ljblg98pXsU8JZNR2w45H85Ro7Rh6QLzDh6KmJL4grtJXiCdg%2BGDDW9Al%2BL5kAgt3hhkxQ%2FT9%2FvhAsnRAAAA%3D%3D
