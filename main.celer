@@ -38,6 +38,7 @@ _route:
         comment: 木こりのオノ
         coord: [-920.93, 220.65, 1871.83]
     - _Material<Seared Steak>:
+        comment: 焼きケモノ肉
         coord: [-955.87, 237.42, 1948.86]
     - (^=) Hard save
     - (==) Continue with the route as normal, but do not collect any of the following- Fire, Ice or Bomb Arrows, Korok Seeds.
@@ -103,9 +104,11 @@ _route:
     - _Chest<Ruby>:
         comment: ルビー
         coord: [-671.65, 171.79, 1522.61]
+    - _Chest<Amber>:
+        comment: コハク
+        coord: [-684.41, 168.85, 1536.43]
     - Break boxes:
         movements:
-          - to: [-671.81, 171.64, 1525.14]
           - to: [-702.18, 171.71, 1535.47]
           - to: [-704.23, 171.71, 1534.71]
     - _Material<Arrow x5>:
@@ -311,7 +314,8 @@ _route:
           - to: [-2112.5,439.9375]
           - to: [-2123.0625,404.875]
           - to: [-2132.6875,388.25]
-    - _Material<Amber>:
+    - _Material<Flint>:
+        comment: 火打ち石
         coord: [-2216.74, 438.03, 380.92]
         notes: Pick up at least 1 more flint from the ores
     - (==) The Forest Dweller's Bows picked up here can be used but must not be broken until the GEB is duplicated in Gerudo.
@@ -332,9 +336,13 @@ _route:
     - _Chest<Forest Dweller's Bow>:
         coord: [-2342.64, 348.37, 680.81]
         comment: 森人の弓
+    - Drop a Traveler's Bow
     - _Material<Acorn, 1>:
         comment: どんぐり
         coord: [-2338.68, 348.73, 678.83]
+    - _Material<Endura Shroom, 2>:
+        comment: ガッツダケ
+        coord: [-2205.54, 267.93, 781.57]
     - _Material<Silentshroom, 2>:
         comment: シノビダケ
         movements:
@@ -371,6 +379,7 @@ _route:
           - to: [-2201.58, 267.77, 780.34]
           - to: [-2200.88, 267.79, 781.13]
     - _Material<Luminous Stone>:
+        comment: 夜光石
         notes: Pick up 1, and any flint
         movements:
           - to: [-2181.55, 269.28, 793.84]
@@ -655,9 +664,10 @@ _route:
         movements:
           - to: [1789,983.875]
           - to: [1800.25, 219.63, 1012.57]
+        comment: Make sure it will not be raining.
     - _Cook<Stamina Food>:
         hide-icon-on-map: true
-        notes: Cook 5 stamina meals using 2 Endura Carrots and 3 Endura Shrooms. Needed for climbing. Should have 5 Endura Carrots left in inventory.          
+        notes: Cook 5 stamina meals using 2 Endura Carrots, 2 Endura Shrooms, 1 Stamanella Shroom. Needed for climbing. Should have 5 Endura Carrots left in inventory.          
     - _Material<Energetic Rhino Beetle, 1>:
         comment: ガンバリカブト
         coord: [1811.23, 221.34, 1050.06]
@@ -847,6 +857,7 @@ _route:
           - to: [1597.625,3009.625]
           - to: [1535.3125,3140.4375]
     - _Material<Mighty Bananas>:
+        comment: ツルギバナナ
         coord: [1420.22, 214.25, 3465.15]
     - Continue:
         movements:
@@ -861,6 +872,7 @@ _route:
           - to: [1579.6875,3667.5]
           - to: [1568.8125,3682.3125]
     - _Material<Mighty Bananas>:
+        comment: ツルギバナナ
         coord: [1567.94, 251.09, 3680.33]
     - Continue:
         movements:
@@ -870,8 +882,10 @@ _route:
           - to: [1632.5625,3708.75]
           - to: [1633.5,3701.625]
     - _Material<Mighty Bananas>:
+        comment: ツルギバナナ
         coord: [1652.44, 282.35, 3687.13]
     - _Material<Mighty Bananas>:
+        comment: ツルギバナナ
         coord: [1680.18, 282.30, 3655.75]
     - Kill Black Lizalfos:
        notes: Use Royal Guard's Bow or sneak strike; Do not pick up fire arrows
@@ -884,6 +898,7 @@ _route:
     - _Material<Lizalfos Talon, 2>:
         comment: リザルフォスの爪
     - _Material<Mighty Bananas>:
+        comment: ツルギバナナ
         coord: [1677.62, 283.28, 3675.89]
     - _Material<Hyrule Bass, 5>:
         comment: ハイラルバス
@@ -902,7 +917,7 @@ _route:
         split-type: UserDefined
         icon: link
         hide-icon-on-map: true
-    - (^=) Procedure >> .link(https://dupl.itntpiston.app/?c=H4sIAAAAAAACA71XW2%2FbNhR%2B168gEGCPRaTIqPo0%2BBLHBbrViFMM2BsjMRERilQpcpnz63coUhbJyLVdFIMfLIrk%2Bc7lOxd95lRRzOgbQTl6kIQsJOZljVL0IGT%2F%2F5cQVamVIrKb%2F0vgxY5gSaqdIvjFrBhWJLn9rmnr3U92%2BB%2BC5h3amm2sN1hWyUqKNkYJpSe3WIUIyZaWL7qFl38K2WA2l1K8ohu0a2m535K2JRJlaN62jMDbzV5qRjZEPgIOHJFUfYXnFG2xxM%2BMVnA6RWtGuYH5ohvKhe52SnBj2Lx5tPtCkk6tXgljoNYC8FJPWI5ueaUlXmJQxYi5110thWiO3JyXQnLQ0d5yR0E7zd1zBmozisfl37g9PH%2BWYtxY1pSxw%2Boevwk5ygAb9vC%2Fo4xwtZWUl6TrAGjNCFFfhAI7Canen7iJ7Yn202u0gXio%2FUpL0NLFzJyrRfli4wFOEHvM7jSEeTCblxTEBPtmB%2FBr%2FKTMfwsQz%2BahlMRs3AEMHF2CEwOPJ0shXvqAggFrAE%2FuSSOAX1moeujjkTkLcAAzIv%2BgvOpu9%2Bbxa4tZAJKildCPjDiOe%2B%2FXWIqu3pW4l2FXGxPTYbFk%2BBXNQPpzrfYLzOHXGXrRN8yeRPeAKQPdhuXG0mHcZYLDbUvdBTYedw43iz4jfNOHxNpAXnEx10qAN5jAVZBq3zg5kZH%2BTU%2BWTeQxtMnqty1o%2B47YyUKa%2FAfNmFDdEJAz8jJkey%2Fe5YitDzGVxjCeqcPP5I9TY4ytM%2FsdVX8YxCg2fSACD9sqGEFdCnM%2BSu4E54PgPBSc%2F6zgIpRTRHJcIIoxi84T7e6laebddPwL3NXXi6Gynqjn51v1%2F6DkPkp%2BqH1Dl7AoWYSSud5ka%2BQlgbLycyc%2Fd%2FLzSH4eyEcBR%2FvCdwmkhSocVBFBFQ6qGMq9j9IXetOBmobABLCWmqqBFjNkG9BgmKV0UDhnce9ybfES7XutPPGRxOKQUxdINjU8i6xypvrtLA2pEfQTG5LroE1cn1AOfTzWrS5xyAlR4KKgCfuTTTx8dIcg9s3Yb5eu8Rx6sKPgMDa47Wg59PMfmON3u76%2F3PjzZ3KFbH%2FtwzARJhehCU7GzjqPCL3a%2Fmjkmt51P%2FUMRPhUfLLrofe57fPMtDZhxtDTCauOG%2BsN4BOm1qIfFK0BF%2Fg%2B8%2BeRK9TrOTvp%2B%2By0789UyHuz0HszGYrm0V56N%2FdcYNbUh9Nkzv8SzV3hsEk3xCuejGfxUB9UligrIRR3BBjDEQabOlDiA1pTTrsa1VC3CdLts8QV6ZCQ8EZy%2BIzoFFaaoO8aRjLUwTFWoUogqn4%2FPaF6g%2Bbk59%2F53Oyh8ORXZhSOYSCOACdG56kv14ljblg98pXsU8JZNR2w45H85Ro7Rh6QLzDh6KmJL4grtJXiCdg%2BGDDW9Al%2BL5kAgt3hhkxQ%2FT9%2FvhAsnRAAAA%3D%3D)
+    - (^=) Procedure >> .link(https://ist.itntpiston.app/?c=H4sIAAAAAAACA71XW2%2FbNhR%2B168gEGCPRaTIqPo0%2BBLHBbrViFMM2BsjMRERilQpcpnz63coUhbJyLVdFIMfLIrk%2Bc7lOxd95lRRzOgbQTl6kIQsJOZljVL0IGT%2F%2F5cQVamVIrKb%2F0vgxY5gSaqdIvjFrBhWJLn9rmnr3U92%2BB%2BC5h3amm2sN1hWyUqKNkYJpSe3WIUIyZaWL7qFl38K2WA2l1K8ohu0a2m535K2JRJlaN62jMDbzV5qRjZEPgIOHJFUfYXnFG2xxM%2BMVnA6RWtGuYH5ohvKhe52SnBj2Lx5tPtCkk6tXgljoNYC8FJPWI5ueaUlXmJQxYi5110thWiO3JyXQnLQ0d5yR0E7zd1zBmozisfl37g9PH%2BWYtxY1pSxw%2Boevwk5ygAb9vC%2Fo4xwtZWUl6TrAGjNCFFfhAI7Canen7iJ7Yn202u0gXio%2FUpL0NLFzJyrRfli4wFOEHvM7jSEeTCblxTEBPtmB%2FBr%2FKTMfwsQz%2BahlMRs3AEMHF2CEwOPJ0shXvqAggFrAE%2FuSSOAX1moeujjkTkLcAAzIv%2BgvOpu9%2Bbxa4tZAJKildCPjDiOe%2B%2FXWIqu3pW4l2FXGxPTYbFk%2BBXNQPpzrfYLzOHXGXrRN8yeRPeAKQPdhuXG0mHcZYLDbUvdBTYedw43iz4jfNOHxNpAXnEx10qAN5jAVZBq3zg5kZH%2BTU%2BWTeQxtMnqty1o%2B47YyUKa%2FAfNmFDdEJAz8jJkey%2Fe5YitDzGVxjCeqcPP5I9TY4ytM%2FsdVX8YxCg2fSACD9sqGEFdCnM%2BSu4E54PgPBSc%2F6zgIpRTRHJcIIoxi84T7e6laebddPwL3NXXi6Gynqjn51v1%2F6DkPkp%2BqH1Dl7AoWYSSud5ka%2BQlgbLycyc%2Fd%2FLzSH4eyEcBR%2FvCdwmkhSocVBFBFQ6qGMq9j9IXetOBmobABLCWmqqBFjNkG9BgmKV0UDhnce9ybfES7XutPPGRxOKQUxdINjU8i6xypvrtLA2pEfQTG5LroE1cn1AOfTzWrS5xyAlR4KKgCfuTTTx8dIcg9s3Yb5eu8Rx6sKPgMDa47Wg59PMfmON3u76%2F3PjzZ3KFbH%2FtwzARJhehCU7GzjqPCL3a%2Fmjkmt51P%2FUMRPhUfLLrofe57fPMtDZhxtDTCauOG%2BsN4BOm1qIfFK0BF%2Fg%2B8%2BeRK9TrOTvp%2B%2By0789UyHuz0HszGYrm0V56N%2FdcYNbUh9Nkzv8SzV3hsEk3xCuejGfxUB9UligrIRR3BBjDEQabOlDiA1pTTrsa1VC3CdLts8QV6ZCQ8EZy%2BIzoFFaaoO8aRjLUwTFWoUogqn4%2FPaF6g%2Bbk59%2F53Oyh8ORXZhSOYSCOACdG56kv14ljblg98pXsU8JZNR2w45H85Ro7Rh6QLzDh6KmJL4grtJXiCdg%2BGDDW9Al%2BL5kAgt3hhkxQ%2FT9%2FvhAsnRAAAA%3D%3D)
     - (==) Avoid autosaves until finished with the glitch
     - _Material<Stamina Vessel, 10>:
         hide-icon-on-map: true
@@ -1311,6 +1326,8 @@ _route:
         comment: リバーサイド馬宿
         coord: [339.1875,1095.5625]
     - _Cook<Fruit Cake>:
+        comment: フルーツケーキ
+        notes: Apple, Another Fruit, Wheat, Sugar
         coord: [318.60, 115.30, 1099.87]
     - _Npc::SheikaMale<Gotter/ゴエタフ>:
         comment: A Royal Recipe/王家秘伝のレシピ
@@ -1362,7 +1379,7 @@ _route:
         coord: [1830.49, 222.41, 1044.89]
     - _Shop<Buy fire arrows>:
         hide-icon-on-map: true
-    - _Shop<Buy all food>:
+    - _Shop<Buy Butter, Carrots, Eggs>:
         coord: [1795.25,1029.125]
     - _Npc::SheikaMale<Pikango/カンギス>:
         comment: Find the Fairy Fountain/妖精の泉探し
@@ -1460,6 +1477,7 @@ _route:
     - _Korok::D49
     - _Shrine::SheeVaneer:
         comment: シベ・ニーロの祠
+        notes: .link(https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/0edce9a9965dead04f1a6f3127c4599f1a8afe53/graphics/SheeVaneerSolution.png)
     - _Korok::D40
     - _Korok::D41:
         comment: Bomb arrow, shoot boulder from D40
@@ -1468,6 +1486,7 @@ _route:
             away: true
     - _Shrine::SheeVenath:
         comment: シベ・ニャスの祠
+        notes: .link(https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/0edce9a9965dead04f1a6f3127c4599f1a8afe53/graphics/SheeVaneerSolution.png)
     - _Shrine::ReeDahee:
         comment: リ・ダヒの祠
         notes: Climber's Bandanna
@@ -1505,8 +1524,10 @@ _route:
         notes: 5 bow slots; Pick up random materials in the forest to use as scrap for transmutation later in the run.
         coord: [870.83, 131.54, 203.47]
     - _Material<Armoranth>:
+        comment: ヨロイソウ
         coord: [888.57, 131.91, 220.71]
     - _Material<Blue Nightshade>:
+        comment: しのび草
         coord: [890.79, 132.75, 249.03]
     - _Korok::Z37
     - _Korok::Z47
@@ -1654,13 +1675,13 @@ _route:
     - _Npc::Gerudo<Furosa/フロス>:
         comment: The Perfect Drink/うるわしの美酒を求めて・・・
         coord: [-3856.6875,2856.4375]
-    - _Tod::Noon:
-        notes: if needed
-        hide-icon-on-map: true
     - _Npc::Gerudo<Dalia/ティクル>:
         comment: The Mystery Polluter/犯人は誰だ！
         coord: [-3834.625,2852.5]
     - _Warp::Tower::Gerudo
+    - _Tod::Noon:
+        notes: Outside the icehouse. Complete the ice delivery quickly to get back to Gerudo Tower in time for Sasa Kai.
+        hide-icon-on-map: true
     - _Npc::Gerudo<Anche/アンチェ>:
         comment: The Perfect Drink/うるわしの美酒を求めて・・・
         notes: get ice
@@ -1669,8 +1690,10 @@ _route:
         comment: The Perfect Drink/うるわしの美酒を求めて・・・
         notes: deliver ice
         coord: [-3764.6875,2699.8125]
-    - _Warp::Tower::Gerudo:
-        notes: If the time is right, Sasa Kai can be completed early
+    - _Warp::Tower::Gerudo
+    - _Shrine::SasaKai:
+        comment: ササ・カイの祠
+        notes: 14:55 - 15:55
     - _Shrine::DakoTah:
         comment: ダコ・タワの祠
         notes: Ancient Core, Radiant Shield
@@ -1736,6 +1759,12 @@ _route:
         icon: location
         notes: Horn, claw; make morning x2 if between midnight-5am
         coord: [3968.6875,1295.0625]
+    - _Material<Shard of Naydra's Horn>:
+        comment: ネルドラの角のかけら
+        hide-icon-on-map: true
+    - _Material<Naydra's Claw>:
+        comment: ネルドラの爪
+        hide-icon-on-map: true
     - _Korok::N19
     - _Korok::N12
     - _Warp::Shrine::JitanSami
@@ -1949,6 +1978,8 @@ _route:
         comment: From the Ground Up/羽ばたけ！サクラダ工務店
         coord: [3983.9375,-1600.9375]
     - _Cook<Fire Protection>:
+        comment: 燃えず薬
+        notes: 3 Smotherwing Butterflies, 2 Lizalfos tails
         hide-icon-on-map: true
 
   - Enter Goron City:
@@ -2113,6 +2144,7 @@ _route:
           - to: [-1234.75,-3226.5]
           - to: [-1234.8125,-3193.9375]
     - _Chest<Fire Arrow x5>:
+        comment: 炎の矢 x5
         coord: [-1210.90, 466.91, -3059.53]      
     - _Korok::H22
     - _Korok::K11
@@ -2136,8 +2168,11 @@ _route:
         coord: [247.00, 173.39, -3668.50]
         notes: Kill with Shock Arrows; Collect Hoof, club
     - _Material<Lynel Hoof>:
+        comment: ライネルのひづめ
+        notes: Needed for quest
         hide-icon-on-map: true
     - _Equipment::Weapon<Lynel Club>:
+        comment: 獣神の大剣
         hide-icon-on-map: true
     - _Tod::Morning:
         hide-icon-on-map: true
@@ -2223,13 +2258,13 @@ _route:
     - _Korok::A15
     - _Shop<Cherry/シーカーレンジ>:
         coord: [4514.8125,-3162.5]
-        notes: Talking to Robbie will reduce Ancient Arrow count to 999. You can use the Ancient Furnace to without talking to him. Buy ancient short sword, shield, bow, arrows.
+        notes: Talking to Robbie will reduce Ancient Arrow count to 999. You can use the Ancient Furnace without talking to him. Buy ancient short sword, shield, bow, arrows.
     - _Korok::A16
     - _Shrine::TuKaloh:
         comment: トゥ・カロの祠
         notes: Barbarian Helm
-    - _Chest::Special<Travel Medallion>:
-        comment: EX Teleportation Rumors!
+    - _Chest::Special<Travel Medallion/ワープマーカー>:
+        comment: EX Teleportation Rumors!/Ex 瞬間移動？！のウワサ
         coord: [4655.00, 155.50, -3560.02]
     - _Korok::A08
     - _Korok::A09
@@ -2319,9 +2354,6 @@ _route:
     - _Npc::Goron<Bludo/ブルドー>:
         comment: Divine Beast Vah Rudania/炎の神獣 ヴァ・ルーダニア
         coord: [1714.1875,-2446.8125]
-    - _Chest::Special<Boulder Breaker>:
-        comment: 巨岩砕き
-        coord: [1740.6875,-2446.8125]
 
   - Korok Forest:
     - Line color - Magenta
@@ -2352,18 +2384,15 @@ _route:
           - to: [668.16, 282.86, -1861.89]
           - to: [609.47, 281.85, -1947.19]
           - to: [422,-2112]
+    - _Equipment::Weapon<Master Sword>:
+        comment: マスターソード
+        notes: Start the quest. Obtain later.
+        coord: [431.5,-2111.0625]
     - _Shrine::KeoRuug:
         comment: キヨ・ウーの祠
         movements:
           - to: [471,-2167.5625]
             warp: true
-    - _Npc<Hestu>:
-        comment: ボックリン
-        coord: [465.9375,-2112.375]
-        notes: 3 bow, 7 weapon, 4 shield
-    - _Equipment::Weapon<Korok Leaf>:
-        comment: コログのうちわ
-        coord: [473.625,-2125.3125]
     - _Npc<Zooki/アズキ>:
         comment: Trial of Second Sight/操りの力のしれん
         coord: [251.25,-1979.875]
@@ -2376,11 +2405,25 @@ _route:
     - _Warp::Shrine::KeoRuug
     - _Npc<Tasho/タッチオ>:
         comment: The Lost Pilgrimage/はじめての しれん
+        notes: Start the quest and set Oaki on his way. It takes him 5m 20s to get to the shrine. Do the things below while waiting.
         coord: [256,-2229.9375]
     - _Npc<Walton/ナモミン>:
         comment: Riddles of Hyrule/ハイラルのなぞなぞしれん
         coord: [417.4375,-2180.375]
         notes: Apple, Sunshroom, Pumpkin, Voltfin, Hoof
+    - _Npc<Hestu>:
+        comment: ボックリン
+        coord: [465.9375,-2112.375]
+        notes: Get last bow slot, as many weapon slots as possible, then as many shield slots
+    - _Equipment::Weapon<Korok Leaf>:
+        comment: コログのうちわ
+        coord: [473.625,-2125.3125]
+    - _Npc<Kula/カラッセ>:
+        comment: A Freezing Rod/こおりの杖 しれん
+        coord: [419.3125,-2134.8125]
+    - _Npc<Peeks/ピーカン>:
+        comment: The Legendary Rabit Trial/ぴかぴかのルミー しれん
+        coord: [440.75,-2133.0625]
     - _Shrine::DaagChokah:
         comment: ダ・チョカヒの祠
         movements:
@@ -2398,30 +2441,29 @@ _route:
             warp: true
         notes: Giant Ancienct Core
     - _Warp::Shrine::KeoRuug
-    - _Npc<Kula/カラッセ>:
-        comment: A Freezing Rod/こおりの杖 しれん
-        coord: [419.3125,-2134.8125]
     - _Npc<Chio/スダジィ>:
         comment: The Korok Trials/コログ しれん
         coord: [431.375,-2139.75]
-    - _Npc<Peeks/ピーカン>:
-        comment: The Legendary Rabit Trial/ぴかぴかのルミー しれん
-        coord: [440.75,-2133.0625]
     - _Equipment::Weapon<Master Sword>:
         comment: マスターソード
         coord: [431.5,-2111.0625]
         split-type: UserDefined
+    - _Warp::Shrine::KeoRuug:
+       notes: This is required to get the Trial of the Sword side quest to become available.
     - _Npc<Beginning Trials>:
         comment: EX Trial of the Sword
         coord: [431.66, 250.53, -2111.00]
+        notes: Eat a hearty food. Save. Eat attack up food and begin the trial.
         split-type: UserDefined
     - _Npc<Middle Trials>:
         comment: EX Trial of the Sword
         coord: [431.66, 250.53, -2111.00]
+        notes: Eat a hearty food. Save. Eat attack up food and begin the trial.
         split-type: UserDefined
     - _Npc<Final Trials>:
         comment: EX Trial of the Sword
         coord: [431.66, 250.53, -2111.00]
+        notes: Eat a hearty food. Save. Eat attack up food and begin the trial.
         split-type: UserDefined
 
   - One-Hit Obliterator Trial:
@@ -2433,16 +2475,23 @@ _route:
         comment: EX The Champions' Ballad
         coord: [-1124.96, 238.47, 1903.14]
     - _Warp::Shrine::KehNamut
-    - _Shrine::EtsuKorima
+    - _Shrine::EtsuKorima:
+        comment: エツィ・コリマの祠
     - _Warp::Shrine::OwaDaim
-    - _Shrine::RuvoKorbah
-    - _Shrine::RohtaChigah
-    - _Shrine::YowakaIta
+    - _Shrine::RuvoKorbah:
+        comment: ルネ・コリバーの祠
+    - _Shrine::RohtaChigah:
+        comment: ロヒッタ・チグの祠
+    - _Shrine::YowakaIta:
+        comment: ヨーワカ・イルタの祠
 
   - Daruk's Song:
     - _Warp::Shrine::ShaeMosah
-    - _Npc::Rito<Kass>:
-        comment: EX Champion Daruk's Song
+    - _Chest::Special<Boulder Breaker>:
+        comment: 巨岩砕き
+        coord: [1740.6875,-2446.8125]
+    - _Npc::Rito<Kass/カッシーワ>:
+        comment: EX Champion Daruk's Song/英傑ダルケルの詩
         coord: [1406.12, 523.28, -2282.18]
     - _Korok::E24
     - _Korok::E31
@@ -2489,7 +2538,8 @@ _route:
           - to: [2176.375,-3311.8125]
           - to: [2159.25,-3288.375]
           - to: [2143.9375,-3225.25]
-    - _Shrine::KamiaOmuna
+    - _Shrine::KamiaOmuna:
+        comment: カミラ・オムナの祠
     - _Warp::Shrine::DaqaKoh
     - _Equipment::Weapon<Drillshaft>:
         coord: [1946.9375,-2203.1875]
@@ -2512,7 +2562,8 @@ _route:
         notes: Boulder Breaker
     - _Korok::E21
     - _Korok::E22
-    - _Shrine::RinuHonika
+    - _Shrine::RinuHonika:
+        comment: リノ・ヒミカの祠
     - _Boss::Talus::Igneo:
         comment: マグロック
         coord: [2372.25,-1998.4375]
@@ -2533,9 +2584,6 @@ _route:
         notes: if needed for Sasa Kai
         hide-icon-on-map: true
     - _Warp::Tower::Gerudo
-    - _Shrine::SasaKai:
-        comment: ササ・カイの祠
-        notes: 14:55 - 15:55
     - _Korok::W17
     - _Memory::KaraKaraBazaar:
         comment: イーガ団の凶刃
@@ -2575,8 +2623,8 @@ _route:
     - _Shrine::SumaSahma:
         comment: スマ・サマの祠
     - _Korok::W53
-    - _Npc::Rito<Kass>:
-        comment: EX Champion Urbosa's Song
+    - _Npc::Rito<Kass/カッシーワ>:
+        comment: EX Champion Urbosa's Song/英傑ウルボザの詩
         coord: [-1536.50, 426.00, 2919.00]
     - _Korok::W41
     - _Korok::W45
@@ -2586,8 +2634,10 @@ _route:
     - _Korok::W52
     - _Korok::W63
     - _Npc<Molduking>:
+        comment: キングラジーク
         coord: [-2391.18, 119.09, 3733.19]
-    - _Shrine::KeiveTala
+    - _Shrine::KeiveTala:
+        comment: ケーベ・タワの祠
     - _Korok::W68
     - _Shrine::MisaeSuma:
         comment: ミィ・スゥの祠
@@ -2596,7 +2646,9 @@ _route:
     - _Korok::W67
     - _Warp::Shrine::KuhTakkar
     - _Korok::G22
-    - _Shrine::KihiroMoh
+    - _Shrine::KihiroMoh:
+        comment: キヒロテ・モーの祠
+        notes: Red 1, Green 2, Yellow 2, Purple 4
     - _Warp::Tower::Gerudo
     - _Korok::G31
     - _Korok::G30
@@ -2704,8 +2756,8 @@ _route:
 
   - Revali's Song:
     - _Warp::VahMedoh
-    - _Npc::Rito<Kass>:
-        comment: EX Champion Revali's Song
+    - _Npc::Rito<Kass/カッシーワ>:
+        comment: EX Champion Revali's Song/英傑リーバルの詩
         coord: [-3662.10, 321.55, -1314.66]
     - _Shrine::BareedaNaag:
         comment: ヴォリダ・ノの祠
@@ -2725,7 +2777,8 @@ _route:
     - _Korok::H70
     - _Korok::H71
     - _Korok::R01
-    - _Shrine::ShiraGomar
+    - _Shrine::ShiraGomar:
+        comment: シリト・ゲオマの祠
     - _Korok::R04
     - _Warp::VahMedoh
     - _Korok::T15
@@ -2785,7 +2838,8 @@ _route:
     - _Shrine::VooLota:
         comment: ウータ・ドの祠
     - _Warp::Shrine::ShaWarvo
-    - _Shrine::NoeRajee
+    - _Shrine::NoeRajee:
+        comment: ノイエ・ロジーの祠
     - _Boss::Talus::Frost:
         comment: ガチロック
         coord: [-3709.25,-2347.0625]
@@ -2808,8 +2862,8 @@ _route:
         movements:
           - to: [-2792.10, 665.50, -2810.60]
           - to: [-2747.40, 636.86, -2727.30]
-    - _Chest::Special<Xenoblade>:
-        comment: Salvager Trousers
+    - _Chest::Special<Salvager Trousers>:
+        comment: サルベージャーレッグ
         coord: [-2605.125,-2652.125]
     - 疾風と成りて光輪をくぐる:
         movements:
@@ -2835,8 +2889,8 @@ _route:
   - Mipha's Song:
     - _Warp::VahRuta
     - _Korok::Z34
-    - _Npc::Rito<Kass>:
-        comment: EX Champion Mipha's Song
+    - _Npc::Rito<Kass/カッシーワ>:
+        comment: EX Champion Mipha's Song/英傑ミファーの詩
         coord: [3739.80, 401.52, 53.38]
     - _Korok::Z35
     - _Boss::Talus::Luminous:
@@ -3060,8 +3114,8 @@ _route:
     - _Korok::C35
     - _Memory::SacredGrounds:
         comment: 仮初めの儀式
-    - _Chest::Special<Phantom Armor>:
-        comment: EX Treasure Phantasma
+    - _Chest::Special<Phantom Armor/ファントムの鎧>:
+        comment: EX Treasure Phantasma/Ex ラムダの秘宝 夢幻の鎧
         coord: [-245.80, 124.56, -86.58]
     - _Korok::C43
     - _Korok::C42
@@ -3130,8 +3184,6 @@ _route:
     - _Warp::Shrine::OwaDaim:
         line-color: rgb(0, 128, 128)
     - _Korok::P18
-    - _Cook<Needed Food>:
-        hide-icon-on-map: true
     - _Korok::P11
     - _Korok::P10
     - _Korok::P06
@@ -3322,7 +3374,8 @@ _route:
         comment: The Search for Barta/バレッタを探して
         coord: [-4818.86, 130.23, 3713.28]
     - _Korok::W65
-    - _Discover<Great Fairy Fountain大妖精の泉>:
+    - _Discover<Great Fairy Fountain>:
+        comment: 大妖精の泉
         coord: [-4870.9375,3824.5625]
     - _Korok::W55
     - _Korok::W61
@@ -3456,8 +3509,8 @@ _route:
         hide-icon-on-map: true
     - _Korok::L30
     - _Korok::L31
-    - _Chest::Special<Xenoblade Chest>:
-        comment: Salvager Headwear
+    - _Chest::Special<Salvager Headwear>:
+        comment: サルベージャーメット
         coord: [125.6875,2710.9375]
     - _Korok::L39
     - _Korok::L32
@@ -3806,9 +3859,40 @@ _route:
     - _Korok::F49
     - _Korok::F50
     - _Korok::F58
-    - _Korok::F52
     - _Snap::Quest<Monument Shard>:
-        coord: [3801.125,3614]
+        movements:
+          - to: [3233.4375,3763.625]
+          - to: [3337.875,3781.3125]
+          - to: [3376.5,3813.4375]
+          - to: [3416.875,3833.375]
+          - to: [3458.75,3839.5625]
+          - to: [3556.5625,3823.1875]
+          - to: [3617.875,3821.25]
+          - to: [3670,3805.375]
+          - to: [3732.875,3778.5625]
+          - to: [3760.0625,3739.3125]
+          - to: [3785.75,3700.375]
+          - to: [3797.0625,3660.5625]
+          - to: [3796.5625,3627.9375]
+          - to: [3801.125,3614]    
+    - _Korok::F52
+    - Go to F51:
+        movements:
+          - to: [3790.5625,3634.625]
+          - to: [3786.8125,3663.6875]
+          - to: [3775.0625,3692.3125]
+          - to: [3752.5,3719.625]
+          - to: [3729.0625,3743.4375]
+          - to: [3660.8125,3774.25]
+          - to: [3615.5,3774.5625]
+          - to: [3565.8125,3770.875]
+          - to: [3530.25,3767.5625]
+          - to: [3472.0625,3753.875]
+          - to: [3445.9375,3748.5]
+          - to: [3410.375,3737.0625]
+          - to: [3383.6875,3716.3125]
+          - to: [3340.3125,3679.125]
+          - to: [3354.75,3656.125]
     - _Korok::F51
     - _Snap::Quest<Monument Shard>:
         coord: [3390.375,3481.8125]
@@ -4293,6 +4377,7 @@ _route:
     - _Korok::R29
     - _Korok::R20
     - _Discover<Tanagar Canyon Course>:
+        comment: ククジャ谷コース
         coord: [-3119.6875,-627.6875]
     - _Korok::R12
 
@@ -4315,6 +4400,7 @@ _route:
     - _Korok::H32
     - _Korok::H40
     - _Boss::Hinox::Black:
+        comment: 黒ヒノックス
         coord: [-4530.75,-2679.25]
     - Start T06:
         notes: Start T06 and *quickly* do H53 on the way.
@@ -4330,6 +4416,7 @@ _route:
     - _Korok::H42
     - _Korok::H39
     - _Discover<Sturndia Secret Hot Spring>:
+        comment: クムの秘湯
         coord: [-4090.5,-2753.0625]
     - _Korok::H41
     - Enter for Maka Rah:
@@ -4495,6 +4582,7 @@ _route:
     - _Warp::Shrine::TalohNaeg:
         line-color: rgb(0, 255, 255)
     - _Discover<Great Fairy Fountain>:
+        comment: 大妖精の泉
         coord: [1976.00, 267.50, 846.00]
     - _Snap::Quest<Great Fairy Fountain>
     - _Npc::SheikaMale<Cado/ボガード>:
