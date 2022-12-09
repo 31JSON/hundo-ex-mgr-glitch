@@ -414,7 +414,7 @@ _route:
           - to: [-2195.89, 411.33, 444.43]
     - _Material<Wood, 5>:
         comment: 薪の束
-        notes: At minimum 4 are needed - 3 for Farosh Farming and 1 for corruption. Get more for backup.
+        notes: Having backup wood is good.
         hide-icon-on-map: true
     - _Discover<Jeddo Bridge>:
         comment: ジェド橋
@@ -480,6 +480,7 @@ _route:
           - to: [-462.8125,-946.25]
     - _Equipment::Bow<Royal Guard's Bow>:
         comment: 近衛の弓
+        notes: Needed for quest
         movements:
           - to: [-411.75,-966.0625]
           - to: [-413.25,-976.375]
@@ -515,7 +516,6 @@ _route:
         comment: 木の矢 x5
         coord: [-249.07, 209.78, -743.54]
     - Kill Guardian Stalkers:
-        notes: 2 of each Spring, Shaft, Screw, Gear; 1 core (can get at Kaya Wan if needed)
         movements:
           - to: [-101.50, 133.07, -416.50]
           - to: [-220.07, 126.78, -431.95]
@@ -534,14 +534,15 @@ _route:
         hide-icon-on-map: true
     - _Material<Ancient Core, 1>:
         comment: 古代のコア
+        notes: Can get at Kaya Wan if it doesn't drop from Stalkers.
         hide-icon-on-map: true
     - _Warp::Shrine::RotaOoh
     - Outskirt Stable:
         comment: 平原外れの馬宿
         icon: location
         coord: [-1449.75,1269.0625]
-        notes: Pick up Epona and head to Riverside Stable
-    - Ride Epona to Riverside Stable:
+        notes: Pick up Epona and head to Kaya Wan
+    - Ride Epona to Gatepost Town Ruins:
         movements:
           - to: [-1416,1267.9375]
           - to: [-1370.625,1349.75]
@@ -564,7 +565,11 @@ _route:
           - to: [-616.6875,1464.625]
           - to: [-588.375,1480.0625]
           - to: [-569.375,1485.625]
-          - to: [-546.8125,1499.125]
+    - _Discover<Gatepost Town Ruins>:
+        comment: 門前宿場町跡
+        coord: [-545.125,1454.9375]
+    - Continue to Kaya Wan:
+        movements:
           - to: [-490.5,1436.1875]
           - to: [-461.875,1412.5]
           - to: [-400.8125,1424.5625]
@@ -634,6 +639,7 @@ _route:
         comment: 湿原の馬宿
         coord: [887.25,174.19666488689654]
     - Ride to Kakariko:
+        notes: The orange and blue lines are overlapping.
         movements:
           - to: [1190.5,671.4725438081505]
           - to: [1543.75,1016.4407063090912]
@@ -642,6 +648,9 @@ _route:
           - to: [1698.25,1083.182907582257]
           - to: [1760.6875,1097.8125]         
     - _Korok::D05
+    - _Shop<The Curious Quiver>:
+        notes: Buy fire arrows if needed.
+        coord: [1830.49, 222.41, 1044.89]
     - _Npc::SheikaFemale<Impa/インパ>:
         comment: Seek Out Impa/インパを訪ねて
         movements:
@@ -1198,7 +1207,8 @@ _route:
         movements:
           - to: [-3287.54, 230.03, -1805.94]
           - to: [-3299.30, 229.02, -1799.52]
-    - _Shop<Slippery Falcon/ちゅん天堂>:
+    - _Shop<Slippery Falcon>:
+        comment: ちゅん天堂
         notes: Buy Tabantha Wheat, Cane Sugar, Goat Butter, Sunshroom
         movements:
           - to: [-3306.875,-1805.5]
@@ -1210,7 +1220,8 @@ _route:
           - to: [-3504.5,-1823.125]
           - to: [-3540,-1820.125]
           - to: [-3644.875,-1820.125]
-    - _Shop<Brazen Beak/紅孔雀>:
+    - _Shop<Brazen Beak>:
+        comment: 紅孔雀
         notes: Buy Snowquill Headdress and Tunic; Snowboots will be used after Naboris.
         movements:
          - to: [-3631.5,-1787.375]
@@ -1223,6 +1234,7 @@ _route:
     - _Korok::T02
     - _Equipment::Bow<Swallow Bow>:
         comment: ツバメの弓
+        notes: Don't throw away RGB if inventory space is needed.
         coord: [-3793.13, 268.29, -2324.26]
     - _Npc::Rito<Teba/テバ>:
         coord: [-3798.52, 267.35, -2314.14]
@@ -1338,7 +1350,8 @@ _route:
         comment: The Royal Guard's Gear/ハイラル城に眠る武器
         coord: [345.00, 121.73, 1091.50]
         notes: Finish quest now with the RGB.
-    - _Shop<Beedle/テリー>:
+    - _Shop<Beedle>:
+        comment: テリー
         coord: [324.66, 115.40, 1089.03]
         notes: Buy electric darner
     - _Shrine::WahgoKatta:
@@ -1383,7 +1396,8 @@ _route:
         comment: Arrows of Burning Heat/燃える矢じりで貫いて
         notes: Talk to her twice for quest
         coord: [1830.49, 222.41, 1044.89]
-    - _Shop<Buy Butter, Carrots, Eggs>:
+    - _Shop<High Spirits Produce>:
+        notes: Buy butter, carrots, eggs
         coord: [1795.25,1029.125]
     - _Npc::SheikaMale<Pikango/カンギス>:
         comment: Find the Fairy Fountain/妖精の泉探し
@@ -1397,10 +1411,9 @@ _route:
         comment: Flown the Coop/消えた コッコちゃん
         coord: [1837.54, 221.84, 962.56]
         notes: Activate the quest; Will finish at end of run
-    - _Shop<Buy Stealth Set>:
-        comment: 忍びセット
+    - _Shop<Enchanted>:
+        notes: Optional; Buy Stelth Set and Hylian Trousers.
         coord: [1854.75,981.5625]
-        notes: Optional
     - _Material<Pumkin>:
         comment: ヨロイカボチャ
         notes: From Olkin
@@ -1461,7 +1474,8 @@ _route:
          - to: [1750.67, 117.57, 1947.52]
          - to: [1750.98, 117.58, 1947.73]
          - to: [1750.79, 117.56, 1948.08]
-    - _Shop<Beedle/テリー>:
+    - _Shop<Beedle>:
+        comment: テリー
         coord: [1733.59, 115.53, 1930.51]
         notes: Buy crickets and octoballoons
     - _Shrine::HaDahamar:
@@ -2125,7 +2139,10 @@ _route:
     - _Npc::Goron<Yunobo/ユン坊>:
         comment: Divine Beast Vah Rudania/炎の神獣 ヴァ・ルーダニア
         coord: [1630.375,-2941.4375]
-        notes: Ice Arrow x10 (right-hand chest)
+    - _Chest<Ice Arrow x10>:
+        comment: 氷の矢 x10
+        notes: Right-hand chest
+        coord: [1636.95, 560.92, -2944.44]
     - _Korok::E08
     - _Korok::E07
     - _Shrine::ShoraHah:
@@ -2134,7 +2151,7 @@ _route:
     - _Boss::Talus::Igneo:
         comment: マグロック
         coord: [1336.5,-3043.125]
-        notes: OB AA
+        notes: Wake with Ice Arrow, then OB AA
 
   - Dinraal farm:
     - Line Color - Purple
@@ -2221,7 +2238,6 @@ _route:
         comment: 白髪のライネル
         coord: [247.00, 173.39, -3668.50]
         notes: OB Shock; Collect Hoof, club
-
     - _Material<Lynel Hoof>:
         comment: ライネルのひづめ
         notes: Needed for quest
@@ -2267,6 +2283,9 @@ _route:
     - _Korok::A01
     - _Korok::A05
     - _Korok::A10
+    - _Snap::Quest<Blupee/ルミー>:
+        hide-icon-on-map: true
+        notes: Backup if you missed it at Kaya Wan; Must be quick before stal enemies spawn or octoroks scare them away.
     - _Korok::A11
     - _Korok::A12
     - _Boss::Hinox::Black:
@@ -2285,37 +2304,18 @@ _route:
     - _Chest::Special<Salvager Vest>:
         comment: サルベージャーボディ
         coord: [3636.125,-3519.875]
-    - _Snap::Quest<Blupee/ルミー>:
-        hide-icon-on-map: true
-        notes: Backup if you missed it at Kaya Wan; Must be quick before stal enemies spawn or octoroks scare them away.
     - _Korok::A04
     - _Korok::A13
     - _Korok::A07
-    - Transport blue flame:
+    - Transport blue flame and do A14:
+        notes: Weapon smuggle the flame while doing the korok. Make sure to be grounded on the other side. The korok will unsmuggle the torch, so just walk normally to furnace.
         movements:
           - to: [4160.1875,-3167.5]
-          - to: [4183.625,-3159.6875]
-          - to: [4161.875,-3093.3125]
-          - to: [4131.5,-3026.5]
-          - to: [4204.75,-2975.5]
-          - to: [4279.875,-2880.125]
-          - to: [4297.1875,-2869.625]
-          - to: [4390.4375,-2874.25]
-          - to: [4398.875,-2896.625]
-          - to: [4430.625,-2928.875]
-          - to: [4439.9375,-2974.625]
-          - to: [4438,-3000.4375]
-          - to: [4442.5625,-3039.875]
-          - to: [4493.1875,-3045.6875]
-          - to: [4536.875,-3081.8125]
-          - to: [4527.4375,-3118.6875]
-          - to: [4486.3125,-3141.5]
-          - to: [4505,-3150]
     - _Korok::A14
     - _Korok::A15
     - _Shop<Cherry/シーカーレンジ>:
         coord: [4514.8125,-3162.5]
-        notes: Talking to Robbie will reduce Ancient Arrow count to 999. You can use the Ancient Furnace without talking to him. Buy ancient short sword, shield, bow, arrows.
+        notes: Talking to Robbie will reduce Ancient Arrow count to 999. You can use the Ancient Furnace without talking to him. Buy ancient short sword, shield, bow. If short on guradian parts, come back after Katosa Aug.
     - _Korok::A16
     - _Shrine::TuKaloh:
         comment: トゥ・カロの祠
@@ -2441,7 +2441,11 @@ _route:
         comment: コログの森
         movements:
           - to: [668.16, 282.86, -1861.89]
-          - to: [609.47, 281.85, -1947.19]
+          - to: [562.625,-1938.8125]
+          - to: [528.625,-1949.9375]
+          - to: [475.9375,-1979.375]
+          - to: [464.625,-2002.4375]
+          - to: [452.9375,-2029.3125]
           - to: [422,-2112]
     - _Equipment::Weapon<Master Sword>:
         comment: マスターソード
@@ -2507,7 +2511,7 @@ _route:
         comment: マスターソード
         coord: [431.5,-2111.0625]
         split-type: UserDefined
-    - _Warp::Shrine::KeoRuug:
+    - Save and Reload:
        notes: This is required to get the Trial of the Sword side quest to become available.
     - _Npc<Beginning Trials>:
         comment: EX Trial of the Sword
@@ -2582,7 +2586,7 @@ _route:
     - _Boss::Talus::Igneo:
         comment: マグロック
         coord: [2146.1875,-3011.5]
-        notes: OB AA
+        notes: Wake with Ice Arrow, then OB AA
     - _Korok::E09
     - _Korok::E06
     - Head to KamiaOmuna:
@@ -3257,9 +3261,6 @@ _route:
     - _Memory::LakeKolomo:
         comment: 決意と苦悩
     - _Korok::C83
-    - _Discover<Gatepost Town Ruins>:
-        comment: 門前宿場町跡
-        coord: [-545.125,1454.9375]
     - _Chest::Special<Majora's Mask/ムジュラの仮面>:
         comment: EX Treasure Ancient Mask/Ex ラムダの秘宝 太古の仮面
         coord: [-448.19, 136.21, 1281.96]
