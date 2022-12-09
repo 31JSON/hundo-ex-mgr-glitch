@@ -130,6 +130,7 @@ _route:
           - to: [-704.23, 171.71, 1534.71]
     - _Chest<Fire Arrow x5>:
         comment: 炎の矢 x5
+        notes: Chest on the left
         coord: [-774.85, 174.80, 1558.65]
     - _Material<Arrow x5>:
         coord: [-899.80, 181.59, 1671.50]
@@ -586,10 +587,6 @@ _route:
           - to: [246.9375,1146.5625]
           - to: [306.1875,1089.625]
           - to: [322.375,1074.8125]
-    - _Npc::SheikaFemale<Parcy/パリッセ>:
-        comment: The Royal Guard's Gear/ハイラル城に眠る武器
-        coord: [345.00, 121.73, 1091.50]
-        notes: Finish quest now with the RGB.
     - _Discover<Horwell Bridge>:
         comment: ホーネル橋
         movements:
@@ -982,6 +979,8 @@ _route:
     - _Shrine::ChaasQeta:
         comment: チャス・ケタの祠
         notes: Stasis+ and eye shot with OB and AA.
+    - _Snap::Quest<Small Guardian>:
+        hide-icon-on-map: true
     - _Korok::N66
     - _Warp::TechLab::Hateno
     - _Korok::N48:
@@ -1018,12 +1017,10 @@ _route:
           - to: [2735,2149.5]
     - _Tower::Hateno:
         comment: ハテノ塔
-    - _Chest<Fire Arrow x5>:
-        comment: 炎の矢 x5
-        coord: [2490.57, 212.29, 2245.82]
     - _Korok::D58
     - _Korok::D57
     - _Korok::D53
+
   - Medoh:
     - Line Color - Orange
     - _Warp::Shrine::RotaOoh
@@ -1044,9 +1041,6 @@ _route:
         comment: テリー
         notes: Buy grasshoppers
         coord: [-1421.55, 137.73, 1280.33]
-    - _Shop<Botrick>:
-        comment: ウドー
-        notes: Buy Fire Arrows
     - _Discover<Tabantha Bridge Stable>:
         comment: タバンタ大橋馬宿
         movements:
@@ -1257,7 +1251,7 @@ _route:
     - _Chest::Special<Great Eagle Bow>:
         comment: オオワシの弓
         coord: [-3630.37, 323.57, -1828.17]
-        notes: Don't use GEB until duping in Gerudo
+        notes: Don't use GEB until duping in Gerudo; Don't drop RGB. It's needed for the quest coming up.
     - _Shrine::AkhVaquot:
         comment: アコ・ヴァータの祠
     - _Korok::T10
@@ -1339,6 +1333,11 @@ _route:
     - _Npc::SheikaMale<Gotter/ゴエタフ>:
         comment: A Royal Recipe/王家秘伝のレシピ
         coord: [325.82, 115.40, 1092.50]
+    - (^=) If it's raining, do this quest later after C65.
+    - _Npc::SheikaFemale<Parcy/パリッセ>:
+        comment: The Royal Guard's Gear/ハイラル城に眠る武器
+        coord: [345.00, 121.73, 1091.50]
+        notes: Finish quest now with the RGB.
     - _Shop<Beedle/テリー>:
         coord: [324.66, 115.40, 1089.03]
         notes: Buy electric darner
@@ -1477,7 +1476,7 @@ _route:
     - _Korok::F01
     - _Boss::Talus::Stone:
         comment: イワロック
-        notes: Iron sledgehammer; collect amber and flint
+        notes: OB AA
         coord: [1257.12, 355.80, 2176.52]
     - _Korok::D49
     - _Shrine::SheeVaneer:
@@ -1501,7 +1500,7 @@ _route:
     - _Boss::Talus::Stone:
         comment: イワロック
         coord: [1186.6875,1642.875]
-        notes: Iron sledgehammer
+        notes: OB AA
     - _Korok::D17
     - Kill Guardians in this area for parts
     - _Boss::Talus::Stone:
@@ -1555,14 +1554,14 @@ _route:
     - _Boss::Hinox::Red:
         comment: ヒノックス
         coord: [1969.125,97.5]
-        notes: Ancient Arrows
+        notes: OB AA
     - _Tower::Lanayru:
         comment: ラネールの塔
     - _Korok::Z40
+    - _Korok::Z39
     - _Discover<Goponga Villiage Ruins>:
         comment: コボンガ村跡
         coord: [1616.4375,263.5]
-    - _Korok::Z39
     - _Korok::Z38
     - _Korok::Z29
     - _Korok::Z30
@@ -1660,8 +1659,6 @@ _route:
         hide-icon-on-map: true
         split-type: UserDefined
         notes: Stasis+, GEB x 2 (body) + OB x 1 (body)
-    - _Snap::Quest<Small Guardian>:
-        hide-icon-on-map: true
     - _Material<Heart Vessel, 1>:
         hide-icon-on-map: true
     - Urubosa's Fury:
@@ -1721,15 +1718,15 @@ _route:
     - _Npc::SheikaMale<Sesami/ゴマナ>:
         comment: Missing in Action/ゲルドキャニオン失踪事件
         coord: [-2797.53, 135.05, 2240.97]
-    - _Npc::SheikaMale<Pirou/ピルエ>:
-        comment: Rushroom Rush!/ゴーゴーダケ GoGo！
-        coord: [-2796.5,2240.25]
     - _Shop<Beetle/テリー>:
         notes: Buy cold darner, if needed
         hide-icon-on-map: true
     - _Cook<Cold Elixir>:
         notes: Cold darner, lizalfos tail; for quest
         coord: [-2811.31, 134.87, 2239.89]
+    - _Npc::SheikaMale<Pirou/ピルエ>:
+        comment: Rushroom Rush!/ゴーゴーダケ GoGo！
+        coord: [-2796.5,2240.25]
 
   - Wasteland Tower:
     - _Warp::VahNaboris
@@ -1845,25 +1842,29 @@ _route:
         movements:
           - to: [2990.6875,787.875]
     - _Korok::N06
+    - _Korok::Z42:
+        notes: Shoot the ballon down above the river.
+        movements:
+          - to: [2770.8125,425]
+          - to: [2769.6875,349.125]
+            away: true
     - _Korok::N05
     - _Npc::Rito<Kass/カッシーワ>:
         comment: The Crowned Beast/二本槍の獣
         coord: [2589.5625,444.5625]
     - _Korok::N04
     - _Korok::N02
-    - _Korok::Z42:
-        movements:
-          - to: [2692,321.375]
-          - to: [2769.6875,349.125]
-            away: true
     - _Shrine::MezzaLo:
         comment: ミーズー・ヨの祠
     - _Korok::N03
     - Gale + Glide across:
-        coord: [2794.75,287.6875]
-        notes: Should make it to the wall and make it in time to climb up before the rain starts.
+        notes: Standing on the tree after getting the korok, gale and then glide across to Zora Stone Monument 8.
 
   - Ruta:
+    - Zora Stone Monument 8:
+        comment: 石碑 8
+        icon: location
+        coord: [2837.875,188.25]
     - _Korok::Z43
     - _Korok::Z44
     - Zora Stone Monument 1:
@@ -2083,6 +2084,17 @@ _route:
         fury: 3
     - _Korok::E26
     - _Korok::E25
+    - _Korok::E19:
+        movements:
+          - to: [1561.125,-1863.6875]
+          - to: [1579.8125,-1894.4375]
+          - to: [1601.875,-1911.375]
+          - to: [1634.9375,-1958.625]
+          - to: [1644.875,-2033.9375]
+          - to: [1631,-2075.5625]
+          - to: [1598.5,-2082.4375]
+          - to: [1540.625,-2085.875]
+          - to: [1537.85, 505.38, -2091.50]
     - _Npc::SheikaMale<Kima/マサーキィ>:
         comment: Fireproof Lizard Roundup/ヒケシトカゲを捕まえて！
         coord: [1657.3125,-1960.25]
@@ -2091,7 +2103,6 @@ _route:
     - _Npc::Goron<Greyson/グレーダ>:
         comment: From the Ground Up/羽ばたけ！サクラダ工務店
         coord: [1656.875,-1968.4375]
-    - _Korok::E19
     - _Korok::E18
     - _Discover<Stolock Bridge>:
         comment: ゴロン橋
@@ -4010,10 +4021,6 @@ _route:
         notes: OB AA
     - _Korok::Z22
     - _Korok::Z31
-    - Zora Stone Monument 8:
-        comment: 石碑 8
-        icon: location
-        coord: [2837.875,188.25]
     - _Discover<Oren Bridge>:
         comment: オーレン橋
         coord: [2875.6875,32.4375]
