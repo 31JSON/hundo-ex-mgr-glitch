@@ -917,24 +917,47 @@ _route:
         notes: Show him the Traveler's Sword so you can get it out of your inventory.
         comment: The Weapon Connoisseur/幼き武器マニア
         movements:
-          - to: [3352.5,2138.5]
+          - to: [3379.75,2145.0625]
   - Perform the Glitch:
     - Start the glitch:
         split-type: UserDefined
         icon: link
         hide-icon-on-map: true
+        coord: [3356.35, 225.66, 2175.10]
     - (^=) Procedure >> .link([IST Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA61abXPbNhL%2Brl%2BBGc80cU9VY1lJncz0ZmznxZlrGl%2Fkjq93cx8gCpJ4pggWIK2ov%2F6e3QVAUpZTu2nbqUUSXCwWu88%2Bu%2BCBulrlXuG%2FemXUIne%2BVrqprde3Rm1WplS%2B1q7Oy6XSqjQbtdRrMxpM6bH2amo%2FDd6ZWh2paaFrMzhQl3l201SqtrUulF2oF2pjdGVLr2zJc2z0Fk%2FVlb0aqioMxm1fG32jdK1m9saqTK9JhjKlnhXQy9q5qvVM8WQTdc0iMevbIi9p9ivrshX%2BXmNg1tS1cf70s8GNM31j5qdVBSEv1KWpKuOg5JlZWGeUrUxJK8tWBsvOS1Fq7mylzK1x23pFTy3Uc9BRl2kpupyzTqPBL6X5rcmroNHgNb0b1UoTktJXDiYroNeZ3UCD0wV0TAqQAViJIcyT15Dt%2BF7aCZiidvlyiXdmontmS%2BxKg7fTZkD7zgbgdVpJZeYqr83aD8KDO9odwAWMckZ72iEr6w%2BzJAXYQbA7NXlL6yB5USjaeFJLNR5zkQDsn3WuqercliP1key3yT2GG7iQjFnZYq6%2BkbnWJCDXhed1G42d7LyfjEXOguWGtfGahkqUW6%2FNPIeUYjsSf17rsoH%2F8dPK2dpktXj4OCmPZczsrRmpp6dlZ53ipIumbhyv2pbFNoqA6hwSNKI7A4YtGsdugvfl3UPelqR8Z%2FhQLS2ZYLrJayzVb%2BH6a%2BVNTVHm6ckaeqmssNkNdmsu8UJzVtrXYYEb28CAQS%2FxFVpNZ3ULZ9fYFfZgOPPG5QgLNue5uI7h11xTku80HupFF3mufrZurYtT5%2Bxm52qsznI3f7Nc4pfE1bG62LqmMBfGzSgUo6NPN9bNKQQR0NNVbqBvXxRAo8qh1kd%2B71Mz2%2BLP6XoGcz1Xb3Nn9s1%2F1Iuk%2FsPBdV6voA%2FEZlvx7lbfwbm1N%2FLoTZF%2Fzt3gk2FDd2%2BlGOlqdt%2FvS%2B30ssjnJomKyDSYGgQGrWi%2FxLeILV%2B%2F3mBUWMdEvSnnjdPnGgup2Rx%2B5Sy2cN%2FoOF%2FfGO1cp4ifEksXmVMRNFbTvDBlnS4vtkWuy3T5b135%2BPu9s%2B2D8xXCPF190r9bF64matqUSc%2BfmnVe2sZPa1tSpJ3bxnnjzoy5wI1tUuDS5WVmvMfrbwtj6p9sjZcADP7ukONdu%2Bw8P3qmLgwS1PZ1Awgp4Q%2BUAnr%2BA1varS7eNdrN2XrH6rTMckjpPT%2Fb4%2Bph3HSlF3XnsnIUVen6HRToPM2cIaHh8pxgtL%2F7%2F7DO3tB6xV%2BPeksUN4333mIxMqq%2FmTJq3B2VNh%2F2rguek4POLhDmH%2FJy7t9s6e7HCjjUVQi7oHO3vWvqpCd%2BX8ADG%2F8BHp8BLbprSK7YH3LcGZJUe20bpHPJzL140M761TTTrLdcXZALx4vzQtO%2BfciXq3p7pkv86x99PVY%2F5b%2FrYmH9hYRHvLzSBbOJ9jov7rx9EmDuTJPbBa%2BjCyDqG2RGjYjPsCtGqMGA7vX4x3F3tw7U%2BxqJ0vjySU0JkHLEZpVTPsicriS9qa1tKKuOaDDn2rkBY5hHKgV8JRKxoHGUem7hbxY7SfRkg2z9xBNNwF1yRHGjUwgJyEg%2FRTP61cFwuuxCxeDMETdDsBe29q2cHn7QjRZB6KqDIXTJKOL3CTxQP%2BIf9X56Bd9d5uBXdI3b72zMfO%2FsfE7hPq113ZjB628u%2B34C3AgxmoLzi3vdcsBeYs5A8pbgor3MLIl4pvE%2FaFMBi2GZLq3h1EwsSDed%2FMv7NTMdXo23cd1JxsImdId%2BrDS2pvRC6U69uoDU0l4AuRBnhdXz7p2vtcLDZ5kEwZMoeNIXPPmzgk%2F6ck525ARsOWnB4mGiIyYdjTtvttmRnJ6nx2NG63EfcyR9ttVFP7EFjvLwRX7NLH2kecSG9dwi8gGZanwnU9%2BdCjcprT1mRplkEiaZ7EwyCZOMv2aSkzDJSZjkZGeSkzDJpDvJhCfp4%2FdJdOTnu4QC%2BhFZeZhOQPFSSiIgRTXkWJ%2BgtiG2k9m1ERJebyxV0dmNJ6weh5V0NDx5lIYnKRiFVu1Pn5wxQ20nU3FakJzGGQoFENWRyFtIWcJ%2FvfpfI0C1Rt5CEkI15nOqfrECY6j2wIT0ms5qwGYRJA1VCcZgRMZIMsTzHjGLtEbuBbb9cJR79jVGCCyrExGTfm6PysnNxyh3oEg9yrXUMKBCkApcogC88dzXwIJp32vCes7RtkaO9jYW1DE9%2FKA8pUPkgNuQNWxR2A35ALOBV6kmGDLJHSrilsPA94ZM7IbC5YaKKMwobP8PgU1kyDQzLnF1uRXyMFTmc2aqmgpuoRnffvhlevVtGEcKqeNR9NjA4ruWHnct%2FbLPIO%2BvFe4S%2F763ALl3dqjDETBHYgh88%2FX7cyIGrk63P7qlLvPfTSjH4J9g98NAiGlhyOIViCo1GLjpABGxd3OnhbRT0A7ecMMnUdn4Xq8Sk9Qc64rwSrrkN9qyODyOHP0LnicdHn79OK5t0Lvcq40QVBg98tJxLw53PH83Su96%2FYNCQxbVrbQILhcEKhQm8A%2Bnc%2Bp%2BDdXSSBxMDfJkDBZ1bjQ8FJxvhaA36p8NNek4ruBst7mOLHgOegbRHyjjY87spkgNE7%2By1Uid3tp83jKzYKJnHD5Sqb88eSlXkSPEhw%2FZiWexLSiC91ieSoNUE0z6th%2Fv2r6tGPZZfmW5NBN7Pki9cd9Rxl92FNb3%2BUM9ZfyHnvJAfe%2F4TSrfxWnoUoQgloNPpWsBw70wGOkk4yEnLnK80F0ETMeOZmVBJ4YK3ofq1Ug9RSldWr2E13oJbx3By%2BCEBhO7hKeL%2FLOZjwZnzZabXevZIzbneX9zOp1t7mh%2FIZrH9%2B3RX7MLHWi9g7fXH85DoRYSTJuoSPb3Iu37p7%2BUh7KZoEIoswLhSF3ipiryDDN2q2bFRwdqMpaUxYRDtYIwZe2ajGE705AkTV06k1BzXetQYvktSAJKYMr79Pw29zkdI6TsO2plxva74LkiyM8DDdKd6jkeW9wYAw3hJDdt779NBY9w8Ee%2B9Cfn2jPoQJ32nZ6aDABK6icz9YDxuzsi3OGpKefcSkbu1CiRjxEs1DtDzWyLZo3i4nBEgQrzDhN59HYUfIZzd3mrCwAxpWrE44ydB2osC6628cvRGp24Rzj50aUcv8igUVwinTsdKDpX2ZXaebdCrgC1we6hqi%2FMmrZxtkW%2BiHve%2Bu1TzitX2h6%2BgtyjkeSZtqPytDAgm7WeHcrJxSdfI1MoR2DIBIJ8paFeijdwmjlFxnikmrIiL1V%2FU%2FwXN4%2FheuAeRnOaOzr8KyaajBihsHC2jZZDiQUI80j9apsnuPBNlgkxzSW5Zo3zlgnrOvees7BNDY2gYHuqwFAIzan54dXrS8wiGsXDCj4REUFRNDVMRod7oUX6Ome28LYcMsIKSyYpv1GaJ7f5Ge41c3Gr0nlicE3xSoKKCe0p3eWhG1KI2jpGF34Um2yM%2BqnLJkvjOmZEzXWewHzWazIrbIAkkuSspHRiccjzLqFVw2uNVEkF3kqHV6PYsO1WPjsYDde3gYQaRZVr4DyQCf8nwPHxFk0tpULsKEUE5TCjIR%2FXZomNAsPtnLA5q32dzhWUcHJPxqpBwjfBsGvYZ1Pipc%2B8mZpqERNWMNnTmJ6AxUKumfceSRpIz3bnDOgiNQX1%2FNTkeVxeB2o8bfse8YpJOqBoP%2FI8x1vX4SyyxJNoVpJOqYoMOApnnFleEb6%2FAl%2Fer%2BuQC0XmDkehHFdUj4%2Bo0pd%2BK8xEMU1tu8KBo257cPl0v9xDLruiBrXldxK6LZjBbEyo%2FWSCC4r%2FS8GwN4Rhs4BhTy8u3xzKivKyalLJyLlvmQNK1AJLAA0OdJjserkHDLUPEOjTkWydzMRA%2BEpdNnWM6N42HMk2jNttoFnGr8DThYILVnyaMn4xqn33d4EO5Hj8DE8ER%2BIjGkdyjjFx930eNewiV%2BtTUKvIy5sn8G0737ZZKIIv4Uv4RRxOWN5WgPeIJpvEyf4lyYNQgo2xtnMzlMJdVnNKsWNg6nxtWpsd73NaeIyc%2FFLo7lEmyGUBcv7yTaf9MxLaS6l5QcwVU8UiCZs%2FVD4HWG2j1O%2BCxD5Xjaeh%2ByIqOHnyce4uhi7I2xzF%2FY3ZpE8DgnvTfSUPwsE%2Fja%2BMW5ishjIlH50N1QweE4u8DWiac9uI4nm5oEHM32KjBHuJKBV3ZhgqqNqLHIweY6e9IeJFYrp9E1ihKTTypuiDfA9toAl8YyMHJAEY4SMZMRI6EEHI1sTXrx1yiPrPqvrxaPxsWLk8Mz8eP%2Fvhv2TrngmuDS8kxljKdxFbsKp4Ps8KSNck6slZhMMmlAvgvTT9HuIu1k5iE6B1cXMinxVIVqWwTl4VPYw4AhjyLTFrjn9IKxuxALXxwI2ZMBNfHkzp6h2uXtOVJF0qAJ9JxutNdt%2FYFw8f%2B%2BIoJuZfucKScxZeKO8Z%2BbtWE7gtY0yb7sNbXGyQG%2FqOGxLoIYWOaBKBiHvSUO773iiWRtVAphiFnabsOZYN0yF%2BjSoole6LIyCor6hiBNsqmFzQ5yFOl36BIhH73DkmOhJfcEKIiEiHM6PUNaTSLh0R8qZOKzzgq7jUtnbFZr58%2BRL%2B5LoLQk3kw2cz5GLHgbqkfmQ4imIYk37j3UQ8CoeXj2gS0VclQAMSFKxO88ZO8B8ccHde5gVLs2Rf23anbRhlJTNJDDnTSQ8vnt3hGNctSyJU7RzAsWNypOr5reaQgVIMQMJMJdSqpdNzZICmrAHOxN%2FCwZ0qdY1VFQX4AwJxG4RtdIFk72xDAE18K8xMb4KQFTbT8Vun690jQfrySj79MuAIc0EaBkppUHQ%2Fftqp904ho990mFrQ7O5XbFJVpjYmtVLOU%2FMztsN27koB2%2B%2BTBneTqorOFhj8iIbRF1HOlqmt1wnOFJvR4b7UXAqfU%2FX6JDttEyqGPhAp9vTxFtGoUDXHBl36Wq%2Bv%2B74uSwQymXUaP4Js46i7ph5KjeJqOrHc%2BxCg5%2FsJyf%2FUFPtze4saR%2FfQdV4xOxInbVS%2BvHLkx9Sf7lnjAca%2Fz7gH6lfjw1eV3WLlD63%2BdZbp2btrkHsejO9tvFIUqW7v605D7LwwiNhfKrm5m%2Ft67RbS2JmE5kiIuxmOSnKI82Ek06iYZIiEc8EgoM4xFnnJ0rZEpO0n0CsMXJD9ljAf4ezpZFIkAnxAh2L%2BAMoVRHNdCFEjSJ6F%2FMlfvbbZ149CP3ufEx7fpZEC7WzseLQ02VcFxuOBlOlGBC1yDCaGW4SFaJbS1vBX9BVpFCmnNUyJ6TBhhfIeEEseDnjW82GwL0HUCW0Ql%2Fl52YA2ndZ0WksbetxlHhfdXkBgc7EWl04F4X38UGStP0v3wMePaZfceCJmvqctd15Y5Bhym7stk%2F8DsAPzGqUtAAA%3D)
     - (==) Start at instruction 27. Everything before is just setting up the inventory and save files.
     - (==) Avoid autosaves until finished with the glitch
     - (==) Arrowless Tutorial by Tao >> .link([YouTube]https://youtu.be/A7jWeo8S2m8?t=157)
     - _Material<Stamina Vessel, 10>:
-        hide-icon-on-map: true
+        coord: [3439.15, 235.86, 2098.53]
     - _Material<Heart Vessel, 20>:
         hide-icon-on-map: true
     - _Npc::SheikaFemale<Clavia/クレーヴィア>:
         comment: Secret of the Cedars/三本杉の秘密
         coord: [3434.875,2149.1875]
-        notes: Talk to her before going to the shop to sell cores. If raining, talk to her at the end of the route during Hateno 2.
+        notes: During the glitch; Talk to her before going to the shop to sell cores. If raining, talk to her at the end of the route during Hateno 2.
+    - _Shop<Pruce>:
+        coord: [3356.35, 225.66, 2175.10]
+        notes: Shop to sell cores, continue glitch, buy bomb arrow.
+    - _Npc::SheikaMale<Bolson/サクラダ>:
+        line-color: rgb(254, 192, 0)
+        comment: Hylian Homeowner/幸せを運ぶ匠
+        notes: During the glitch; Talk to Bolson behind the house to start the quest sequence.
+        coord: [3316.20, 235.52, 2302.53]
+    - _Npc::SheikaMale<Bolson/サクラダ>:
+        line-color: rgb(254, 192, 0)
+        comment: Hylian Homeowner/幸せを運ぶ匠
+        notes: During the glitch; Talk to Bolson to buy the house.
+        coord: [3331.22, 235.28, 2284.61]
+    - _Npc::SheikaMale<Hudson/エノキダ>:
+        comment: From the Ground Up/羽ばたけ！サクラダ工務店
+        coord: [3330.04, 235.31, 2286.93]
+        notes: During the glitch; Send Hudson on his way.
+    - _Npc::SheikaMale<Bolson/サクラダ>:
+        line-color: rgb(254, 192, 0)
+        comment: Hylian Homeowner/幸せを運ぶ匠
+        notes: During the glitch; Start house upgrades until autosave, then finish off the glitch.
+        coord: [3331.22, 235.28, 2284.61]
     - Close game
     - Restart:
         split-type: UserDefined
@@ -946,19 +969,28 @@ _route:
     - _Npc::SheikaMale<Bolson/サクラダ>:
         line-color: rgb(254, 192, 0)
         comment: Hylian Homeowner/幸せを運ぶ匠
-        notes: Start the quest
-        coord: [3316.20, 235.52, 2302.53]
+        notes: Finish house upgrades and complete the quest.
+        coord: [3331.22, 235.28, 2284.61]
+    - _Equipment::Weapon<Iron Sledgehammer x2>:
+        comment: 鉄のハンマー
+        hide-icon-on-map: true
+        movements:
+          - to: [3325.31, 236.49, 2296.81]
+          - to: [3324.20, 236.68, 2285.69]
     - _Npc::SheikaMale<Medda/シモツケ>:
         comment: The Spring of Wisdom/ラネール山のお宝を探れ！
         coord: [3381.11, 226.15, 2105.53]
     - Get blue flame:
-        notes: put square bomb down in front of you; press Y; FAST press B -> (left dpad); unequip shield; pick up bomb; throw bomb
         movements:
-          - to: [3441.5,1975.7583829011273]
-          - to: [3469.5,1918.4852788077742]
+          - to: [3445.66, 252.21, 1982.30]
+        icon: location
+    - Light the Lantern:
+        notes: Light the lantern to keep the blue flame while getting Korok.
+        coord: [3470.75, 257.59, 1918.85] 
     - _Korok::N42
     - Take blue flame to tech lab:
         icon: location
+        notes: put square bomb down in front of you; press Y; FAST press B -> (left dpad); unequip shield; pick up bomb; throw bomb
         movements:
           - to: [3522.75,1928.73408125047]
           - to: [3556.75,1968.479437064827]
@@ -984,12 +1016,18 @@ _route:
     - _Npc::SheikaFemale<Purah/プルア>:
         comment: Slated for Upgrades/解放 さらなる力
         coord: [3774.95, 357.00, 2126.02]
+    - _Npc::SheikaMale<Symin/シモン>:
+        comment: Sunshroom Sensing/ウツシエとシーカーセンサー
+        coord: [3778.96, 356.86, 2132.45]
     - _Korok::N47
+    - Unequip both OB and RB
+    - Equip OB and AA
     - _Shrine::ChaasQeta:
         comment: チャス・ケタの祠
         notes: Stasis+ and eye shot with OB and AA.
     - _Snap::Quest<Small Guardian>:
         hide-icon-on-map: true
+    - Equip RB
     - _Korok::N66
     - _Warp::TechLab::Hateno
     - _Korok::N48:
@@ -999,17 +1037,8 @@ _route:
     - _Korok::N43
     - _Npc::SheikaFemale<Koyin/コユ>:
         comment: The Sheep Rustlers/にっくきヒツジ泥棒
+        notes: Goodbye quest
         coord: [3621.69, 283.36, 2098.13]
-    - _Npc::SheikaMale<Bolson/サクラダ>:
-        comment: Hylian Homeowner/幸せを運ぶ匠
-        notes: 3000 rupees, 30 wood; All 14 upgrades
-        coord: [3331,2284.4375]
-    - _Equipment::Weapon<Iron Sledgehammer x2>:
-        comment: 鉄のハンマー
-        hide-icon-on-map: true
-    - _Npc::SheikaMale<Hudson/エノキダ>:
-        comment: From the Ground Up/羽ばたけ！サクラダ工務店
-        hide-icon-on-map: true
     - _Korok::N59
     - _Korok::N58
     - _Korok::N50
@@ -1040,6 +1069,7 @@ _route:
     - _Npc::SheikaFemale<Aliza/イライザ>:
         comment: My Hero/わたしの勇者様！
         coord: [-1400.00, 137.72, 1280.00]
+        notes: Goodbye quest
     - _Npc::SheikaMale<Toffa/トーテツ>:
         comment: The Royal White Stallion/王家の白馬
         coord: [-1439.25, 137.72, 1278.45]
@@ -1127,6 +1157,18 @@ _route:
           - to: [-2879.9375,-572.6875]
           - to: [-2919.125,-580.3125]
           - to: [-2931.625,-547.75]
+    - _Material<Spicy Peppers>:
+        comment: ポカポカ草の実
+        movements:
+          - to: [-2899.45, 276.27, -552.89]
+          - to: [-2899.97, 276.27, -553.12]
+          - to: [-2899.82, 276.27, -553.36]
+    - _Material<Wildberry>:
+        comment: イチゴ
+        movements:
+          - to: [-2909.05, 276.78, -565.48]
+          - to: [-2909.05, 276.78, -565.48]
+          - to: [-2909.58, 276.78, -565.85]
     - _Tod::Noon:
         hide-icon-on-map: true
         notes: And also not raining
@@ -1193,9 +1235,14 @@ _route:
           - to: [-3234.5,-1790.8437520284724]
           - to: [-3259,-1803.3379218226132]
           - to: [-3255.5625,-1757.625]
+    - _Material<Wildberry>:
+        comment: イチゴ
+        movements:
+          - to: [-3219.54, 226.45, -1774.04]
+          - to: [-3220.50, 226.63, -1774.17]
     - _Tod::Noon:
         hide-icon-on-map: true
-        comment: If needed to get cold darner
+        comment: If needed to get Beetle to the stable and cold darners.
     - _Shop<Beedle/テリー>:
         coord: [-3221.02, 229.42, -1792.25]
         notes: Buy Warm Darner
@@ -1204,9 +1251,21 @@ _route:
         coord: [-3267.07, 224.60, -1773.77]
     - _Material<Cold Darner, 2>:
         notes: Needed for two quests; static spawns
+        hide-icon-on-map: true
+    - _Material<Spicy Peppers>:
+        comment: ポカポカ草の実
         movements:
-          - to: [-3287.54, 230.03, -1805.94]
-          - to: [-3299.30, 229.02, -1799.52]
+          - to: [-3268.39, 228.08, -1819.81]
+    - _Material<Wildberry>:
+        comment: イチゴ
+        movements:
+          - to: [-3285.83, 226.86, -1791.48]
+          - to: [-3286.67, 226.68, -1791.96]
+    - _Material<Wildberry>:
+        comment: イチゴ
+        movements:
+          - to: [-3290.29, 227.11, -1797.96]
+          - to: [-3290.98, 226.93, -1797.27]
     - _Shop<Slippery Falcon>:
         comment: ちゅん天堂
         notes: Buy Tabantha Wheat, Cane Sugar, Goat Butter, Sunshroom
@@ -1234,7 +1293,7 @@ _route:
     - _Korok::T02
     - _Equipment::Bow<Swallow Bow>:
         comment: ツバメの弓
-        notes: Don't throw away RGB if inventory space is needed.
+        notes: Drop RB and equip Swallow Bow/AA
         coord: [-3793.13, 268.29, -2324.26]
     - _Npc::Rito<Teba/テバ>:
         coord: [-3798.52, 267.35, -2314.14]
@@ -1263,10 +1322,16 @@ _route:
     - _Chest::Special<Great Eagle Bow>:
         comment: オオワシの弓
         coord: [-3630.37, 323.57, -1828.17]
-        notes: Don't use GEB until duping in Gerudo; Don't drop RGB. It's needed for the quest coming up.
+        notes: Drop Swallow Bow; Don't use GEB until duping in Gerudo
     - _Shrine::AkhVaquot:
         comment: アコ・ヴァータの祠
-    - _Korok::T10
+        notes: .link([Akh Va'quot Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/880689369edef6b0911ef91b97dd76a420e8e85a/graphics/AkhVaquot-Solution.png)
+    - _Npc::Rito<Amali/ハミラ>:
+        comment: Find Kheel/キールを探して！
+        coord: [-3668.51, 321.49, -1769.96]
+        notes: Start Quest; Standing on platform next to shrine.
+    - _Korok::T10:
+        notes: Collect all apples from offer apple koroks.
     - _Korok::T13
     - _Npc::Rito<Kheel/キール>:
         comment: Recital at Warbler's Nest/リトの兄弟岩
@@ -1274,6 +1339,7 @@ _route:
     - _Korok::T16
     - _Chest<Shock Arrow x5>:
        comment: 電気の矢 x5
+       notes: Optional
        coord: [-4159.56, 211.33, -1695.18]
     - _Korok::T12
     - _Korok::T09
@@ -1306,6 +1372,7 @@ _route:
     - _Korok::P13
     - _Discover<Outpost Ruins>:
         comment: ハイラル宿場町 跡地
+        notes: Run toward to the dead guardian in the middle.
         coord: [-246.6875,1675.3125]
     - _Boss::Talus::Luminous:
         comment: イワロック（夜光）
@@ -1320,6 +1387,7 @@ _route:
     - _Korok::D26
     - _Discover<East Post Ruins>:
         comment: 東の宿場町跡
+        notes: Location is discovered when climbing the pole for D26 usually.
         coord: [30.75,1565.5]
     - _Korok::C84
     - _Equipment::Weapon<Moblin Club>:
@@ -1329,6 +1397,7 @@ _route:
     - _Korok::D22
     - _Chest<Shock Arrow x5>:
        comment: 電気の矢 x5
+       notes: Optional
        coord: [282.15, 114.37, 1355.95]
     - _Korok::D14
     - _Discover<Owlan Bridge>:
@@ -1495,11 +1564,11 @@ _route:
     - _Korok::D49
     - _Shrine::SheeVaneer:
         comment: シベ・ニーロの祠
-        notes: .link(https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/0edce9a9965dead04f1a6f3127c4599f1a8afe53/graphics/SheeVaneerSolution.png)
+        notes: .link([Shee Vaneer Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/0edce9a9965dead04f1a6f3127c4599f1a8afe53/graphics/SheeVaneerSolution.png)
     - _Korok::D40
     - _Shrine::SheeVenath:
         comment: シベ・ニャスの祠
-        notes: .link(https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/6a66b1532fa7af88521c959ca9a0b866f503320e/graphics/SheeVenathSolution.png)
+        notes: .link([She Venath Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/6a66b1532fa7af88521c959ca9a0b866f503320e/graphics/SheeVenathSolution.png)
     - _Shrine::ReeDahee:
         comment: リ・ダヒの祠
         notes: Climber's Bandanna
@@ -2885,7 +2954,7 @@ _route:
         notes: Pink girl on the ledge.
     - _Npc::Rito<Amali/ハミラ>:
         comment: Find Kheel/キールを探して！
-        coord: [-3668.9375,-1769.875]
+        coord: [-3668.51, 321.49, -1769.96]
         notes: Standing on platform next to shrine.
     - _Korok::T14:
         notes: Shoot with Ancient Bow and bomb arrow from the backside of the shrine.
