@@ -15,3 +15,9 @@ You can view the route at https://celer.itntpiston.app/#/gh/31PNMR/hundo-ex-mgr-
 You can see more about the route engine at https://github.com/iTNTPiston/celer
 
 Mist is an open-source minimal speedrun split timer developed by [LtPeriwinkle](https://github.com/LtPeriwinkle/mist). A split file for this route will be available soon. A split file for LiveSplit can be downloaded directly from the Celer web app.
+
+# Thanks
+I appricate the help of zd3nik, savage13, and [KatieShesko](https://www.twitch.tv/katieshesko) for helping to correct errors and beta test the route.
+
+# Discord
+Join the [Angry Hylian Collective](https://discord.gg/hylian) for fun BotW science and hundo chat.
