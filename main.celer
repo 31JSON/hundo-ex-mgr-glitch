@@ -650,6 +650,7 @@ _route:
           - to: [1760.6875,1097.8125]         
     - _Korok::D05
     - _Shop<The Curious Quiver>:
+        comment: 亜路雨
         notes: Buy fire arrows if needed.
         coord: [1830.49, 222.41, 1044.89]
     - _Npc::SheikaFemale<Impa/インパ>:
@@ -938,7 +939,8 @@ _route:
         comment: Secret of the Cedars/三本杉の秘密
         coord: [3434.875,2149.1875]
         notes: During the glitch; Talk to her before going to the shop to sell cores. If raining, talk to her at the end of the route during Hateno 2.
-    - _Shop<Pruce>:
+    - _Shop<East Wind>:
+        comment: イースト・ウインド
         coord: [3356.35, 225.66, 2175.10]
         notes: Shop to sell cores, continue glitch, buy bomb arrow.
     - _Npc::SheikaMale<Bolson/サクラダ>:
@@ -1481,6 +1483,7 @@ _route:
         notes: Talk to her twice to start quest; Finish during Kakariko cleanup
         coord: [1830.49, 222.41, 1044.89]
     - _Shop<High Spirits Produce>:
+        comment: 満福
         notes: Buy butter, carrots, eggs
         coord: [1795.25,1029.125]
     - _Npc::SheikaMale<Pikango/カンギス>:
@@ -1497,6 +1500,7 @@ _route:
         coord: [1837.54, 221.84, 962.56]
         notes: Activate the quest; Will finish at end of run
     - _Shop<Enchanted>:
+        comment: 忍杏亭
         notes: Optional; Buy Stelth Set and Hylian Trousers.
         coord: [1854.75,981.5625]
     - _Material<Pumkin>:
@@ -2343,11 +2347,13 @@ _route:
     - _Korok::E15
     - _Korok::E14
     - _Korok::E13
-    - _Shop<Flamebraker Boot>:
-        comment: 耐火の石靴
+    - _Shop<Ripped and Shredded>:
+        comment: ガッチムッチ
+        notes: Flamebreaker Boots/耐火の石靴
         coord: [1642.5625,-2409.25]
-    - _Shop<Goron Spice>:
-        comment: ゴロンの香辛粉
+    - _Shop<Goron Gusto Shop>:
+        comment: モリモリ屋
+        notes: Goron Spice/ゴロンの香辛粉
         coord: [1683.4375,-2463.5]
     - _Npc::Goron<Bludo/ブルドー>:
         comment: Divine Beast Vah Rudania/炎の神獣 ヴァ・ルーダニア
@@ -2432,12 +2438,13 @@ _route:
     - _Tod::Morning:
         hide-icon-on-map: true
     - _Korok::E01
-    - _Snap::Quest<Skeleton>:
-        coord: [1587.75,-3661.875]
     - _Material<Dinraal Horn>:
         comment: オルドラの角のかけら
         hide-icon-on-map: true
     - _Korok::E02
+    - _Snap::Quest<Skeleton>:
+        coord: [2239.9375,-3683]
+        notes: Zoom in on head
     - _Korok::E03
 
   - Akkala Tech Lab:
@@ -2456,6 +2463,7 @@ _route:
         coord: [2917.5625,-3561.375]
         notes: OB AA
     - _Korok::A01
+    - Make it's not raining and will not rain. Otherwise adjust ToD.
     - _Korok::A05
     - _Korok::A10
     - _Snap::Quest<Blupee/ルミー>:
@@ -2476,6 +2484,7 @@ _route:
         comment: ヅナ・カイの祠
     - _Snap::Quest<Kilton/キルトン>:
         coord: [3250.4375,-3444.875]
+        notes: Take several pictures when he is in different positions to make sure one will work for the quest.
     - _Warp::Shrine::ZunaKai
     - _Korok::A02
     - _Korok::A03
