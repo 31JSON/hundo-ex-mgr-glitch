@@ -1312,7 +1312,7 @@ _route:
         icon: medoh-enter
         hide-icon-on-map: true
         split-type: UserDefined
-        notes: Stasis+, FDB x 3 (first 2 body, 3rd any) + OB x 1 (any)
+        notes: .link([Video]https://youtu.be/tRamapox-7Y?t=6155); Stasis+, FDB x 3 (first 2 body, 3rd any) + OB x 1 (any)
     - _Chest<Giant Ancient Core>:
         comment: 古代の巨大なコア
         notes: Chest on Medoh's nose
@@ -1779,7 +1779,7 @@ _route:
         icon: naboris-enter
         hide-icon-on-map: true
         split-type: UserDefined
-        notes: Stasis+, GEB x 2 (body) + OB x 1 (body)
+        notes: .link([Video]https://youtu.be/tRamapox-7Y?t=8441); Stasis+, GEB x 2 (body) + OB x 1 (body)
     - .gale() inside Naboris:
         time-override: 1000
         gale: 3
@@ -1856,7 +1856,7 @@ _route:
         coord: [-2797.53, 135.05, 2240.97]
         notes: Start quest
     - _Shop<Beetle/テリー>:
-        notes: Buy cold darner, if needed
+        notes: Buy cold darner if you don't have at least 2
         hide-icon-on-map: true
     - _Cook<Cold Elixir>:
         notes: Cold darner, lizalfos tail; for quest
@@ -1898,9 +1898,13 @@ _route:
     - _Korok::N32
     - _Shrine::TahnoOah:
         comment: ターノ・アの祠
-        notes: Climbing Boots
+        notes: (Optional) Climbing Boots
     - _Korok::N40
-    - _Korok::N25
+    - _Korok::N25:
+        movements:
+          - to: [4392.02, 170.93, 1459.25]
+          - to: [4438.91, 141.72, 1432.92]
+            away: true
     - _Warp::Shrine::TahnoOah
     - Begin Free Naydra:
         coord: [3945.4375,1343.3125]
@@ -1920,21 +1924,33 @@ _route:
     - _Shrine::JitanSami:
         comment: ジター・サミの祠
     - _Material<Heart Vessel, 1>:
-        hide-icon-on-map: true
+        coord: [3910.78, 574.69, 1328.30]
+        notes: This is the final orb exchage.
+
+  - Naydra Farming:
+    - Line Color - Blue
     - Naydra farming:
+        line-color: rgb(0, 176, 240)
         icon: location
-        notes: Look at mountain top
         coord: [3968.6875,1295.0625]
-    - _Korok::N19:
-        notes: Naydra should be audible coming up the side of mountain. Get korok, then stand at the edge and wait. Hopefully the horn lands in the area aroud N19.
+    - (==) Move a bit northeast to the location indicated. Set time to morning while looking at the mountain top. Go quickly to N19.
+    - _Korok::N19
+    - (==) While doing N19, Naydra should be audible coming up the side of mountain. Move to the location indicated, then stand at the edge and wait. Hopefully the horn lands in the area aroud N19.
+    - Stand here for Naydra:
+        icon: location
+        coord: [4137.875,1080.625]
     - _Material<Shard of Naydra's Horn>:
         comment: ネルドラの角のかけら
         hide-icon-on-map: true
     - Naydra farming:
         icon: location
-        notes: Move down the side of the mountain and set a fire to morning. Naydra should be coming from the west over Lanayru Bay. Fly out and meet her when she gets about to N12.
         coord: [4037.75,902]
+    - (==) Move down the side of the mountain and set a fire to morning. Naydra should be coming from the west over Lanayru Bay. Continue gliding NW toward N12, and look west down Lanayru Bay. Naydra should spawn. Shoot the claw when she gets near the N12 area. If the claw flies off in a bad location, get N12 first then chase the claw.
     - _Korok::N12
+    - _Material<Hearty Blueshell Snail>:
+        comment: マックスサザエ
+        notes: For quest
+        coord: [3943.75, 105.91, 684.34]
     - _Material<Naydra's Claw>:
         comment: ネルドラの爪
         hide-icon-on-map: true
@@ -1978,7 +1994,11 @@ _route:
         comment: ヒノックス
         coord: [2414.4375,1177.75]
         notes: OB AA
-    - _Korok::N11
+    - _Korok::N11:
+        movements:
+          - to: [2496.04, 302.86, 892.13]
+          - to: [2409.55, 269.61, 849.32]
+            away: true
     - _Korok::N13
     - _Boss::Hinox::Blue:
         comment: 青ヒノックス
@@ -2007,7 +2027,9 @@ _route:
         notes: Standing on the tree after getting the korok, gale and then glide across to Zora Stone Monument 5.
 
   - Ruta:
+    - Line Color - Green
     - Zora Stone Monument 5:
+        line-color: rgb(146, 207, 80)
         comment: 石碑 5
         icon: location
         coord: [2838.09, 228.01, 188.33]
@@ -2032,6 +2054,10 @@ _route:
         comment: 石碑 4
         icon: location
         coord: [3099.83, 236.67, 70.72]
+    - _Material<Hot-Footed Frog, 5>:
+        comment: ゴーゴーガエル
+        notes: For quest
+        hide-icon-on-map: true
     - .gale() across:
         time-override: 1000
         gale: 1
@@ -2083,7 +2109,7 @@ _route:
         coord: [3596.0625,-342.875]
     - Enter Ruta:
         icon: ruta-enter
-        notes: Stasis+, GEB x 2 (body) + OB x 1 (any)
+        notes: .link([Video]https://youtu.be/s8UMMQmUioQ?t=2884); Stasis+, GEB x 2 (body) + OB x 1 (any)
         split-type: UserDefined
     - _Material<Heart Vessel, 1>:
         hide-icon-on-map: true
@@ -2271,8 +2297,16 @@ _route:
     - .fury() from above:
         time-override: 1000
         fury: 3
-    - _Korok::E26
-    - _Korok::E24
+    - _Korok::E26:
+        movements:
+          - to: [1706.28, 459.75, -1761.83]
+          - to: [1687.56, 427.40, -1717.09]
+            away: true
+    - _Korok::E24:
+        movements:
+          - to: [1469.50, 426.11, -1736.59]
+          - to: [1412.02, 408.75, -1759.80]
+            away: true
     - _Korok::E25
     - .gale() from tallest northwest bone fragment:
         time-override: 1000
@@ -2451,7 +2485,11 @@ _route:
         coord: [3636.125,-3519.875]
     - _Korok::A04
     - _Korok::A13
-    - _Korok::A07
+    - _Korok::A07:
+        movements:
+          - to: [4010.33, 303.64, -3207.66]
+          - to: [3779.71, 275.42, -3361.52]
+            away: true
     - Transport blue flame and do A14:
         notes: Weapon smuggle the flame while doing the korok. Make sure to complete the race while still climbing on the wall or the torch will unsmuggle.
         movements:
@@ -2542,7 +2580,7 @@ _route:
         icon: rudania-enter
         split-type: UserDefined
         coord: [2261.25,-2385.5]
-        notes: Stasis+, GEB x 2 (body) + OB x 1 (any)
+        notes: .link([Video]https://youtu.be/s8UMMQmUioQ?t=8963); Stasis+, GEB x 2 (body) + OB x 1 (any)
     - .gale() inside Rudania:
         time-override: 1000
         gale: 1
@@ -2817,7 +2855,12 @@ _route:
           - to: [2045.8125,-2040.25]
     - _Shrine::KayraMah:
         comment: ケハ・ラマの祠
-    - _Korok::E20
+    - _Korok::E20:
+        movements:
+          - to: [1995.125,-2044.75]
+          - to: [1995.97, 579.82, -2106.65]
+          - to: [2019.42, 557.72, -2172.90]
+            away: true
     - _Boss::Talus::Igneo:
         comment: マグロック
         coord: [2141.8125,-2178.4375]
@@ -4061,7 +4104,11 @@ _route:
     - _Warp::Shrine::SheeVaneer
     - _Korok::D48
     - _Korok::D50
-    - _Korok::L07
+    - _Korok::L07:
+        movements:
+          - to: [1045.82, 245.85, 2179.74]
+          - to: [908.29, 247.17, 2193.53]
+            away: true
     - _Korok::L19
     - _Korok::L20
     - _Chest::Special<Ravio's Hood/ラヴィオの頭巾>:
@@ -4076,7 +4123,11 @@ _route:
     - _Korok::L18
     - _Korok::L17
     - _Korok::L12
-    - _Korok::L16
+    - _Korok::L16:
+        movements:
+          - to: [341.48, 130.52, 2378.26]
+          - to: [280.43, 97.65, 2405.01]
+            away: true
     - _Korok::L28
     - _Korok::L29
     - _Korok::L34
@@ -4581,7 +4632,11 @@ _route:
     - _Korok::R75
     - _Warp::Shrine::MoggLatan
     - _Korok::R70
-    - _Korok::R73
+    - _Korok::R73:
+        movements:
+          - to: [-2351.32, 311.12, 741.86]
+          - to: [-2351.15, 263.40, 846.18]
+            away: true
     - _Korok::R67
     - _Korok::R66
     - _Korok::R65
@@ -5061,7 +5116,11 @@ _route:
     - _Korok::N34
     - _Korok::N33
     - _Korok::N27
-    - _Korok::N26
+    - _Korok::N26:
+        movements:
+          - to: [2345.35, 204.24, 1529.60]
+          - to: [2276.03, 162.26, 1501.62]
+            away: true
     - _Npc::SheikaMale<Dr. Calip/カリーユ>:
         comment: The Cursed Statue/呪われし石像
         hide-icon-on-map: true
