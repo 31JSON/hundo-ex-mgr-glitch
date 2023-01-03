@@ -967,6 +967,9 @@ _route:
         split-type: UserDefined
         icon: link
         hide-icon-on-map: true
+    - _Material<Acorn, 15>:
+        hide-icon-on-map: true
+        notes: IST ends with 16 acorns. The rest are picked up later around C38 (after Castle).
 
   - Hateno 1:
     - Line Color - Orange
@@ -1303,19 +1306,19 @@ _route:
         comment: Divine Beast Vah Medoh/風の神獣 ヴァ・メドー
         coord: [-3606.625,-1822.9375]
     - _Korok::T02
-    - _Equipment::Bow<Swallow Bow>:
-        comment: ツバメの弓
-        notes: Drop RB and equip Swallow Bow/AA
-        coord: [-3793.13, 268.29, -2324.26]
     - _Npc::Rito<Teba/テバ>:
         coord: [-3798.52, 267.35, -2314.14]
         comment: Divine Beast Vah Medoh/風の神獣 ヴァ・メドー
+    - _Equipment::Bow<Falcon Bow>:
+        comment: ハヤブサの弓
+        notes: Drop RB and equip Falcon Bow/AA
+        hide-icon-on-map: true
     - Enter Medoh:
         icon: medoh-enter
         hide-icon-on-map: true
         split-type: UserDefined
-        notes: .link([Video]https://youtu.be/tRamapox-7Y?t=6155); Stasis+, FDB x 3 (first 2 body, 3rd any) + OB x 1 (any)
-    - _Chest<Giant Ancient Core>:
+        notes: .link([Video]https://youtu.be/PP7U6FXY4Hk); Stasis+, FDB x 3 (first 2 body, 3rd any) + OB x 1 (any)
+    - _Chest<Giant Ancient>:
         comment: 古代の巨大なコア
         notes: Chest on Medoh's nose
         hide-icon-on-map: true
@@ -1334,7 +1337,7 @@ _route:
     - _Chest::Special<Great Eagle Bow>:
         comment: オオワシの弓
         coord: [-3630.37, 323.57, -1828.17]
-        notes: Drop Swallow Bow; Don't use GEB until duping in Gerudo
+        notes: Don't use GEB until duping in Gerudo
     - _Shrine::AkhVaquot:
         comment: アコ・ヴァータの祠
         notes: .link([Akh Va'quot Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/880689369edef6b0911ef91b97dd76a420e8e85a/graphics/AkhVaquot-Solution.png)
@@ -1401,6 +1404,7 @@ _route:
     - _Korok::D32
     - _Shrine::BoshKala:
         comment: ヴァシ・リャコの祠
+        notes: .link([Video]https://youtu.be/6KvKVzIevqU)
     - _Korok::D26
     - _Discover<East Post Ruins>:
         comment: 東の宿場町跡
@@ -1442,6 +1446,7 @@ _route:
         notes: Buy electric darner for quest
     - _Shrine::WahgoKatta:
         comment: ワゴ・カタの祠
+        notes: .link([Video]https://youtu.be/f6apB-zLrAA)
     - Ride to Kakariko:
         movements:
           - to: [466.4375,963.1875]
@@ -1570,6 +1575,7 @@ _route:
         notes: Buy crickets and octoballoons; Optional if collect them yourself
     - _Shrine::HaDahamar:
         comment: ハユ・ダマの祠
+        notes: .link([Video]https://youtu.be/Jqn44u-fPfk)
     - _Discover<Big Twin Bridge>:
         comment: ふたご兄橋
         coord: [1670.75,2033.5]
@@ -1585,14 +1591,14 @@ _route:
     - _Korok::D49
     - _Shrine::SheeVaneer:
         comment: シベ・ニーロの祠
-        notes: .link([Shee Vaneer Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/0edce9a9965dead04f1a6f3127c4599f1a8afe53/graphics/SheeVaneerSolution.png)
+        notes: .link([Shee Vaneer Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/0edce9a9965dead04f1a6f3127c4599f1a8afe53/graphics/SheeVaneerSolution.png) - .link([Video]https://youtu.be/PxkQvAU7A_8)
     - _Korok::D40
     - _Shrine::SheeVenath:
         comment: シベ・ニャスの祠
-        notes: .link([She Venath Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/6a66b1532fa7af88521c959ca9a0b866f503320e/graphics/SheeVenathSolution.png)
+        notes: .link([She Venath Solution]https://github.com/31PNMR/hundo-ex-mgr-glitch/blob/6a66b1532fa7af88521c959ca9a0b866f503320e/graphics/SheeVenathSolution.png) - .link([Video]https://youtu.be/Ty2dm_1Pz7I)
     - _Shrine::ReeDahee:
         comment: リ・ダヒの祠
-        notes: Climber's Bandanna (Optional)
+        notes: Climber's Bandanna (Optional) - .link([Video]https://youtu.be/Ew4Yc8vrrHE)
     - _Warp::Shrine::SheeVaneer
     - _Korok::D41:
         comment: Push boulder down hill
@@ -1655,6 +1661,7 @@ _route:
     - _Korok::Z49
     - _Shrine::DakaTuss:
         comment: ダタ・クスの祠
+        notes: .link([Video]https://youtu.be/uYB1VQv9LSM)
     - _Korok::Z50
     - _Korok::Z60
     - _Warp::Shrine::TalohNaeg
@@ -1685,6 +1692,7 @@ _route:
         gale: 1
     - _Shrine::ShehRata:
         comment: シェモ・ラタの祠
+        notes: .link([Video]https://youtu.be/pd_zjDQH6nE)
     - _Korok::Z12
     - _Warp::Shrine::TalohNaeg
     - _Npc::SheikaFemale<Impa/インパ>:
@@ -1707,6 +1715,7 @@ _route:
         notes: For quest
     - _Shrine::KuhTakkar:
         comment: クイ・タッカの祠
+        notes: .link([Video]https://youtu.be/TQ29cAYp2GE)
     - _Equipment::Bow<Duplex Bow x3>:
         comment: 二連弓
         coord: [-3747.6875,1410.375]
@@ -1716,6 +1725,7 @@ _route:
         hide-icon-on-map: true
     - _Shrine::ShoDantu:
         comment: シ・ジトの祠
+        notes: .link([Video]https://youtu.be/TMGOBKsn_5s)
     - _Equipment::Shield<Radiant Shield>:
         comment: 太陽の盾
         coord: [-3785.32, 467.71, 1673.81]
@@ -1731,6 +1741,7 @@ _route:
         gale: 1
     - _Shrine::DaqoChisay:
         comment: グコ・チセの祠
+        notes: .link([Video]https://youtu.be/6-7GOIPayRQ)
     - _Npc::SheikaMale<Benja/ベンジャミン>:
         comment: Forbidden City Entry/潜入！男子禁制の街
         coord: [-3804.5,2818.375]
@@ -1743,7 +1754,8 @@ _route:
     - _Shop<Buy Arrows>:
         movements:
           - to: [-3857.25,2913.6875]
-    - Duplicate GEB, durability transfer to OB, Dupe OB to 3 total
+    - Duplicate GEB, durability transfer to OB, Dupe OB to 3 total:
+        notes: .link([Video]https://youtu.be/S5WaHymK-M4)
     - (==) Try not to break any GEBs
     - _Npc::Gerudo<Riju/ルージュ>:
         comment: Vah Naboris Main Quest/雷の神獣 ヴァ・ナボリス
@@ -1761,6 +1773,7 @@ _route:
         line-color: rgb(146, 207, 80)
     - Enter Yiga Hideout:
         coord: [-3650.66, 441.62, 1371.41]
+        notes: .link([Video]https://youtu.be/q45VLTadqmU)
     - _Npc::SheikaMale<Master Kohga>:
         coord: [-3465.60, 440.72, 1325.95]
         notes: Phase 1 GEB x 1 + (once he's in ground) OB x 1; Phase2 OB x 1 + (once he's in ground) AnyBow x 1
@@ -1783,7 +1796,7 @@ _route:
         icon: naboris-enter
         hide-icon-on-map: true
         split-type: UserDefined
-        notes: .link([Video]https://youtu.be/tRamapox-7Y?t=8441); Stasis+, GEB x 2 (body) + OB x 1 (body)
+        notes: .link([Video]https://youtu.be/HeeeBlvub0I); Stasis+, GEB x 2 (body) + OB x 1 (body)
     - .gale() inside Naboris:
         time-override: 1000
         gale: 3
@@ -1841,17 +1854,17 @@ _route:
     - _Warp::Tower::Gerudo
     - _Shrine::SasaKai:
         comment: ササ・カイの祠
-        notes: 14:55 - 15:55
+        notes: 14:55 - 15:55; .link([Video]https://youtu.be/O8x0RdEbkmo)
     - _Shrine::DakoTah:
         comment: ダコ・タワの祠
-        notes: Radiant Shield (Optional)
-    - .gale() To magnetic block:
-        time-override: 1000
-        gale: 1
+        notes: .link([Video]https://youtu.be/gv4l6eImERQ) - Radiant Shield (Optional)
     - _Korok::G34:
         movements:
           - to: [-3157.12, 200.47, 2034.73]
           - to: [-3071.39, 197.79, 2044.73]
+    - .gale() up to the next level:
+        time-override: 1000
+        gale: 1
     - _Discover<Gerudo Desert Gateway>:
         comment: ゲルド砂漠 入口
         coord: [-2918.625,2322.5625]
@@ -3471,7 +3484,6 @@ _route:
     - _Korok::C39
     - _Korok::C38
     - _Material<Acorn, 6>:
-        comment: どんぐり
         movements:
           - to: [-1305.00, 114.27, 232.42]
           - to: [-1311.30, 114.29, 227.12]
@@ -3481,7 +3493,7 @@ _route:
           - to: [-1313.29, 114.32, 232.87]
     - _Korok::C36
     - _Material<Acorn, 12>:
-        comment: どんぐり
+        notes: Check inventory count. Make sure to have 30. If not there are some on Plat between P10 and P06, or north of R73 on Satori.
         movements:
           - to: [-1380.21, 114.35, 256.06]
           - to: [-1380.51, 114.35, 255.26]
