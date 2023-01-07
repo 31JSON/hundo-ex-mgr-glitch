@@ -1638,10 +1638,6 @@ _route:
         comment: しのび草
         coord: [890.79, 132.75, 249.03]
         notes: For quest
-    - _Material<Armoranth>:
-        comment: ヨロイソウ
-        coord: [888.57, 131.91, 220.71]
-        notes: For quest
     - _Npc<Hestu/ボックリン>:
         notes: 5 bow slots; Pick up random materials in the forest to use as scrap for transmutation later in the run.
         coord: [870.83, 131.54, 203.47]
@@ -2006,6 +2002,7 @@ _route:
     - _Korok::N16
     - _Shrine::DowNaeh:
         comment: ダウ・ナエの祠
+        notes: 2 chests + 5 opal
     - _Korok::N20
     - _Boss::Hinox::Red:
         comment: ヒノックス
@@ -2140,6 +2137,9 @@ _route:
     - _Npc::ZoraMale<King Dorephan/ドレファン>:
         comment: Divine Beast Vah Ruta/水の神獣 ヴァ・ルッタ
         coord: [3338.375,-551.9375]
+    - _Npc::ZoraFemale<Laflat/フララット>:
+        comment: Lynel Safari/ライネル調査
+        coord: [3348.95, 255.66, -513.31]
     - _Npc::ZoraMale<Fronk/フーキュ>:
         comment: A Wife Washed Away/流された嫁
         coord: [3344.375,-471.9375]
@@ -2148,9 +2148,23 @@ _route:
         comment: The Ceremonial Song/英傑祭の詩
         coord: [3299.0625,-522.125]
         notes: Start quest
+    - _Npc::ZoraMale<Tumbo/ポンテ>:
+        comment: Frog Catching/雨ときどきカエル
+        coord: [3320.59, 244.66, -474.01]
+    - _Npc::ZoraMale<Ledo/レトーガン>:
+        comment: Luminous Stone Gathering/夜光石収集
+        coord: [3290.09, 244.86, -451.28]
     - _Npc::ZoraMale<Gruve/ノール>:
         comment: Diving is Beauty/飛び込みに目覚めた男
         coord: [3292.3125,-520.3125]
+    - _Npc::ZoraFemale<Torfeau/トルフォー>:
+        comment: The Giant of Ralis Pond/ラルス池の巨人討伐
+        coord: [3300.84, 255.66, -505.93]
+        notes: Start quest
+    - _Npc::ZoraMale<Jiahto/ジアート>:
+        comment: Zora Stone Monuments/ゾーラの石碑を探して
+        coord: [3340.25, 256.66, -564.31]
+        notes: Start quest
 
   - Akkala Tower:
     - Line Color - Green
@@ -2223,8 +2237,12 @@ _route:
         hide-icon-on-map: true
     - _Korok::A34
     - _Korok::A38
+    - _Material<Armoranth, 2>:
+        coord: [4099.31, 271.65, -1384.91]
+        comment: ヨロイソウ
     - _Discover<Great Fairy Fountain>:
         comment: 大妖精の泉
+        notes: Upgrade Champion's Tunic, Zora Helm, Zora Armor, Zora Greaves to level ★★
         coord: [4111.4375,-1378.3125]
     - _Korok::A48
     - _Korok::A49
@@ -2325,7 +2343,7 @@ _route:
           - to: [1412.02, 408.75, -1759.80]
             away: true
     - _Korok::E25
-    - .gale() from tallest northwest bone fragment:
+    - .gale() toward the wall northeast:
         time-override: 1000
         gale: 1
         coord: [1561.5,-1863.375]
@@ -2493,8 +2511,12 @@ _route:
         time-override: 1000
         gale: 1
         coord: [3396.125,-3396]
+        notes: It's possible to be too fast for them to have recharged. If that's the case, use the gale at the next convenient time.
     - _Shrine::ZunaKai:
         comment: ヅナ・カイの祠
+    - _Tod::Night:
+        hide-icon-on-map: true
+        notes: Look in the sky toward the West (in the direction of the labyrinth). Allow the chest to fall and land before continuing to Kilton.
     - _Snap::Quest<Kilton/キルトン>:
         coord: [3250.4375,-3444.875]
         notes: Take several pictures when he is in different positions to make sure one will work for the quest.
@@ -2519,9 +2541,9 @@ _route:
     - _Korok::A14
     - _Korok::A15:
         notes: Torch will unsmuggle. Just walk to ancient furnace.
+    - (==) Talking to Robbie will reduce Ancient Arrow count to 999. You can use the Ancient Furnace (Cherry) without talking to him. Buy ancient short sword, shield, bow. If short on guradian parts, kill the guardians in the basement of the labyrinth and on the way to Katosa Aug.
     - _Shop<Cherry/シーカーレンジ>:
         coord: [4514.8125,-3162.5]
-        notes: Talking to Robbie will reduce Ancient Arrow count to 999. You can use the Ancient Furnace without talking to him. Buy ancient short sword, shield, bow. If short on guradian parts, come back after Katosa Aug.
     - _Korok::A16
     - .gale() to the island:
         time-override: 1000
@@ -2631,6 +2653,7 @@ _route:
     - _Npc::Goron<Bludo/ブルドー>:
         comment: Divine Beast Vah Rudania/炎の神獣 ヴァ・ルーダニア
         coord: [1714.1875,-2446.8125]
+
   - Korok Forest:
     - Line color - Cyan
     - _Warp::Tower::Eldin
@@ -2669,6 +2692,7 @@ _route:
         coord: [431.5,-2111.0625]
     - _Shrine::KeoRuug:
         comment: キヨ・ウーの祠
+        notes: From L to R - 5 3 1 2
         movements:
           - to: [471,-2167.5625]
             warp: true
@@ -2924,9 +2948,11 @@ _route:
     - _Npc::Rito<Guy/ギネマー>:
         comment: An Ice Guy/暑さをしのぐ薬
         coord: [-3238.5,2574.5625]
+        notes: Dialog Options 2
     - _Npc::Gerudo<Rhondson/パウダ>:
         comment: From the Ground Up/羽ばたけ！サクラダ工務店
         coord: [-3269.3125,2585.25]
+        notes: Dialog Options 1 1 1 2
     - _Npc::SheikaMale<Nobiro/ノビル>:
         comment: The Eye of the Sandstorm/消える？砂嵐
         coord: [-3282.625,2540.6875]
@@ -2953,7 +2979,7 @@ _route:
     - _Npc<雪山の日誌/Mountain Peak Log>:
         comment: 雪山の日誌/Secret of the Snowy Peaks
         coord: [-1387.6875,3494.3125]
-        notes: 16 - 17:30
+        notes: 16 - 17:30; Dialog Options 2 1 3
     - _Shrine::SumaSahma:
         comment: スマ・サマの祠
     - _Korok::W53
@@ -4711,6 +4737,7 @@ _route:
         time-override: 1000
         fury: 3
     - _Korok::T20 
+
   - Hebra 2:
     - Line Color - Purple
     - _Warp::Shrine::ShadaNaw
