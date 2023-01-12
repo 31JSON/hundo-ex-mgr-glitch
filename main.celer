@@ -1034,7 +1034,7 @@ _route:
     - Equip OB and AA
     - _Shrine::ChaasQeta:
         comment: チャス・ケタの祠
-        notes: Stasis+ and eye shot with OB and AA.
+        notes: .link([Video]https://youtu.be/b0ezOlYvmiw)
     - _Snap::Quest<Small Guardian>:
         hide-icon-on-map: true
     - Equip RB
@@ -2092,6 +2092,7 @@ _route:
         coord: [3338.375,-551.9375]
     - _Shrine::NeezYohma:
         comment: ネヅ・ヨマの祠
+        notes: .link([Video]https://youtu.be/79eCN-QQI_E)
     - _Npc::ZoraMale<Sidon/シド>:
         comment: Divine Beast Vah Ruta/水の神獣 ヴァ・ルッタ
         coord: [3302.9375,-474.25]
@@ -2137,6 +2138,9 @@ _route:
     - _Npc::ZoraMale<King Dorephan/ドレファン>:
         comment: Divine Beast Vah Ruta/水の神獣 ヴァ・ルッタ
         coord: [3338.375,-551.9375]
+    - _Tod::Noon:
+        notes: If between 8pm and 9am
+        hide-icon-on-map: true
     - _Npc::ZoraFemale<Laflat/フララット>:
         comment: Lynel Safari/ライネル調査
         coord: [3348.95, 255.66, -513.31]
@@ -2173,8 +2177,13 @@ _route:
         movements:
           - to: [3466.625,-888.875]
     - _Korok::Z05
+    - _Material<Lizalfos Horn>:
+        notes: Green lizalfos with bomb arrows at the base of the hill where Z04 is.
+        coord: [3269.70, 535.25, -988.60]
     - _Korok::Z04
     - _Korok::A46
+    - Kill Skywatcher for parts around A43:
+        hide-icon-on-map: true
     - _Korok::A43:
         movements:
           - to: [3393.25,-1294.875]
@@ -2212,15 +2221,18 @@ _route:
     - Line Color - Green
     - _Shrine::ZeKasho:
         comment: ジズ・カフィの祠
+        notes: .link([Video]https://youtu.be/eIeBkMcEwTg)
     - _Npc::SheikaFemale<Jana/ジュン>:
         comment: Little Sister's Big Request/小さな妹の大きな願い
         coord: [3133.57, 306.78, -1693.04]
+    - _Tod::Noon:
+        notes: If between 8pm and 9am; also to make it not raining
     - _Korok::A30
     - _Korok::A31
     - _Korok::A32
     - _Korok::A37
     - _Snap::Quest<Guardian Stalker>
-    - Kill Guardian Stalkers for Quest:
+    - Kill Guardian Stalkers for Quest and pick up their parts:
         movements:
           - to: [3624.5625,-1602.5625]
           - to: [3681.25,-1511.875]
@@ -2246,10 +2258,10 @@ _route:
         coord: [4111.4375,-1378.3125]
     - _Korok::A48
     - _Korok::A49
+    - _Korok::A47
     - _Shrine::DahHesho:
         comment: ダヒ・シーノの祠
-        notes: Giant ancient core
-    - _Korok::A47
+        notes: Giant ancient core - .link([Video]https://youtu.be/O8x0RdEbkmo)
     - _Discover<East Sokkala Bridge>:
         comment: 東ミナッカレ橋
         coord: [3860.75,-1094.9375]
@@ -2267,6 +2279,7 @@ _route:
     - _Boss::Hinox::Blue:
         comment: 青ヒノックス
         coord: [3288.625,-1256.0625]
+        notes: Pick up Knight's Bow if the Hinox has metal weapons.
 
   - Enter Goron City:
     - Line Color - Purple
@@ -2301,6 +2314,7 @@ _route:
           - to: [2700.1875,-1556.8125]
     - _Shrine::SahDahaj:
         comment: サ・ダージュの祠
+        notes: Knight's Bow (if the Hinox didn't have one) - .link([Video]https://youtu.be/91Ch6kWaC_0)
     - _Korok::E34:
         movements:
           - to: [2668.80, 290.88, -1638.68]
@@ -2311,6 +2325,9 @@ _route:
           - to: [2735.69, 221.61, -1724.10]
             away: true
     - _Korok::E29
+    - _Material<Guardian Parts>:
+        notes: Kill Stalker for parts
+        coord: [2396.50, 255.39, -1633.00]
     - .gale() from race start:
         time-override: 1000
         gale: 1
@@ -2326,12 +2343,15 @@ _route:
         coord: [2193.14, 447.29, -1644.28]
         notes: If needed
     - _Korok::E27
-    - _Boss::Talus::Igneo:
-        comment: マグロック
-        coord: [1795.4375,-1746.5]
-    - .fury() from above:
+    - .fury() the talus from above:
+        coord: [1800.25,-1731.375]
         time-override: 1000
         fury: 3
+    - _Boss::Talus::Igneo:
+        comment: マグロック
+        movements:
+          - to: [1795.4375,-1746.5]
+            away: true
     - _Korok::E26:
         movements:
           - to: [1706.28, 459.75, -1761.83]
@@ -2391,7 +2411,7 @@ _route:
         coord: [1714.1875,-2446.8125]
     - _Shrine::ShaeMosah:
         comment: シモ・イトセの祠
-        notes: Ice Arrow x10
+        notes: Ice Arrow x10 - .link([Video]https://youtu.be/YwGrah65yBw)
     - _Npc::Goron<Yunobo/ユン坊>:
         comment: Divine Beast Vah Rudania/炎の神獣 ヴァ・ルーダニア
         coord: [1630.375,-2941.4375]
@@ -2403,7 +2423,7 @@ _route:
     - _Korok::E07
     - _Shrine::ShoraHah:
         comment: ショラ・ハの祠
-        notes: Ice Arrow x10, Giant Ancient Core
+        notes: Ice Arrow x10, Giant Ancient Core - .link([Video]https://youtu.be/zi6dwGtfYJg)
     - _Boss::Talus::Igneo:
         comment: マグロック
         coord: [1336.5,-3043.125]
@@ -2422,11 +2442,13 @@ _route:
     - _Korok::K06
     - _Korok::K05
     - _Korok::K11
+    - From K11, go northeast to the peak that overlooks the Thyphlo Ruins.
+    - To help aid in getting out, set a map pin on the enemy camp on the other side of the forest.
     - .gale() from the peak and glide into dark forest:
         time-override: 1000
         gale: 1
         coord: [64.0625,-2846.9375]
-        notes: Look for glow of fires and then the orb. To help aid in getting out, set a map pin on the enemy camp on the other side of the forest.
+        notes: Look for glow of fires and then the orb.
     - _Boss::Hinox::Blue:
         comment: 青ヒノックス
         notes: OB AA
@@ -2456,6 +2478,7 @@ _route:
         hide-icon-on-map: true
     - _Tod::Morning:
         hide-icon-on-map: true
+        notes: Do this right after killing the lynel.
     - _Material<Dinraal Scale>:
         comment: オルドラのウロコ
         hide-icon-on-map: true
@@ -2474,7 +2497,7 @@ _route:
         hide-icon-on-map: true
     - _Korok::E02
     - _Snap::Quest<Skeleton>:
-        coord: [2239.9375,-3683]
+        coord: [2082.75,-3578.75]
         notes: Zoom in on head
     - _Korok::E03
 
@@ -2494,7 +2517,7 @@ _route:
         coord: [2917.5625,-3561.375]
         notes: OB AA
     - _Korok::A01
-    - Make it's not raining and will not rain. Otherwise adjust ToD.
+    - At A05, if it's raining or going to rain, adjust TOD to night. 
     - _Korok::A05
     - _Korok::A10
     - _Snap::Quest<Blupee/ルミー>:
@@ -2548,6 +2571,8 @@ _route:
     - .gale() to the island:
         time-override: 1000
         gale: 1
+    - Enter labyrinth here:
+        coord: [4627.625,-3687.625]
     - _Shrine::TuKaloh:
         comment: トゥ・カロの祠
         notes: Barbarian Helm (Optional)
@@ -2566,6 +2591,7 @@ _route:
     - _Korok::A23
     - _Shrine::KatosaAug:
         comment: カツ・トサの祠
+        notes: .link([Video]https://youtu.be/s0rk4vBtP3I)
     - _Npc::SheikaMale<Hoz/ホスタ>:
         comment: A Shady Customer/求ム！ 不審者情報
         coord: [4243.875,-2746.3125]
@@ -2583,13 +2609,14 @@ _route:
         comment: 訪わぬ力
     - _Shrine::TutsuwaNima:
         comment: ツツア・ニマの祠
+        notes: .link([Video]https://youtu.be/b0ezOlYvmiw)
     - _Tod::Night:
         hide-icon-on-map: true
         notes: Make night if needed for the Stalhorse picture and Stalnox
     - _Korok::A26
     - _Korok::A27
     - _Snap::Quest<Stalhorse>:
-        coord: [4012.3125,-2163.5]
+        coord: [4006.50, 155.76, -2349.50]
     - _Boss::Hinox::Stal:
         comment: スタルヒノックス
         coord: [4146.5,-2225.0625]
@@ -2617,6 +2644,7 @@ _route:
         coord: [1981.25,-2369.25]
     - _Shrine::DaqaKoh:
         comment: ダカ・カの祠
+        notes: .link([Video]https://youtu.be/MOvKhd9TKsc)
     - _Npc::Goron<Yunobo/ユン坊>:
         comment: Divine Beast Vah Rudania/炎の神獣 ヴァ・ルーダニア
         coord: [2152.1875,-2283.875]
@@ -2624,7 +2652,7 @@ _route:
         icon: rudania-enter
         split-type: UserDefined
         coord: [2261.25,-2385.5]
-        notes: .link([Video]https://youtu.be/s8UMMQmUioQ?t=8963); Stasis+, GEB x 2 (body) + OB x 1 (any)
+        notes: .link([Video]https://youtu.be/J87kNHTZ0JE); Stasis+, GEB x 2 (body) + OB x 1 (any)
     - .gale() inside Rudania:
         time-override: 1000
         gale: 1
@@ -2704,7 +2732,7 @@ _route:
         movements:
           - to: [18.4375,-1943.625]
             warp: true
-        notes: Giant Ancient Core; Keep rusty shield
+        notes: Giant Ancient Core (Optional); Keep rusty shield if you have space for it
     - _Warp::Shrine::KeoRuug
     - _Npc<Tasho/タッチオ>:
         comment: The Lost Pilgrimage/はじめての しれん
@@ -2732,7 +2760,7 @@ _route:
         movements:
           - to: [-26.25,-2457.5]
             warp: true
-        notes: Ancient Core
+        notes: Ancient Core (Optional)
     - _Warp::Shrine::KeoRuug
     - _Npc<Damia/ダミダミ>:
         comment: The Test of Wood/燃えずのしれん
@@ -2745,7 +2773,7 @@ _route:
         movements:
           - to: [836.4375,-2418.5]
             warp: true
-        notes: Giant Ancienct Core
+        notes: Giant Ancienct Core (Optional)
     - _Warp::Shrine::KeoRuug
     - _Npc<Chio/スダジィ>:
         comment: The Korok Trials/コログ しれん
@@ -2759,7 +2787,7 @@ _route:
     - _Npc<Beginning Trials>:
         comment: EX Trial of the Sword
         coord: [431.66, 250.53, -2111.00]
-        notes: Eat a hearty food and endura food. Save. Eat attack up food and begin the trial.
+        notes: .link([Video]https://youtu.be/sBBQOTWx-Lc) - Eat a hearty food and endura food. Save. Eat attack up food and begin the trial.
         split-type: UserDefined
     - (==) The following is a list of chests in the Beginning Trials. Pick up what you think you will need. It is suggested to set your Sheika Sensor to treasure chest. It is also advised to break all wooden and metal crates as well as barrels.
     - B3 Bommerang, Fire Arrow x5
