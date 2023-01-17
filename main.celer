@@ -3039,8 +3039,10 @@ _route:
         comment: The Eye of the Sandstorm/消える？砂嵐
         coord: [-3282.625,2540.6875]
     - _Warp::VahNaboris
-    - _Korok::W34
-    - _Korok::W39
+    - _Korok::W34:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W34.png)
+    - _Korok::W39:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W39.png)
     - _Korok::W38
     - _Boss::Talus::Luminous:
         comment: イワロック（夜光）
@@ -3048,12 +3050,26 @@ _route:
         notes: OB AA
     - _Korok::W50
     - _Korok::W58
+    - Enter South Lomei Labyrinth:
+        coord: [-1751.875,3469.8125]
     - _Shrine::DilaMaag:
         comment: ディラ・マの祠
-        notes: Barbarian Armor (Optional)
+        notes: .link([Video]https://youtu.be/rtwIqGbpzeA) - Barbarian Armor (Optional)
+    - .gale() after climbing the ladder:
+        icon: npc-rito
+        coord: [-1795.25,3470.9375]
+        gale: 1
     - _Tod::Noon:
-        hide-icon-on-map: true
-        notes: For Suma Sahma
+        notes: On top of labyrinth; For Suma Sahma
+        coord: [-1787.125,3464.5625]
+    - .gale():
+        coord: [-1645.25,3431.125]
+        icon: npc-rito
+        gale: 1
+    - .gale():
+        coord: [-1600.25,3447.625]
+        icon: npc-rito
+        gale: 1
     - _Korok::W54
     - _Korok::W59
     - _Korok::W64
@@ -3064,17 +3080,31 @@ _route:
         notes: 16 - 17:30; Dialog Options 2 1 3
     - _Shrine::SumaSahma:
         comment: スマ・サマの祠
+        notes: .link([Video]https://youtu.be/I14ibugExnI)
     - _Korok::W53
     - _Npc::Rito<Kass/カッシーワ>:
         comment: EX Champion Urbosa's Song/英傑ウルボザの詩
         coord: [-1536.50, 426.00, 2919.00]
     - _Korok::W41
-    - _Korok::W45
+    - _Korok::W45:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W45.png)
     - _Korok::W46
-    - _Korok::W49
-    - _Korok::W48
-    - _Korok::W52
-    - _Korok::W63
+    - _Korok::W49:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W49.png)
+    - _Korok::W48:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W48.png)
+    - _Korok::W52:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W52.png)
+    - Start W63 Race:
+        coord: [-2591.20, 129.93, 3543.36]
+    - .gale() from this pillar:
+        notes: You won't make it all the way to the finish. Avoid the Molduking.
+        icon: npc-rito
+        coord: [-2544.9375,3604.4375]
+        gale: 1
+    - _Korok::W63:
+        movements:
+          - to: [-2448.41, 134.74, 3751.94]
     - Molduking:
         comment: キングラジーク
         icon: molduga
@@ -3084,6 +3114,7 @@ _route:
         fury: 3
     - _Shrine::KeiveTala:
         comment: ケーベ・タワの祠
+        notes: .link([Video]https://youtu.be/wohVqp058pE)
     - _Korok::W68
     - _Shrine::MisaeSuma:
         comment: ミィ・スゥの祠
@@ -3094,15 +3125,20 @@ _route:
     - _Korok::G22
     - _Shrine::KihiroMoh:
         comment: キヒロテ・モーの祠
-        notes: Red 1, Green 2, Yellow 2, Purple 4
+        notes: .link([Video]https://youtu.be/5qVrN4Slwo8) - Red 1, Green 2, Yellow 2, Purple 4
     - _Warp::Tower::Gerudo
     - _Korok::G31
     - _Korok::G30
+    - .gale() from here toward the talus:
+        coord: [-4159.625,1707.75]
+        icon: npc-rito
+        gale: 1
     - _Boss::Talus::Luminous:
         comment: イワロック（夜光）
         coord: [-4312.125,1446.8125]
         notes: OB AA
-    - _Korok::G21
+    - _Korok::G21:
+        notes: .link([Visual cue]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/G21.png)
     - _Korok::G16
     - _Korok::G20
     - _Korok::G15
@@ -3111,19 +3147,21 @@ _route:
     - _Shrine::KemaKosassa:
         comment: キマ・コササの祠
     - _Korok::G08
-    - _Korok::G04
+    - _Korok::G04:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/G04.png)
     - _Korok::G05
-    - _Korok::G01
+    - _Korok::G01:
+        notes: .link([Video]https://youtu.be/xuOLyBFgLdw)
     - _Discover<Statue of the Eighth Heroine>:
         comment: 八人目の英傑像
         coord: [-4363.6875,468.4375]
-    - _Snap::Quest<Statue of the Eigth Heroine>:
-        coord: [-4378.1875,526.25]
+    - _Snap::Quest<Statue of the Eigth Heroine>
     - _Korok::G02
     - Pick up rock for G03:
         coord: [-3969.875,330.8125]
     - _Korok::G03
-    - _Korok::G06
+    - _Korok::G06:
+        notes: Use the updraft to gain height to glide over to platform.
     - _Shrine::KeehaYoog:
         comment: キハ・ウの祠
     - _Korok::G09
