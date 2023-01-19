@@ -1,4 +1,9 @@
 ---
+_config:
+  engine:
+    ignore:
+    - FuryRecharge
+    - GaleRecharge
 _project:
   authors:
     - 31PNMR
@@ -1347,6 +1352,8 @@ _route:
         notes: Start Quest; Standing on platform next to shrine.
     - _Korok::T10:
         notes: Collect all apples from offer apple koroks.
+    - Rock for T13:
+        coord: [-4020.25, 271.52, -1777.38]
     - _Korok::T13
     - _Npc::Rito<Kheel/キール>:
         comment: Recital at Warbler's Nest/リトの兄弟岩
@@ -1662,6 +1669,8 @@ _route:
     - _Korok::Z60
     - _Warp::Shrine::TalohNaeg
     - _Korok::N01
+    - Rock for Z41:
+        coord: [2061.37, 124.34, 203.82]
     - _Korok::Z41
     - _Equipment::Bow<Forest Dweller's Bow>:
         comment: 森人の弓
@@ -1678,7 +1687,11 @@ _route:
         comment: コボンガ村跡
         coord: [1616.4375,263.5]
     - _Korok::Z38
+    - Rock for Z29:
+        coord: [1181.36, 161.32, -47.57]
     - _Korok::Z29
+    - Rock for Z30:
+        coord: [1397.03, 132.29, -140.52]
     - _Korok::Z30
     - _Discover<Moor Garrison Ruins>:
         comment: 湿原の駐屯地跡
@@ -1701,8 +1714,12 @@ _route:
     - _Warp::Shrine::MoggLatan
     - _Korok::R60
     - _Korok::G14
+    - Rock for G19:
+        coord: [-2513.15, 480.37, 1339.91]
     - _Korok::G19
     - _Korok::G13
+    - Rock for G10:
+        coord: [ -3084.57, 452.73, 914.21]
     - _Korok::G10
     - _Korok::G12
     - _Equipment::Weapon<Ice Rod>:
@@ -1947,6 +1964,8 @@ _route:
         icon: location
         coord: [3968.6875,1295.0625]
     - (==) Move a bit northeast to the location indicated. Set time to morning while looking at the mountain top. Go quickly to N19.
+    - Rock for N19:
+        coord: [4144.45, 422.44, 1151.24]
     - _Korok::N19
     - (==) While doing N19, Naydra should be audible coming up the side of mountain. Move to the location indicated, then stand at the edge and wait. Hopefully the horn lands in the area aroud N19.
     - Stand here for Naydra:
@@ -1959,6 +1978,8 @@ _route:
         icon: location
         coord: [4037.75,902]
     - (==) Move down the side of the mountain and set a fire to morning. Naydra should be coming from the west over Lanayru Bay. Continue gliding NW toward N12, and look west down Lanayru Bay. Naydra should spawn. Shoot the claw when she gets near the N12 area. If the claw flies off in a bad location, get N12 first then chase the claw.
+    - Rock for N12:
+        coord: [3927.17, 108.51, 678.35]
     - _Korok::N12
     - _Material<Hearty Blueshell Snail>:
         comment: マックスサザエ
@@ -2003,6 +2024,8 @@ _route:
     - _Shrine::DowNaeh:
         comment: ダウ・ナエの祠
         notes: 2 chests + 5 opal
+    - Rock for N20:
+        coord: [2573.66, 346.24, 1259.00]
     - _Korok::N20
     - _Boss::Hinox::Red:
         comment: ヒノックス
@@ -2247,6 +2270,8 @@ _route:
         comment: 燃えず薬
         notes: 3 Smotherwing Butterflies, 2 Lizalfos tails
         hide-icon-on-map: true
+    - Rock for A34:
+        coord: [4147.17, 234.37, -1760.87]
     - _Korok::A34
     - _Korok::A38
     - _Material<Armoranth, 2>:
@@ -2288,6 +2313,8 @@ _route:
     - _Discover<Akkala Bridge Ruins>:
         coord: [3150.0625,-1389.5625]
         comment: アッカレ砦連絡橋跡
+    - Rock for A45:
+        coord: [3089.92, 407.44, -1337.38]
     - _Korok::A45
     - _Korok::A50
     - _Korok::E39:
@@ -2315,10 +2342,9 @@ _route:
     - _Shrine::SahDahaj:
         comment: サ・ダージュの祠
         notes: Knight's Bow (if the Hinox didn't have one) - .link([Video]https://youtu.be/91Ch6kWaC_0)
-    - _Korok::E34:
-        movements:
-          - to: [2668.80, 290.88, -1638.68]
-          - to: [2751.07, 293.77, -1675.91]
+    - Rock for E34:
+        coord: [2668.80, 290.88, -1638.68]
+    - _Korok::E34
     - _Korok::E30
     - Korok Cube:
         movements:
@@ -2385,6 +2411,8 @@ _route:
     - _Npc::Goron<Greyson/グレーダ>:
         comment: From the Ground Up/羽ばたけ！サクラダ工務店
         coord: [1656.875,-1968.4375]
+    - Rock for E18:
+        coord: [1661.06, 519.51, -2262.00]
     - _Korok::E18
     - _Discover<Stolock Bridge>:
         comment: ゴロン橋
@@ -2485,6 +2513,8 @@ _route:
     - _Tod::Morning:
         hide-icon-on-map: true
     - _Korok::K02
+    - Rock for K03:
+        coord: [1205.52, 207.54, -3784.61]
     - _Korok::K03
     - _Material<Dinraal Claw>:
         comment: オルドラの爪
@@ -2503,6 +2533,8 @@ _route:
 
   - Akkala Tech Lab:
     - _Korok::E04
+    - Rock for E05:
+        coord: [2664.39, 478.82, -3470.32]
     - _Korok::E05
     - _Npc::Goron<Bayge/バケット>:
         comment: The Gut Check Challenge/ゴロンのド根性ガケ
@@ -2544,6 +2576,8 @@ _route:
         coord: [3250.4375,-3444.875]
         notes: Take several pictures when he is in different positions to make sure one will work for the quest.
     - _Warp::Shrine::ZunaKai
+    - Rock for A02:
+        coord: [3369.33, 325.38, -3651.48]
     - _Korok::A02
     - _Korok::A03
     - _Korok::A06
@@ -2588,6 +2622,8 @@ _route:
     - _Korok::A24
     - _Korok::A29
     - _Korok::A28
+    - Rock for A23:
+        coord: [4403.18, 229.79, -2748.73]
     - _Korok::A23
     - _Shrine::KatosaAug:
         comment: カツ・トサの祠
@@ -2685,6 +2721,8 @@ _route:
   - Korok Forest:
     - Line color - Cyan
     - _Warp::Tower::Eldin
+    - Rock for E35:
+        coord: [1381.08, 323.61, -1290.17]
     - _Korok::E35
     - _Korok::K32
     - _Discover<Military Training Camp>:
@@ -2934,6 +2972,9 @@ _route:
     - _Korok::A25
     - _Warp::Shrine::ShaeMosah
     - _Korok::E10
+    - Rock for E11:
+        coord: [2051.27, 622.74, -2762.25]
+        notes: Above on top of pillar
     - _Korok::E11
     - _Korok::E09
     - _Boss::Talus::Igneo:
@@ -3011,6 +3052,10 @@ _route:
     - .gale() from shrine to shore in the direction of E31:
         time-override: 1000
         gale: 1
+    - Two Rocks for E31:
+        movements:
+          - to: [1429.99, 467.76, -1526.72]
+          - to: [1410.49, 466.32, -1554.20]
     - _Korok::E31
     - _Memory::EldinCanyon:
         comment: 予兆
@@ -3039,6 +3084,10 @@ _route:
         comment: The Eye of the Sandstorm/消える？砂嵐
         coord: [-3282.625,2540.6875]
     - _Warp::VahNaboris
+    - Two rocks for W34:
+        movements:
+          - to: [-1938.51, 451.81, 2662.28]
+          - to: [-1934.42, 452.81, 2678.83]
     - _Korok::W34:
         notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W34.png)
     - _Korok::W39:
@@ -3072,6 +3121,8 @@ _route:
         gale: 1
     - _Korok::W54
     - _Korok::W59
+    - Rock for W64:
+        coord: [-1336.04, 446.86, 3757.47]
     - _Korok::W64
     - _Korok::W60
     - _Npc<雪山の日誌/Mountain Peak Log>:
@@ -3086,6 +3137,8 @@ _route:
         comment: EX Champion Urbosa's Song/英傑ウルボザの詩
         coord: [-1536.50, 426.00, 2919.00]
     - _Korok::W41
+    - Rock for W45:
+        coord: [-1582.63, 309.51, 3113.00]
     - _Korok::W45:
         notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W45.png)
     - _Korok::W46
@@ -3119,15 +3172,21 @@ _route:
     - _Shrine::MisaeSuma:
         comment: ミィ・スゥの祠
         notes: Diamond
+    - Rock for W62:
+        coord: [-3012.18, 182.46, 3746.57]
     - _Korok::W62
     - _Korok::W67
     - _Warp::Shrine::KuhTakkar
+    - Rock for G22:
+        coord: [-3064.05, 611.04, 1466.01]
     - _Korok::G22
     - _Shrine::KihiroMoh:
         comment: キヒロテ・モーの祠
         notes: .link([Video]https://youtu.be/5qVrN4Slwo8) - Red 1, Green 2, Yellow 2, Purple 4
     - _Warp::Tower::Gerudo
     - _Korok::G31
+    - Rock for G30:
+        coord: [-4122.07, 401.70, 1730.83]
     - _Korok::G30
     - .gale() from here toward the talus:
         coord: [-4159.625,1707.75]
@@ -3140,6 +3199,8 @@ _route:
     - _Korok::G21:
         notes: .link([Visual cue]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/G21.png)
     - _Korok::G16
+    - Rock for G20:
+        coord: [-4550.73, 565.72, 1431.77]
     - _Korok::G20
     - _Korok::G15
     - _Korok::G11
@@ -3157,13 +3218,19 @@ _route:
         coord: [-4363.6875,468.4375]
     - _Snap::Quest<Statue of the Eigth Heroine>
     - _Korok::G02
-    - Pick up rock for G03:
+    - Rock for G03:
         coord: [-3969.875,330.8125]
     - _Korok::G03
     - _Korok::G06:
         notes: Use the updraft to gain height to glide over to platform.
     - _Shrine::KeehaYoog:
         comment: キハ・ウの祠
+    - .gale() from this location:
+        coord: [-3812.375,791.125]
+        icon: npc-rito
+        gale: 1
+    - Rock for G09:
+        coord: [-3714.56, 746.60, 805.26]
     - _Korok::G09
     - _Snap::Quest<Sword of the Eigth Heroine>:
         coord: [-4004.75,968.0625]
@@ -3188,6 +3255,8 @@ _route:
           - to: [-3657.85, 570.42, 1536.95]
           - to: [-3663.78, 570.53, 1540.23]
           - to: [-3664.22, 570.35, 1541.10]
+    - Snowball for G26:
+        coord: [-3666.82, 571.23, 1564.60]
     - _Korok::G26
     - _Korok::W01
     - _Korok::W02
@@ -3196,6 +3265,9 @@ _route:
     - _Korok::W05
     - _Korok::W03
     - _Korok::W06
+    - Rock for G33:
+        movements:
+          - to: [-4151.57, 208.28, 1934.11]
     - _Korok::G33
     - _Warp::Shrine::DaqoChisay
     - _Npc::SheikaMale<Bozai/ボテンサ>:
@@ -3204,6 +3276,9 @@ _route:
     - _Npc::SheikaMale<Bozai/ボテンサ>:
         comment: The Forgotten Sword/忘れられた剣
         coord: [-3762.875,2883.375]
+    - _Cook<Electric Protection>:
+        notes: 5 Zapshroom
+        coord: [-3834.92, 148.98, 2946.04]
     - Pass through the light rings with the beast:
         comment: 獣と共に光輪をくぐる
         icon: npc-gerudo
@@ -3221,11 +3296,13 @@ _route:
           - to: [-4855.12, 147.28, 2169.28]
     - _Shrine::TakamaShiri:
         comment: タタカマ・シミリの祠
+        notes: .link([Video]https://youtu.be/RiKGqIux_co)
     - _Korok::W09
     - _Shrine::KemaZoos:
         comment: キマ・ズースの祠
     - _Warp::VahNaboris
     - Urubosa's Fury+:
+        notes: .link([Video]https://youtu.be/oZ6SiQVZpP8)
         comment: 英傑ウルボザの怒り+
         icon: naboris-done
         split-type: UserDefined
@@ -3247,13 +3324,16 @@ _route:
         comment: EX Champion Revali's Song/英傑リーバルの詩
         coord: [-3662.10, 321.55, -1314.66]
     - _Shrine::BareedaNaag:
+        notes: .link([Video]https://youtu.be/ZKoTE1qC-_g) - Diamond (Optional)
         comment: ヴォリダ・ノの祠
-        notes: Diamond (Optional)
     - Pick up Epona from Rito Stable:
         hide-icon-on-map: true
         coord: [-3255.75,-1757.625]
     - _Korok::H69
     - _Korok::H67
+    - .gale() up to tower:
+        coord: [-2181.83, 463.05, -2031.98]
+        gale: 1
     - _Tower::Hebra:
         comment: ヘブラの塔
     - _Discover<Pondo's Lodge>:
@@ -3263,9 +3343,13 @@ _route:
     - _Warp::Tower::Hebra
     - _Korok::H70
     - _Korok::H71
-    - _Korok::R01
+    - _Korok::R01:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/R01.png)
     - _Shrine::ShiraGomar:
         comment: シリト・ゲオマの祠
+        notes: .link([Video]https://youtu.be/Bd64G6xxKW8)
+    - Rock for R04:
+        coord: [-2546.99, 66.51, -1401.93]
     - _Korok::R04
     - _Warp::VahMedoh
     - _Korok::T15
@@ -3325,9 +3409,11 @@ _route:
         notes: OB AA
     - _Shrine::VooLota:
         comment: ウータ・ドの祠
+        notes: .link([Video]https://youtu.be/498yn115nwo)
     - _Warp::Shrine::ShaWarvo
     - _Shrine::NoeRajee:
         comment: ノイエ・ロジーの祠
+        notes: .link([Video]https://youtu.be/Nku-z7IPV4A)
     - _Boss::Talus::Frost:
         comment: ガチロック
         coord: [-3709.25,-2347.0625]
@@ -3335,6 +3421,8 @@ _route:
         time-override: 1000
         fury: 3
     - _Korok::H54
+    - .gale() to the other side:
+        gale: 1
     - _Korok::H55
     - _Korok::H43
     - .gale() across to H27:
@@ -3344,11 +3432,14 @@ _route:
     - _Korok::H27
     - _Shrine::ShadaNaw:
         comment: シャダ・アダの祠
-    - _Korok::H20
+        notes: .link([Video]https://youtu.be/vFv2lw0cDeI)
     - _Tod::Night:
         hide-icon-on-map: true
+    - _Korok::H20
     - _Korok::H28
-    - Place warp marker
+    - Place warp marker:
+        icon: warp
+        hide-icon-on-map: true
     - Look toward castle
     - _Shrine::GomaAsaagh:
         comment: ガオマ・アサの祠
@@ -3379,12 +3470,14 @@ _route:
           - to: [-2195.09, 443.89, -3156.53]
     - _Shrine::KiahToza:
         comment: キハ・トゥサの祠
+        notes: .link([Video]https://youtu.be/OrneEglUdpc)
     - _Warp::VahMedoh
     - Revali's Gale+:
         comment: 英傑リーバルの猛り+
         icon: medoh-done
         split-type: UserDefined
         hide-icon-on-map: true
+        notes: .link([Video]https://youtu.be/r52heM4p5s8)
 
   - Mipha's Song:
     - _Warp::VahRuta
@@ -3403,14 +3496,21 @@ _route:
         comment: EX Champion Mipha's Song/英傑ミファーの詩
         coord: [3739.80, 401.52, 53.38]
     - _Korok::Z35
+    - .gale():
+        gale: 1
     - _Boss::Talus::Luminous:
         comment: イワロック（夜光）
         movements:
           - to: [3992.375,-158.625]
         notes: OB AA
-    - _Korok::Z27
+    - _Korok::Z27:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/Z27.png)
     - _Korok::Z28
+    - .gale():
+        gale: 1
     - _Korok::Z20
+    - Metal boulder for Z19:
+        coord: [4118.09, 480.78, -474.36]
     - _Korok::Z19
     - _Korok::Z08
     - Pass through the light rings hanging over the waterfall:
@@ -3427,12 +3527,14 @@ _route:
           - to: [3745.67, 547.97, -608.42]
     - _Shrine::MahEliya:
         comment: マウ・エルーヤの祠
+        notes: .link([Video]https://youtu.be/Y8QfmuJerxU)
     - _Korok::A54
     - _Korok::A55
     - _Korok::A57
     - _Korok::A56
     - _Shrine::KenaiShakah:
         comment: ケニィ・シカの祠
+        notes: .link([Video]https://youtu.be/O8x0RdEbkmo)
     - _Korok::A53
     - _Korok::Z09
     - _Korok::Z10
@@ -3441,18 +3543,19 @@ _route:
     - _Korok::Z01
     - _Shrine::KahMael:
         comment: カ・ムーの祠
-        notes: Diamond (Optional)
+        notes: .link([Video]https://youtu.be/oNc8b9qE6bg) - Diamond (Optional)
     - _Tod::Morning:
         hide-icon-on-map: true
     - _Shrine::KeeDafunia:
         comment: キオ・ダフナの祠
+        notes: .link([Video]https://youtu.be/QC-BYtMZw_g)
     - _Warp::Shrine::MahEliya
     - Zora Stone Monument 9:
         comment: 石碑 9
         icon: location
         coord: [3720.59, 461.92, -532.05]
-    - _Korok::Z16
     - _Korok::Z17
+    - _Korok::Z16
     - _Chest::Special<Lightscale Trident>:
         comment: 光鱗の槍
         coord: [3329.1875,-547.3125]
@@ -3460,14 +3563,26 @@ _route:
         comment: 石碑 10
         icon: location
         coord: [3207.40, 344.67, -736.45]
+    - .gale() up at this location:
+        coord: [3118.75,-760.375]
+        icon: npc-rito
+        gale: 1
+    - Kill Skywatchers and Turret:
+        movements:
+          - to: [3117.73, 557.78, -828.94]
+          - to: [3216.30, 570.29, -890.41]
+          - to: [3175.81, 541.08, -925.12]
+          - to: [3063.70, 562.18, -953.64]
     - _Shrine::SatoKoda:
         comment: サタ・カダの祠
+        notes: .link([Video]https://youtu.be/3wqRC8JZ6W8)
     - _Npc<Shrine Pedestal/台座>:
         comment: The Ceremonial Song/英傑祭の詩
         coord: [3082.3125,-456.5625]
         notes: Shrine pedestal
     - _Shrine::DagahKeek:
         comment: ダ・キキーの祠
+        notes: .link([Video]https://youtu.be/Kx5kOO6jZjo)
     - _Boss::Hinox::Blue:
         comment: 青ヒノックス
         coord: [2930.375,-298.25]
@@ -3477,6 +3592,10 @@ _route:
         comment: 石碑 3
         icon: location
         coord: [3062.39, 184.92, -216.65]
+    - .gale() over to Z32:
+        gale: 1
+    - Rock for Z32:
+        coord: [3139.43, 195.40, -24.71]
     - _Korok::Z32
     - _Warp::VahRuta
     - Mipha's Grace+:
@@ -3484,10 +3603,11 @@ _route:
         icon: ruta-done
         split-type: UserDefined
         hide-icon-on-map: true
-        notes: Make sure to use all furies so it will be recharging while doing the final trial.
+        notes: .link([Video]https://youtu.be/o2uBNVKNoRs)
     - .fury() during phase 2 Waterblight:
         time-override: 1000
         fury: 3
+        notes: Make sure to use all furies so it will be recharging while doing the final trial.
 
   - Master Cycle Zero:
     - _Warp::SOR
@@ -3496,6 +3616,7 @@ _route:
         icon: maz
         coord: [-1124.96, 238.47, 1903.14]
         split-type: UserDefined
+        notes: .link([Video]https://youtu.be/X3YUeoyehZ4)
     - .fury() during Maz Koshia fight:
         time-override: 1000
         fury: 3
@@ -3503,15 +3624,26 @@ _route:
   - Hyrule Castle:
     - Line Color - Green
     - _Warp::Tower::Woodland
+    - Use up any remaining furies before going to castle
     - _Korok::K30:
         line-color: rgb(146, 207, 80)
+    - (==) In castle, Gale+ recharges in 1 minute. You can use it freely, but I have put in my general routing.
     - _Chest::Special<Dinraal Scale>:
         comment: オルドラのウロコ
         coord: [-196.5625,-1218.4375]
+    - .gale() from the indicated location toward X03:
+        coord: [-247.5,-1198.25]
+        icon: npc-rito
+        gale: 1
     - _Korok::X03
+    - .gale() up to the next level:
+        gale: 1
     - _Chest::Special<Royal Guard Cap/近衛兵の帽子>:
         comment: EX Royal Guard Rumors/Ex 近衛兵のウワサ
         coord: [-253.98, 336.07, -1080.48]
+    - Climb up the ladders to the antechamber above the sanctum
+    - .gale() up to the belfry for X06:
+        gale: 1
     - _Korok::X06
     - _Korok::X05
     - _Korok::X10
@@ -3525,14 +3657,17 @@ _route:
     - _Discover<Princess Zelda's Room>:
         comment: ゼルダの部屋
         coord: [-320,-996.125]
+    - .gale() from bridge up toward the back of castle:
+        gale: 1
     - Save on bridge:
         icon: link
         coord: [-254.125,-1102.25]
-    - Destory Ganon:
+    - Destroy Ganon:
+        comment: ガノン討伐
         icon: ganon
         hide-icon-on-map: true
         split-type: UserDefined
-        notes: Phase 1 OB x 1 (head, x 2 if body); Phase 2 Fury * 1 + OB x 1 (any)
+        notes: .link([Video]https://youtu.be/PG2zEqYcgTw) - Phase 1 OB x 1 (head, x 2 if body); Phase 2 Fury * 1 + OB x 1 (any)
     - _Chest::Special<Naydra Scale>:
         comment: ネルドラのウロコ
         coord: [-182.5625,-1169.4375]
@@ -3541,7 +3676,8 @@ _route:
     - _Boss::Talus::Rare:
         comment: イワロック（希少）
         coord: [-136.8125,-956.125]
-        notes: OB AA
+    - .fury() the talus:
+        fury: 3
     - _Chest::Special<Farosh Fang>:
         comment: フロドラの牙のかけら
         coord: [-132.875,-950.4375]
@@ -3555,24 +3691,24 @@ _route:
     - Enter Docks
     - _Shrine::SaasKosah:
         comment: サス・コサの祠
+        notes: .link([Video]https://youtu.be/b0ezOlYvmiw)
     - _Chest<Star Fragment>:
+        notes: Optional if you already got the one at Woodland Tower
         comment: 星のかけら
         coord: [-223.9375,-1177.75]
     - _Korok::X01
     - _Korok::X04
     - Enter Lockup
-    - _Equipment::Weapon<Royal Guard's Claymore>:
-        comment: 近衛の両手剣
-        coord: [-414.875,-1087.875]
-        notes: In cell with eye
     - _Boss::Hinox::Stal:
         comment: スタルヒノックス
         coord: [-491.375,-1009.6875]
-        notes: OB Bomb
+        notes: OB Bomb eye
     - _Equipment::Shield<Hylian Shield>:
         comment: ハイリアの盾
         coord: [-501.5,-1011.4375]
     - _Korok::X13
+    - .gale() after killing Moblin:
+        gale: 1
     - _Korok::X08
     - _Chest::Special<Dinraal Fang>:
         comment: オルドラの牙のかけら
@@ -3585,16 +3721,29 @@ _route:
         comment: EX Royal Guard Rumors/Ex 近衛兵のウワサ
         coord: [-360.58, 182.44, -855.37]
     - _Korok::X18
-    - _Korok::X17
     - _Discover<First Gatehouse>:
         comment: 三の丸
         coord: [-362.625,-813.125]
+        notes: Kill lynel and climb up.
+    - .gale() from the location indicated:
+        icon: npc-rito
+        coord: [-339.59, 238.97, -822.65]
+        gale: 1
+        time-override: 1000
+    - _Korok::X17
     - _Korok::X14
+    - .gale() up and glide toward X12:
+        gale: 1
     - _Korok::X12
-    - _Korok::X16
     - _Discover<Second Gatehouse>:
         comment: 二の丸
         coord: [-154.6875,-893.375]
+        notes: Kill lynel then climb up and out to gale location.
+    - .gale() up to X16 from the indicated location:
+        gale: 1
+        coord: [-145.4375,-874.375]
+        icon: npc-rito
+    - _Korok::X16
     - _Discover<Dining Hall>:
         comment: 食堂
         coord: [-116.375,-837.6875]
@@ -3604,12 +3753,21 @@ _route:
         comment: EX Royal Guard Rumors/Ex 近衛兵のウワサ
         coord: [-175.26, 211.33, -889.62]
     - _Korok::X20
+    - .gale() up to road above korok:
+        gale: 1
+    - .gale() over malice to X23:
+        coord: [-218.08, 231.36, -778.71]
+        icon: npc-rito
+        gale: 1
     - _Korok::X23
     - _Discover<Observation Room>:
         comment: 展望室
         coord: [-251.75,-744.8125]
+        notes: Walk into the malice for the location.
     - _Korok::X22
     - _Korok::X21
+    - .gale() over to X24:
+        gale: 1
     - _Korok::X24
     - _Korok::C16
     - _Korok::X25
@@ -3656,7 +3814,15 @@ _route:
     - _Chest::Special<Midna's Helmet/ミドナの冠>:
         comment: EX Treasure Twilight Relic/Ex ラムダの秘宝 黄昏の冠
         coord: [-1402.26, 113.92, 219.36]
-    - _Korok::R49
+    - _Equipment::Shield<Rusty Shield>:
+        hide-icon-on-map: true
+        notes: Drop Forrest Dweller's Shield if space is needed
+    - _Korok::R49:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/R49.png)
+    - .gale() up to tree from the location indicated:
+        coord: [-1522.25,86]
+        gale: 1
+        icon: npc-rito
     - _Korok::R48
     - _Boss::Hinox::Blue:
         comment: 青ヒノックス
@@ -3674,15 +3840,24 @@ _route:
         notes: Use single shot bow
     - _Shrine::SheemDagoze:
         comment: シ・ダゴズの祠
+    - .gale() over to other side:
+        coord: [-1919.75,109.375]
+        gale: 1
+        icon: npc-rito
     - _Korok::R47
     - _Korok::R37
+    - _Shrine::MijahRokee:
+        comment: ミッダ・ロキの祠
+        notes: .link([Video]https://youtu.be/O8x0RdEbkmo)
+    - .gale() up to Kass:
+        gale: 1
     - _Npc::Rito<Kass/カッシーワ>:
         comment: Under a Red Moon/赤い月の夜に
         coord: [-2778.625,206.625]
-    - _Shrine::MijahRokee:
-        comment: ミッダ・ロキの祠
     - _Korok::R59
     - _Korok::R71
+    - .gale() up the wall:
+        gale: 1
     - _Korok::R72
 
   - South Central:
@@ -3692,10 +3867,12 @@ _route:
     - _Korok::P11
     - _Korok::P10
     - _Korok::P06
+    - _Korok::P04
     - _Korok::P05
     - _Korok::P02
     - _Korok::P01
-    - _Korok::P04
+    - Glide across to C81:
+        coord: [-950.5,1478.5]
     - _Korok::C81
     - _Korok::C82
     - _Memory::LakeKolomo:
@@ -3719,17 +3896,24 @@ _route:
     - _Korok::C62
     - _Shrine::KaamYatak:
         comment: ヤカー・マタの祠
+        notes: .link([Video]https://youtu.be/4bcDrkoPkgs)
     - _Korok::C61
-    - _Korok::C60
+    - _Korok::C60:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/C60.png)
     - _Korok::C57
     - _Discover<Gleeok Bridge>:
         comment: グリオー橋
         coord: [-1311.8125,786.8125]
     - _Korok::C58
     - _Korok::C59
+    - .gale() across river toward R74:
+        gale: 1
     - _Korok::R74
     - _Memory::SanidinPark:
         comment: ラネール山へ
+    - .gale() over to the white stallion:
+        coord: [-1648.5625,724.3125]
+        gale: 1
     - _Npc<Royal White Stallion/王家の白馬>:
         comment: The Royal White Stallion/王家の白馬
         coord: [-1674.0625,807.6875]
@@ -3782,9 +3966,10 @@ _route:
     - Line Color - Purple
     - _Korok::G29:
         line-color: rgb(203, 153, 255)
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/G29.png)
     - _Shrine::DahKaso:
         comment: ダ・カソーの祠
-        notes: Ancient Core (Optional)
+        notes: .link([Video]https://youtu.be/O8x0RdEbkmo) - Ancient Core (Optional)
     - .gale() up to Hinox:
         time-override: 1000
         gale: 1
@@ -3795,6 +3980,12 @@ _route:
     - _Korok::C88:
         comment: Drown
     - _Korok::C87
+    - .gale() from cryo block at the location indicated:
+        movements:
+          - to: [-1561,1679.8125]
+          - to: [-1569.75,1715.75]
+        icon: npc-rito
+        gale: 1
     - _Korok::C89
     - _Warp::Shrine::KehNamut
     - _Discover<Gerudo Canyon Pass>:
@@ -3822,27 +4013,37 @@ _route:
           - to: [-2021.75,1927.375]
           - to: [-2020,1905.5]
           - to: [-2033.3125,1873.375]
+    - .gale() from the indicated location up toword W07:
+        coord: [-2054.625,1852]
+        icon: npc-rito
+        gale: 1
+    - _Korok::W07:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W07.png)
     - _Npc::SheikaMale<Palme/バーム>:
         comment: Missing in Action/ゲルドキャニオン失踪事件
         coord: [-2063.50, 208.00, 1994.50]
-    - _Korok::W07
+    - _Boss::Talus::Luminous:
+        comment: イワロック（夜光）
+        coord: [-1896.0625,2044.8125]
+    - .fury() the talus:
+        fury: 3
     - _Npc::Goron<Bayge/バケット>:
         comment: Test of Will/ガマンくらべ
         coord: [-2005.1875,1740.8125]
     - _Shrine::JolooNah:
         comment: ジュニ・シの祠
+        notes: .link([Video]https://youtu.be/XpRxnL5q5pw)
     - _Npc::SheikaMale<Oliff/ヴェニー>:
         comment: Missing in Action/ゲルドキャニオン失踪事件
         coord: [-2055.00, 209.05, 1742.00]        
     - _Npc::SheikaFemale<Canolo/ナタネ>:
         comment: Missing in Action/ゲルドキャニオン失踪事件
         coord: [-2187.78, 207.99, 1691.46]
+    - .gale() up to Flaxel:
+        gale: 1
     - _Npc::SheikaFemale<Flaxel/アマニ>:
         comment: Missing in Action/ゲルドキャニオン失踪事件
         coord: [-2163.76, 249.00, 1707.54]
-    - _Chest<Fire Arrow x5>:
-        comment: 炎の矢 x10
-        coord: [-2163.50, 249.95, 1702.00]
     - _Boss::Talus::Luminous:
         comment: イワロック（夜光）
         coord: [-2277.8125,1979.0625]
@@ -3850,7 +4051,15 @@ _route:
     - _Korok::G32
     - _Korok::W08
     - _Korok::W10
-    - _Korok::G35
+    - .gale() at the indicated location up the wall for G35:
+        coord: [-2574,2125.25]
+        icon: npc-rito
+        gale: 1
+    - _Korok::G35:
+        notes: .link([Video]https://youtu.be/4q1YehJEyfk?t=2605)
+    - .gale() up to talus:
+        coord: [-2872.375,2167.25]
+        gale: 1
     - _Boss::Talus::Luminous:
         comment: イワロック（夜光）
         coord: [-2898.1875,2210.875]
@@ -3873,6 +4082,7 @@ _route:
         hide-icon-on-map: true
     - _Shrine::ThoKayu:
         comment: ト・カユーの祠
+        notes: .link([Video]https://youtu.be/PHfkeKzyRyU)
     - _Boss::Molduga:
         comment: モルドラジーク
         coord: [-4555.62, 137.14, 3256.35]
@@ -3880,7 +4090,7 @@ _route:
     - _Korok::W51
     - _Shrine::HawaKoth:
         comment: ハワ・カイの祠
-        notes: Ancient Core
+        notes: .link([Video]https://youtu.be/hZWTnVsyWHA) - Ancient Core (Optional)
     - _Snap::Quest<Gerudo Great Skeleton/ゲルドの大化石>:
         coord: [-4824.1875,3715.875]
     - _Npc::Gerudo<Barta/バレッタ>:
@@ -3890,6 +4100,7 @@ _route:
     - _Discover<Great Fairy Fountain>:
         comment: 大妖精の泉
         coord: [-4870.9375,3824.5625]
+        notes: Upgrade Zora Set to ★★★
     - _Korok::W55
     - _Korok::W61
     - _Korok::W66
@@ -3908,10 +4119,15 @@ _route:
         coord: [-3760.20, 154.80, 3114.80]
     - _Shrine::RaqaZunzo:
         comment: ラキュ・ウロの祠
-        notes: Radiant Shield (Optional)
+        notes: .link([Video]https://youtu.be/04cJ674lLgY) - Radiant Shield (Optional)
+    - .gale() from the location indicated up to W42:
+        coord: [-3881,2987.125]
+        icon: npc-rito
+        gale: 1
     - _Korok::W42
     - _Tod::Noon:
         hide-icon-on-map: true
+        notes: If between 8pm and 6am
     - _Npc::Gerudo<Calyban/キャリバン>:
         comment: The Mystery Polluter/犯人は誰だ！
         coord: [-3915.29, 169.20, 2954.60]
@@ -3928,10 +4144,11 @@ _route:
     - _Npc::Gerudo<Isha/アイシャ>:
         comment: Tools of the Trade/宝石はお好き？
         coord: [-3834.85, 149.52, 2875.26]
-    - _Shop<Buy Arrows>:
-        coord: [-3857.375,2913.4375]
-    - Dupe/Transmute:
-        notes: GEB; Shield; 2 of each claw, 2 of each fang, 2 scales (Nayra, Dinraal), 3 scales (Farosh)
+    - Transmute Dragon Parts, Dupe GEBs, Refresh OB, Durability Transfer Shield
+    - (==) Dragon Parts - Transmute 2 of each claw, 2 of each fang, 4 of each horn, 2 scales for Nayra and Dinraal, 3 scales for Farosh
+    - (==) Duplicate GEBs
+    - (==) Refresh durability on OB if needed
+    - (==) Transfer durability from Hylian Shield to Ancient Sheild
     - _Npc::Gerudo<Riju/ルージュ>:
         comment: The Thunder Helm/ゲルドの至宝 雷鳴の兜！
         coord: [-3886.4375,2968.25]
@@ -3941,27 +4158,55 @@ _route:
         notes: Dialog Options 3 3 3 4
     - _Korok::W43
     - _Korok::W37
-    - _Korok::W44
+    - _Korok::W44:
+        notes:  .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W44.png)
+    - .gale() from the pillar indicated over to the top of the statue for W40:
+        coord: [-2757.625,2984.375]
+        icon: npc-rito
+        gale: 1
     - _Korok::W40
+    - .gale() over to the statue directly north:
+        gale: 1
     - _Korok::W35:
-        comment: Ancient bow, bomb arrow from W40
+        notes: Ancient bow, bomb arrow
         movements:
+          - to: [-2693.25,2730]
           - to: [-2628.11, 168.49, 2751.21]
             away: true
-    - Get ball from statue hands:
-        notes: gale + glide over
-        coord: [-2691.00, 171.96, 2732.80]
-    - .gale():
-        time-override: 1000
-        gale: 1
+    - Ball 1 (Yellow):
+        movements:
+          - to: [-2691.00, 171.96, 2732.80]
+          - to: [-2691.00, 104.30, 2781.75]
+    - Ball 2 (Orange):
+        movements:
+          - to: [-2748.00, 113.60, 2764.70]
+          - to: [-2714.09, 104.30, 2790.42]
+    - Ball 3 (Purple):
+        movements:
+          - to: [-2710.48, 104.64, 2825.22]
+          - to: [-2668.93, 104.30, 2835.59]
+    - Ball 4 (Grey):
+        movements:
+          - to: [-2693.00, 104.65, 2839.10]
+          - to: [-2667.91, 104.30, 2790.93]
+    - Ball 7 (Green):
+         movements:
+           - to: [-2636.10, 107.00, 2761.80]
+           - to: [-2659.24, 104.30, 2813.50]
+    - Ball 6 (Red):
+        movements:
+          - to: [-2658.10, 104.50, 2821.80]
+          - to: [-2722.65, 104.30, 2813.50]
     - _Shrine::KorshOhu:
         comment: キョシ・オーの祠
-        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/Heroines_Map_Directions.png)
+        notes: .link([Video]https://youtu.be/fjrT1yIpDmQ) - .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/Heroines_Map_Directions.png)
     - _Warp::Tower::Wasteland
-    - _Korok::W30
+    - _Korok::W30:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W30.png)
     - _Korok::W19
     - _Shrine::KayNoh:
         comment: ケー・ノイの祠
+        notes: .link([Video]https://youtu.be/qBkW96PEN3E)
     - _Korok::W15
     - _Npc::SheikaMale<Sesami/ゴマナ>:
         comment: Missing in Action/ゲルドキャニオン失踪事件
@@ -3980,23 +4225,37 @@ _route:
         fury: 3
     - _Korok::G18
     - _Korok::G23
+    - Rock for G27:
+        coord: [-2811.57, 578.39, 1651.30]
     - _Korok::G27
-    - _Korok::G28
+    - _Korok::G28:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/G28.png)
+    - Rock for G24:
+        coord: [-2100.43, 359.07, 1521.20]
     - _Korok::G24
-    - _Boss::Talus::Luminous:
-        comment: イワロック（夜光）
-        coord: [-1896.0625,2044.8125]
-        notes: OB AA
+    - _Warp::Tower::Wasteland
     - _Korok::W14
     - _Korok::G36
     - _Korok::W20
-    - _Korok::W21
+    - _Korok::W21:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W21.png)
     - _Shrine::JeeNoh:
         comment: ジノ・ヨーの祠
-    - _Korok::W26
+        notes: .link([Video]https://youtu.be/RVbWDxLpJHc)
+    - _Korok::W26:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/W26.png)
+    - .gale() up the wall:
+        coord: [-1801,2464.5]
+        icon: npc-rito
+        gale: 1
     - _Korok::W27
     - _Korok::W22
-    - _Korok::L21
+    - _Korok::L21:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/L21.png)
+    - .gale() toward the tree with L22:
+        coord: [-1344.8125,2749.5625]
+        icon: npc-rito
+        gale: 1
     - _Korok::L22
     - _Npc::SheikaMale<Giant Horse/巨大馬>:
         comment: Hunt for the Giant Horse/巨大馬捕獲大作戦
@@ -4017,19 +4276,33 @@ _route:
     - _Korok::L64
     - _Korok::L47
     - _Korok::L63
-    - _Korok::L38
+    - _Korok::L38:
+        notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/L38.png)
     - _Korok::L24
     - _Korok::L08
+    - .gale() toward L25:
+        gale: 1
     - _Korok::L25
     - _Shrine::YaNaga:
         comment: ヤ・ナーガの祠
+        notes: .link([Video]https://youtu.be/6YOWxLn9zuc)
     - _Npc::ZoraFemale<Mei/ディーメ>:
         comment: A Wife Washed Away/流された嫁
         coord: [-226.9375,2577.375]
+    - .gale() from cryo block toward the bridge:
+        coord: [-199.625,2574.625]
+        icon: npc-rito
+        gale: 1
+        notes: Swim if gales aren't recharged
     - _Korok::L26
     - _Korok::L15
     - _Korok::L14
+    - .gale() from cryo block back on top of bridge:
+        coord: [-85,2413.6875]
+        icon: npc-rito
+        gale: 1
     - _Korok::D54
+    - Hard Save
     - _Korok::L10:
         movements:
           - to: [66.23, 94.00, 2310.65]
@@ -4044,7 +4317,11 @@ _route:
         comment: サルベージャーメット
         coord: [125.6875,2710.9375]
     - _Korok::L39
+    - Iron box for L32:
+        coord: [187.44, 86.61, 2577.08]
     - _Korok::L32
+    - .gale() over to L33:
+        gale: 1
     - _Korok::L33
     - _Korok::L40
     - _Korok::L44
