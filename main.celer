@@ -5607,6 +5607,8 @@ _route:
     - _Korok::T34
     - _Korok::R28
     - _Korok::R29
+    - Cube for R20:
+        coord: [-3211.56, 44.18, -495.60]
     - _Korok::R20
     - _Discover<Tanagar Canyon Course>:
         comment: ククジャ谷コース
@@ -5618,6 +5620,8 @@ _route:
     - _Warp::Shrine::ShadaNaw:
         line-color: rgb(0, 176, 240)
     - _Korok::H21
+    - Rock for H12:
+        coord: [-2863.72, 342.34, -3497.77]
     - _Korok::H12
     - _Warp::Shrine::ShadaNaw
     - _Shrine::MozoShenno:
@@ -5625,16 +5629,23 @@ _route:
         notes: Diamond (Optional)
     - _Korok::H26
     - _Korok::H25
+    - .gale() back up the wall facing east:
+        gale: 1
     - _Korok::H19
     - _Korok::H18
+    - Rock for H17:
+        coord: [-4199.82, 347.98, -3369.27]
     - _Korok::H17
     - _Korok::H24
     - _Korok::H32
+    - .gale() toward H40:
+        gale: 1
     - _Korok::H40
     - _Boss::Hinox::Black:
         comment: 黒ヒノックス
         coord: [-4530.75,-2679.25]
         notes: OB AA
+    - Hard save before staring T06
     - Start T06:
         notes: Start T06 and *quickly* do H53 on the way.
         coord: [-4495.56, 344.15, -2510.31]
@@ -5642,16 +5653,31 @@ _route:
     - _Korok::T06:
         coord: [-4396.84, 183.40, -2049.88]
     - _Korok::H60
+    - .gale() in the direction of T08:
+        gale: 1
     - _Korok::T08
+    - 3 Rocks for T07:
+        movements:
+          - to: [-4343.13, 171.90, -2016.96]
+          - to: [-4338.58, 161.20, -2038.81]
+          - to: [-4311.70, 161.30, -2083.12]
+          - to: [-4325.69, 160.59, -2066.13]
+          - to: [-4295.73, 157.10, -2033.91]
+          - to: [-4314.41, 160.69, -2044.76]
     - _Korok::T07
     - _Warp::Shrine::ShaWarvo
     - _Korok::T01
     - _Korok::H42
-    - _Korok::H39
+    - .gale() up the wall to the north toward H41:
+        gale: 1
+    - Rock for H41:
+        coord: [-4162.00, 231.46, -2565.87]
+    - _Korok::H41
     - _Discover<Sturndia Secret Hot Spring>:
         comment: クムの秘湯
         coord: [-4090.5,-2753.0625]
-    - _Korok::H41
+    - Ride air current up and glide to the start of the flower chase
+    - _Korok::H39
     - Enter for Maka Rah:
         coord: [-3991.63, 145.39, -2538.79]
     - _Shrine::MakaRah:
@@ -5668,12 +5694,6 @@ _route:
   - Zora's Domain Cleanup:
     - Line Color - Blue
     - _Warp::Shrine::NeezYohma
-    - _Npc::ZoraMale<Tumbo/ポンテ>:
-        comment: Frog Catching/雨ときどきカエル
-        coord: [3320.59, 244.66, -474.01]
-    - _Npc::ZoraMale<Ledo/レトーガン>:
-        comment: Luminous Stone Gathering/夜光石収集
-        coord: [3290.09, 244.86, -451.28]
     - _Npc::ZoraFemale<Finley/フィネ>:
         comment: Special Delivery/メッセージボトルの行方
         coord: [3264.00, 249.76, -480.00]
@@ -5683,13 +5703,16 @@ _route:
     - _Npc::ZoraMale<Jiahto/ジアート>:
         comment: Zora Stone Monuments/ゾーラの石碑を探して
         coord: [3340.25, 256.66, -564.31]
-    - _Npc::ZoraFemale<Laflat/フララット>:
-        comment: Lynel Safari/ライネル調査
-        coord: [3348.95, 255.66, -513.31]
     - _Npc::ZoraMale<Kapson/カポーダ>:
         comment: From the Ground Up/羽ばたけ！サクラダ工務店
         coord: [3327.76, 256.41, -522.71]
     - _Warp::Shrine::DagahKeek
+    - .gale() up at this location to get to Z15:
+        coord: [2804.875,-479]
+        icon: npc-rito
+        gale: 1
+    - Cube for Z15:
+        coord: [2796.25, 453.48, -499.43]
     - _Korok::Z15
     - _Korok::Z14
     - _Shrine::SohKofi:
@@ -5700,6 +5723,10 @@ _route:
     - _Korok::E45
     - _Shrine::TahMuhl:
         comment: タ・ムールの祠
+    - .gale() from this location toward E44:
+        coord: [2398.125,-907.25]
+        icon: npc-rito
+        gale: 1
     - _Korok::E44
     - _Shrine::MoaKeet:
         comment: モア・キシトの祠
@@ -5714,11 +5741,18 @@ _route:
     - _Korok::E42
     - _Korok::E41
     - _Korok::E43
+    - Rock for E37:
+        coord: [2273.88, 225.86, -1242.56]
     - _Korok::E37
+    - .gale() from this location to E36:
+        coord: [2093.1875,-1226]
+        icon: npc-rito
+        gale: 1
     - _Korok::E36
 
   - Tarrey Town 5:    
-    - _Warp::Shrine::DahHesho
+    - _Warp::Shrine::DahHesho:
+        notes: 90.79%
     - _Npc::SheikaMale<Hudson/エノキダ>:
         comment: From the Ground Up/羽ばたけ！サクラダ工務店
         coord: [3970.74, 233.60, -1623.47]
@@ -5730,6 +5764,8 @@ _route:
     - _Npc<Ancient Text/古代のテキスト>:
         comment: Into the Vortex/渦巻の中心へ
         coord: [4626.25, 131.11, -1829.19]
+    - .gale() toward the orb after shooting it with a bomb arrow:
+        gale: 1
     - _Shrine::RitaagZumo:
         comment: リター・ズモの祠
         notes: Giant ancient core (Optional)
@@ -5739,6 +5775,9 @@ _route:
     - Line Color - Green
     - _Warp::Tower::Hateno:
          line-color: rgb(146, 207, 80)
+         notes: 91.19%
+    - .gale() from the tower in the direction of F14:
+        gale: 1
     - _Korok::F14
     - _Boss::Hinox::Red:
         comment: ヒノックス
@@ -5769,14 +5808,24 @@ _route:
     - _Shrine::MuwoJeem:
         comment: ムオ・ジームの祠
     - _Korok::F33
+    - Rock for N65:
+        coord: [3404.85, 219.83, 3111.90]
     - _Korok::N65
+    - .gale() across toward N61:
+        gale: 1
+    - Rock for N61:
+        coord: [3485.90, 144.24, 2662.33]
     - _Korok::N61
-    - _Npc::Rito<Kass/カッシーワ>:
-        comment: The Hero's Cache/勇者の蓄え？
-        coord: [3745.9375,2629.375]
+    - .gale() out to the gold rupee chest:
+        gale: 1
     - _Chest<Gold Rupee>:
         comment: 金ルピー
         coord: [3773.4375,2647.4375]
+    - _Npc::Rito<Kass/カッシーワ>:
+        comment: The Hero's Cache/勇者の蓄え？
+        coord: [3745.9375,2629.375]
+    - .gale() back to the shore for N60:
+        gale: 1
     - _Korok::N60
     - _Npc<Defeat Enemies/敵を倒す>:
         comment: The Sheep Rustlers/にっくきヒツジ泥棒
@@ -5788,16 +5837,36 @@ _route:
         comment: イワロック（夜光）
         coord: [4558.8125,2465]
     - .fury():
-        time-override: 1000
         fury: 2
+    - 3 Rocks for N63:
+        movements:
+          - to: [4561.12, 105.47, 2502.60]
+          - to: [4541.57, 106.04, 2515.59]
+          - to: [4523.53, 107.93, 2515.60]
+          - to: [4529.40, 107.02, 2517.76]
+          - to: [4516.94, 105.84, 2549.58]
+          - to: [4536.43, 106.30, 2528.23]
     - _Korok::N63
     - _Korok::N57
     - _Korok::N55
-    - _Warp::Shrine::MuwoJeem
+    - _Warp::Shrine::MuwoJeem:
+        notes: 92.58%
+    - _Tod::Morning:
+        hide-icon-on-map: true
+    - Eat a hearty food, endra food and speed food (if needed)
+    - Hard Save before gliding out to the island
+    - Land in the water at the location indicated, and then make a cryo block
+    - .gale() from the cryo block toward the hinox, and shoot it in mid air, then glide back to the water:
+        coord: [4457.8125,3653]
+        icon: npc-rito
+        gale: 1
+    - Do not hit the orb with arrows. It will fly off in a random direction.
     - _Boss::Hinox::Blue:
         comment: 青ヒノックス
         coord: [4537.0625,3701.9375]
-        notes: Ancient arrows
+        notes: OB AA
+    - _Equipment::Weapon<Boat Oar>:
+        coord: [4473.02, 106.21, 3651.30]
     - Get orb:
         coord: [4536.23, 111.24, 3701.37]
     - Place orb:
@@ -5811,8 +5880,9 @@ _route:
     - Place orb:
         coord: [4673.72, 166.74, 3744.34]
     - .fury() to kill the enemies at the 3rd orb:
-        time-override: 1000
         fury: 1
+    - .gale() up to the shrine:
+        gale: 1
     - _Shrine::KorguChideh:
         comment: クグ・チデの祠
 
@@ -5866,6 +5936,8 @@ _route:
         coord: [1774.34, 228.91, 987.23]
     - _Tod::Night:
         hide-icon-on-map: true
+    - .gale() up to the ledge for D04:
+        gale: 1
     - _Korok::D04
     - _Korok::D08
     - If you don't already have a Windcleaver, while waiting for Dorian, make sure you have a weapon slot empty.
