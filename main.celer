@@ -365,14 +365,9 @@ _route:
     - _Material<Endura Shroom, 2>:
         comment: ガッツダケ
         coord: [-2205.54, 267.93, 781.57]
-    - _Material<Hylian Shroom, 3>:
+    - _Material<Hylian Shroom, 2>:
         hide-icon-on-map: true
-        notes: Scrap item 3 of 4
         comment: ハイラルダケ
-    - _Material<Zapshroom, 3>:
-        hide-icon-on-map: true
-        notes: Scrap item 4 of 4
-        comment: ビリビリダケ
     - _Material<Sunshroom, 4>:
         hide-icon-on-map: true
         comment: ポカポカダケ
@@ -380,16 +375,26 @@ _route:
     - _Material<Luminous Stone, 1>:
         hide-icon-on-map: true
         comment: 夜光石
-    - _Material<Courser Bee Honey,2>:
+    - _Material<Zapshroom, 2>:
+        hide-icon-on-map: true
+        comment: ビリビリダケ
+    - _Material<Ironshroom, 2>:
+        hide-icon-on-map: true
+        comment: ヨロイダケ
+    - _Material<Chillshroom, 2>:
+        hide-icon-on-map: true
+        comment: ヒンヤリダケ
+    - _Material<Razorshroom, 2>:
+        hide-icon-on-map: true
+        comment: ツルギダケ
+    - _Material<Courser Bee Honey,1>:
         comment: ガンバリバチのハチミツ
         movements:
           - to: [-2469.11, 319.03, 746.31]
-          - to: [-2514.73, 311.47, 713.41]
-    - _Material<Silent Princess, 2>:
+    - _Material<Silent Princess, 1>:
         comment: 姫しずか
         movements:
           - to: [-2572.25, 307.25, 661.20]
-          - to: [-2572.44, 307.32, 660.62]
     - _Material<Fleet-Lotus Seeds, 4>:
         comment: ゴーゴーハスの実
         movements:
@@ -397,21 +402,11 @@ _route:
           - to: [-2561.67, 306.99, 650.74]
           - to: [-2559.81, 306.99, 652.89]
           - to: [-2563.40, 306.00, 660.40]
-    - _Material<Silent Princess, 2>:
-        comment: 姫しずか
-        movements:
-          - to: [-2500.15, 306.68, 642.77]
-          - to: [-2499.95, 306.74, 643.23]
     - _Material<Endura Carrot, 3>:
         comment: ガッツニンジン
         movements:
           - to: [-2490.08, 306.72, 624.37]
-        notes: Must have 7 at this point.
-    - _Material<Silent Princess, 1>:
-        comment: 姫しずか
-        notes: 5 total
-        movements:
-          - to: [-2441.99, 306.94, 601.02]
+        notes: Must have at least 7 at this point.
     - _Warp::Shrine::MoggLatan
     - _Material<Hearty Durian, 10>:
         comment: マックスドリアン
@@ -453,18 +448,19 @@ _route:
           - to: [-1044.375,-437.125]
           - to: [-959.1875,-360.125]
           - to: [-921.125,-323.75]
-          - to: [-865.625,-277]
-    - _Chest<Fire Arrow x5>:
-        comment: 炎の矢 x5
-        notes: This chest is optional if you already have some fire arrows.
-        coord: [-566.50, 143.64, -321.50]
-    - Enter Castle:
+    - _Korok::C30
+    - _Korok::C25
+    - _Chest<Shock Arrow x5>:
+        comment: 電気の矢 x5
         movements:
           - to: [-707.625,-497.25]
           - to: [-691.875,-521.875]
           - to: [-698.5625,-537.5]
           - to: [-696.25,-552.125]
           - to: [-689.9375,-559.4375]
+          - to: [-666.04, 141.22, -571.08]
+    - Enter Castle:
+        movements:
           - to: [-666,-572]
           - to: [-606.5625,-617.5]
           - to: [-597.1875,-633.125]
@@ -484,9 +480,7 @@ _route:
           - to: [-460.3125,-894.5625]
           - to: [-471.8125,-938.75]
           - to: [-462.8125,-946.25]
-    - _Equipment::Bow<Royal Guard's Bow>:
-        comment: 近衛の弓
-        notes: Needed for quest
+    - _Equipment::Weapon<Edge of Duality>:
         movements:
           - to: [-411.75,-966.0625]
           - to: [-413.25,-976.375]
@@ -502,7 +496,10 @@ _route:
           - to: [-335.5,-979.1875]
           - to: [-335.5625,-986.0625]
           - to: [-311.81, 256.46, -997.30]
-          - to: [-310.25, 261.03, -995.87]
+    - _Equipment::Bow<Royal Guard's Bow>:
+        comment: 近衛の弓
+        coord: [-310.25, 261.03, -995.87]
+        notes: Needed for quest
     - Observation Deck:
         movements:
           - to: [-342.5625,-997.0012664363721]
@@ -511,36 +508,53 @@ _route:
           - to: [-289.5,-847.2442539184576]
           - to: [-323,-793.9922956538685]
           - to: [-273,-748.9906407823837]
-    - _Chest<Ancient Arrow x3>:
-        comment: 古代兵装・矢 x3
-        coord: [-254.00, 209.67, -742.37]
-    - _Equipment::Bow<Royal Bow>:
-        comment: 王家の弓
-        coord: [-252.19, 210.48, -741.07]
-        notes: Don't use; At this point you should have at least FDBx2, RGB, RB
     - _Material<Arrow x5>:
         comment: 木の矢 x5
         coord: [-249.07, 209.78, -743.54]
+    - _Equipment::Bow<Royal Bow>:
+        comment: 王家の弓
+        coord: [-252.19, 210.48, -741.07]
+        notes: Don't use; At this point you should have Traveler's Bow, 2 x Forest Dweller's Bow, Royal Guard's Bow, Royal Bow
+    - _Chest<Ancient Arrow x3>:
+        comment: 古代兵装・矢 x3
+        coord: [-254.00, 209.67, -742.37]
+    - Enter Castle through Copium Door:
+        coord: [-300.5,-757.3125]
+    - _Material<Lizalfos Horn>:
+        coord: [-322.58, 192.35, -833.74]
+        comment: リザルフォスの角
+    - _Material<Lizalfos Talon>:
+        comment: リザルフォスの爪
+    - _Material<Lizalfos Tail>:
+        comment: リザルフォスのしっぽ
+    - Leave Castle:
+        movements:
+          - to: [-254.3125,-568.125]
+            warp: true
     - Kill Guardian Stalkers:
         movements:
           - to: [-101.50, 133.07, -416.50]
           - to: [-220.07, 126.78, -431.95]
           - to: [-254.50, 130.00, -334.40]
-    - _Material<Ancient Shaft, 2>:
-        comment: 古代のシャフト
-        hide-icon-on-map: true
-    - _Material<Ancient Spring, 2>:
-        comment: 古代のバネ
-        hide-icon-on-map: true
-    - _Material<Ancient Screw, 2>:
+    - _Material<Ancient Screw, 1>:
         comment: 古代のネジ
         hide-icon-on-map: true
-    - _Material<Ancient Gear, 2>:
+    - _Material<Ancient Spring, 1>:
+        comment: 古代のバネ
+        hide-icon-on-map: true
+    - _Material<Ancient Gear, 1>:
         comment: 古代の歯車
+        hide-icon-on-map: true
+    - _Material<Ancient Shaft, 1>:
+        comment: 古代のシャフト
         hide-icon-on-map: true
     - _Material<Ancient Core, 1>:
         comment: 古代のコア
         notes: Can get at Kaya Wan if it doesn't drop from Stalkers.
+        hide-icon-on-map: true
+    - _Material<Giant Ancient Core, 1>:
+        comment: 古代の巨大なコア
+        notes: Pick up if dropped.
         hide-icon-on-map: true
     - _Warp::Shrine::RotaOoh
     - Outskirt Stable:
@@ -641,6 +655,18 @@ _route:
     - _Shrine::KayaWan:
         comment: カヤ・ミワの祠
         notes: Ancient Core, if needed
+    - _Npc::SheikaMale<Izra/イッソー>:
+        comment: Riverbed Reward/水底に沈むお宝
+        coord: [837.625,125.5]
+    - _Material<Hyrule Bass, 1>:
+        comment: ハイラルバス
+        coord: [827.75, 114.20, 124.76]
+    - _Chest<Knight's Broadsword>:
+        comment: 騎士の剣
+        coord: [826.64, 112.80, 123.61]
+    - _Npc::SheikaMale<Izra/イッソー>:
+        comment: Riverbed Reward/水底に沈むお宝
+        coord: [837.625,125.5]
     - _Discover<Wetland Stable>:
         comment: 湿原の馬宿
         coord: [887.25,174.19666488689654]
@@ -653,7 +679,6 @@ _route:
           - to: [1641.25,1060.9355071578684]
           - to: [1698.25,1083.182907582257]
           - to: [1760.6875,1097.8125]         
-    - _Korok::D05
     - _Shop<The Curious Quiver>:
         comment: 亜路雨
         notes: Buy fire arrows if needed.
@@ -670,9 +695,6 @@ _route:
           - to: [1789,983.875]
           - to: [1800.25, 219.63, 1012.57]
         comment: Make sure it will not be raining.
-    - _Cook<Stamina Food>:
-        hide-icon-on-map: true
-        notes: Cook 4 stamina meals using each item one at a time,  1 Endura Carrot, 2 Endura Shrooms, 1 Stamanella Shroom. Needed for climbing. Should have must have 6 Endura Carrots left in inventory.
     - _Material<Energetic Rhino Beetle, 1>:
         comment: ガンバリカブト
         coord: [1811.23, 221.34, 1050.06]
@@ -707,7 +729,7 @@ _route:
         comment: 旅人の剣
         notes: Optional if you already have one; To take care of Nebb's first weapon before glitch
         coord: [1931.10, 229.83, 987.25]
-    - Continue to D12:
+    - Continue to Hestu's Maracas:
         movements:
           - to: [1937.25,1020.9375]
           - to: [1956.3125,1039.75]
@@ -717,9 +739,6 @@ _route:
           - to: [1965.9375,1158.375]
           - to: [1968.5,1160.0625]
           - to: [2060.9375,1193.875]
-    - _Korok::D12
-    - Continue:
-        movements:
           - to: [2091.5625,1217.4748220879]
           - to: [2105.5625,1254.24367631326]
           - to: [2115.5,1310.9870459350159]
@@ -737,7 +756,7 @@ _route:
           - to: [2099.4375,1393.3524216635105]
           - to: [2096,1395.2272025981501]
           - to: [2069.45, 188.17, 1422.25]
-    - Continue:
+    - Continue to Double Axe:
         movements:
           - to: [2003.4375,1440.3125]
           - to: [1964.5,1446.625]
@@ -792,7 +811,7 @@ _route:
           - to: [3284,2138.2807885959246]
     - _Shrine::MyahmAgana:
         comment: ミャマ・ガナの祠
-    - Continue to Riola Spring:
+    - Get Hearty Bass on the way to Riola Spring:
         movements:
           - to: [3284,2138.2807885959246]
           - to: [3252.75,2132.2814896050777]
@@ -814,6 +833,10 @@ _route:
           - to: [2935.125,2443.375]
           - to: [2923.9375,2472.25]
           - to: [2949.3125,2496.8125]
+    - _Material<Hearty Bass>:
+        coord: [3008.67, 229.79, 2533.78]
+    - Continue to Riola Spring:
+        movements:
           - to: [2993.3125,2536.125]
           - to: [2996.375,2614.4375]
           - to: [3009.125,2836.0625]
@@ -864,61 +887,10 @@ _route:
         hide-icon-on-map: true
     - _Material<Farosh's Claw>:
         comment: フロドラの爪
-    - Movements to Lizalfos and Fish:
-        movements:
-          - to: [1653.75,2981.75]
-          - to: [1597.625,3009.625]
-          - to: [1535.3125,3140.4375]
+    - _Tod::Noon
     - _Material<Mighty Bananas, 3>:
         comment: ツルギバナナ
-        notes: The minimum number of bananas is 5.
-        coord: [1420.22, 214.25, 3465.15]
-    - Continue:
-        movements:
-          - to: [1438.9375,3480.9375]
-          - to: [1435.8125,3496.125]
-          - to: [1512.375,3550.875]
-          - to: [1543,3614.6875]
-          - to: [1543.3125,3621.6875]
-          - to: [1569.4375,3643.875]
-          - to: [1591.0625,3663.25]
-          - to: [1586.25,3665.5625]
-          - to: [1579.6875,3667.5]
-          - to: [1568.8125,3682.3125]
-    - _Material<Mighty Bananas, 3>:
-        comment: ツルギバナナ
-        coord: [1567.94, 251.09, 3680.33]
-    - Continue:
-        movements:
-          - to: [1567.1875,3696]
-          - to: [1572.1875,3703.625]
-          - to: [1585,3714.75]
-          - to: [1632.5625,3708.75]
-          - to: [1633.5,3701.625]
-    - _Material<Mighty Bananas, 3>:
-        comment: ツルギバナナ
-        coord: [1652.44, 282.35, 3687.13]
-    - _Material<Mighty Bananas, 3>:
-        comment: ツルギバナナ
-        coord: [1680.18, 282.30, 3655.75]
-    - Kill Black Lizalfos:
-       notes: Use Royal Guard's Bow or sneak strike; Do not pick up fire arrows
-       movements:
-          - to: [1691.87, 280.72, 3661.50]
-    - _Material<Lizalfos Tail, 1>:
-        comment: リザルフォスのしっぽ
-    - _Material<Lizalfos Horn, 2>:
-        comment: リザルフォスの角
-    - _Material<Lizalfos Talon, 2>:
-        comment: リザルフォスの爪
-    - _Material<Mighty Bananas, 3>:
-        comment: ツルギバナナ
-        coord: [1677.62, 283.28, 3675.89]
-    - _Material<Hyrule Bass, 8>:
-        comment: ハイラルバス
-        coord: [1642.14, 278.15, 3676.26]
-    - _Material<Hearty Bass, 1>:
-        comment: マックスバス
+        coord: [1724.14, 345.11, 2861.19]
     - _Warp::Shrine::MyahmAgana
     - _Npc::SheikaMale<Nebb/ナブ>:
         notes: Show him the Traveler's Sword so you can get it out of your inventory.
@@ -932,8 +904,8 @@ _route:
         icon: link
         hide-icon-on-map: true
         coord: [3356.35, 225.66, 2175.10]
-    - (^=) Procedure >> .link([IST Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA61abXPbNhL%2Brl%2BBGc80cU9VY1lJncz0ZmznxZlrGl%2Fkjq93cx8gCpJ4pggWIK2ov%2F6e3QVAUpZTu2nbqUUSXCwWu88%2Bu%2BCBulrlXuG%2FemXUIne%2BVrqprde3Rm1WplS%2B1q7Oy6XSqjQbtdRrMxpM6bH2amo%2FDd6ZWh2paaFrMzhQl3l201SqtrUulF2oF2pjdGVLr2zJc2z0Fk%2FVlb0aqioMxm1fG32jdK1m9saqTK9JhjKlnhXQy9q5qvVM8WQTdc0iMevbIi9p9ivrshX%2BXmNg1tS1cf70s8GNM31j5qdVBSEv1KWpKuOg5JlZWGeUrUxJK8tWBsvOS1Fq7mylzK1x23pFTy3Uc9BRl2kpupyzTqPBL6X5rcmroNHgNb0b1UoTktJXDiYroNeZ3UCD0wV0TAqQAViJIcyT15Dt%2BF7aCZiidvlyiXdmontmS%2BxKg7fTZkD7zgbgdVpJZeYqr83aD8KDO9odwAWMckZ72iEr6w%2BzJAXYQbA7NXlL6yB5USjaeFJLNR5zkQDsn3WuqercliP1key3yT2GG7iQjFnZYq6%2BkbnWJCDXhed1G42d7LyfjEXOguWGtfGahkqUW6%2FNPIeUYjsSf17rsoH%2F8dPK2dpktXj4OCmPZczsrRmpp6dlZ53ipIumbhyv2pbFNoqA6hwSNKI7A4YtGsdugvfl3UPelqR8Z%2FhQLS2ZYLrJayzVb%2BH6a%2BVNTVHm6ckaeqmssNkNdmsu8UJzVtrXYYEb28CAQS%2FxFVpNZ3ULZ9fYFfZgOPPG5QgLNue5uI7h11xTku80HupFF3mufrZurYtT5%2Bxm52qsznI3f7Nc4pfE1bG62LqmMBfGzSgUo6NPN9bNKQQR0NNVbqBvXxRAo8qh1kd%2B71Mz2%2BLP6XoGcz1Xb3Nn9s1%2F1Iuk%2FsPBdV6voA%2FEZlvx7lbfwbm1N%2FLoTZF%2Fzt3gk2FDd2%2BlGOlqdt%2FvS%2B30ssjnJomKyDSYGgQGrWi%2FxLeILV%2B%2F3mBUWMdEvSnnjdPnGgup2Rx%2B5Sy2cN%2FoOF%2FfGO1cp4ifEksXmVMRNFbTvDBlnS4vtkWuy3T5b135%2BPu9s%2B2D8xXCPF190r9bF64matqUSc%2BfmnVe2sZPa1tSpJ3bxnnjzoy5wI1tUuDS5WVmvMfrbwtj6p9sjZcADP7ukONdu%2Bw8P3qmLgwS1PZ1Awgp4Q%2BUAnr%2BA1varS7eNdrN2XrH6rTMckjpPT%2Fb4%2Bph3HSlF3XnsnIUVen6HRToPM2cIaHh8pxgtL%2F7%2F7DO3tB6xV%2BPeksUN4333mIxMqq%2FmTJq3B2VNh%2F2rguek4POLhDmH%2FJy7t9s6e7HCjjUVQi7oHO3vWvqpCd%2BX8ADG%2F8BHp8BLbprSK7YH3LcGZJUe20bpHPJzL140M761TTTrLdcXZALx4vzQtO%2BfciXq3p7pkv86x99PVY%2F5b%2FrYmH9hYRHvLzSBbOJ9jov7rx9EmDuTJPbBa%2BjCyDqG2RGjYjPsCtGqMGA7vX4x3F3tw7U%2BxqJ0vjySU0JkHLEZpVTPsicriS9qa1tKKuOaDDn2rkBY5hHKgV8JRKxoHGUem7hbxY7SfRkg2z9xBNNwF1yRHGjUwgJyEg%2FRTP61cFwuuxCxeDMETdDsBe29q2cHn7QjRZB6KqDIXTJKOL3CTxQP%2BIf9X56Bd9d5uBXdI3b72zMfO%2FsfE7hPq113ZjB628u%2B34C3AgxmoLzi3vdcsBeYs5A8pbgor3MLIl4pvE%2FaFMBi2GZLq3h1EwsSDed%2FMv7NTMdXo23cd1JxsImdId%2BrDS2pvRC6U69uoDU0l4AuRBnhdXz7p2vtcLDZ5kEwZMoeNIXPPmzgk%2F6ck525ARsOWnB4mGiIyYdjTtvttmRnJ6nx2NG63EfcyR9ttVFP7EFjvLwRX7NLH2kecSG9dwi8gGZanwnU9%2BdCjcprT1mRplkEiaZ7EwyCZOMv2aSkzDJSZjkZGeSkzDJpDvJhCfp4%2FdJdOTnu4QC%2BhFZeZhOQPFSSiIgRTXkWJ%2BgtiG2k9m1ERJebyxV0dmNJ6weh5V0NDx5lIYnKRiFVu1Pn5wxQ20nU3FakJzGGQoFENWRyFtIWcJ%2FvfpfI0C1Rt5CEkI15nOqfrECY6j2wIT0ms5qwGYRJA1VCcZgRMZIMsTzHjGLtEbuBbb9cJR79jVGCCyrExGTfm6PysnNxyh3oEg9yrXUMKBCkApcogC88dzXwIJp32vCes7RtkaO9jYW1DE9%2FKA8pUPkgNuQNWxR2A35ALOBV6kmGDLJHSrilsPA94ZM7IbC5YaKKMwobP8PgU1kyDQzLnF1uRXyMFTmc2aqmgpuoRnffvhlevVtGEcKqeNR9NjA4ruWHnct%2FbLPIO%2BvFe4S%2F763ALl3dqjDETBHYgh88%2FX7cyIGrk63P7qlLvPfTSjH4J9g98NAiGlhyOIViCo1GLjpABGxd3OnhbRT0A7ecMMnUdn4Xq8Sk9Qc64rwSrrkN9qyODyOHP0LnicdHn79OK5t0Lvcq40QVBg98tJxLw53PH83Su96%2FYNCQxbVrbQILhcEKhQm8A%2Bnc%2Bp%2BDdXSSBxMDfJkDBZ1bjQ8FJxvhaA36p8NNek4ruBst7mOLHgOegbRHyjjY87spkgNE7%2By1Uid3tp83jKzYKJnHD5Sqb88eSlXkSPEhw%2FZiWexLSiC91ieSoNUE0z6th%2Fv2r6tGPZZfmW5NBN7Pki9cd9Rxl92FNb3%2BUM9ZfyHnvJAfe%2F4TSrfxWnoUoQgloNPpWsBw70wGOkk4yEnLnK80F0ETMeOZmVBJ4YK3ofq1Ug9RSldWr2E13oJbx3By%2BCEBhO7hKeL%2FLOZjwZnzZabXevZIzbneX9zOp1t7mh%2FIZrH9%2B3RX7MLHWi9g7fXH85DoRYSTJuoSPb3Iu37p7%2BUh7KZoEIoswLhSF3ipiryDDN2q2bFRwdqMpaUxYRDtYIwZe2ajGE705AkTV06k1BzXetQYvktSAJKYMr79Pw29zkdI6TsO2plxva74LkiyM8DDdKd6jkeW9wYAw3hJDdt779NBY9w8Ee%2B9Cfn2jPoQJ32nZ6aDABK6icz9YDxuzsi3OGpKefcSkbu1CiRjxEs1DtDzWyLZo3i4nBEgQrzDhN59HYUfIZzd3mrCwAxpWrE44ydB2osC6628cvRGp24Rzj50aUcv8igUVwinTsdKDpX2ZXaebdCrgC1we6hqi%2FMmrZxtkW%2BiHve%2Bu1TzitX2h6%2BgtyjkeSZtqPytDAgm7WeHcrJxSdfI1MoR2DIBIJ8paFeijdwmjlFxnikmrIiL1V%2FU%2FwXN4%2FheuAeRnOaOzr8KyaajBihsHC2jZZDiQUI80j9apsnuPBNlgkxzSW5Zo3zlgnrOvees7BNDY2gYHuqwFAIzan54dXrS8wiGsXDCj4REUFRNDVMRod7oUX6Ome28LYcMsIKSyYpv1GaJ7f5Ge41c3Gr0nlicE3xSoKKCe0p3eWhG1KI2jpGF34Um2yM%2BqnLJkvjOmZEzXWewHzWazIrbIAkkuSspHRiccjzLqFVw2uNVEkF3kqHV6PYsO1WPjsYDde3gYQaRZVr4DyQCf8nwPHxFk0tpULsKEUE5TCjIR%2FXZomNAsPtnLA5q32dzhWUcHJPxqpBwjfBsGvYZ1Pipc%2B8mZpqERNWMNnTmJ6AxUKumfceSRpIz3bnDOgiNQX1%2FNTkeVxeB2o8bfse8YpJOqBoP%2FI8x1vX4SyyxJNoVpJOqYoMOApnnFleEb6%2FAl%2Fer%2BuQC0XmDkehHFdUj4%2Bo0pd%2BK8xEMU1tu8KBo257cPl0v9xDLruiBrXldxK6LZjBbEyo%2FWSCC4r%2FS8GwN4Rhs4BhTy8u3xzKivKyalLJyLlvmQNK1AJLAA0OdJjserkHDLUPEOjTkWydzMRA%2BEpdNnWM6N42HMk2jNttoFnGr8DThYILVnyaMn4xqn33d4EO5Hj8DE8ER%2BIjGkdyjjFx930eNewiV%2BtTUKvIy5sn8G0737ZZKIIv4Uv4RRxOWN5WgPeIJpvEyf4lyYNQgo2xtnMzlMJdVnNKsWNg6nxtWpsd73NaeIyc%2FFLo7lEmyGUBcv7yTaf9MxLaS6l5QcwVU8UiCZs%2FVD4HWG2j1O%2BCxD5Xjaeh%2ByIqOHnyce4uhi7I2xzF%2FY3ZpE8DgnvTfSUPwsE%2Fja%2BMW5ishjIlH50N1QweE4u8DWiac9uI4nm5oEHM32KjBHuJKBV3ZhgqqNqLHIweY6e9IeJFYrp9E1ihKTTypuiDfA9toAl8YyMHJAEY4SMZMRI6EEHI1sTXrx1yiPrPqvrxaPxsWLk8Mz8eP%2Fvhv2TrngmuDS8kxljKdxFbsKp4Ps8KSNck6slZhMMmlAvgvTT9HuIu1k5iE6B1cXMinxVIVqWwTl4VPYw4AhjyLTFrjn9IKxuxALXxwI2ZMBNfHkzp6h2uXtOVJF0qAJ9JxutNdt%2FYFw8f%2B%2BIoJuZfucKScxZeKO8Z%2BbtWE7gtY0yb7sNbXGyQG%2FqOGxLoIYWOaBKBiHvSUO773iiWRtVAphiFnabsOZYN0yF%2BjSoole6LIyCor6hiBNsqmFzQ5yFOl36BIhH73DkmOhJfcEKIiEiHM6PUNaTSLh0R8qZOKzzgq7jUtnbFZr58%2BRL%2B5LoLQk3kw2cz5GLHgbqkfmQ4imIYk37j3UQ8CoeXj2gS0VclQAMSFKxO88ZO8B8ccHde5gVLs2Rf23anbRhlJTNJDDnTSQ8vnt3hGNctSyJU7RzAsWNypOr5reaQgVIMQMJMJdSqpdNzZICmrAHOxN%2FCwZ0qdY1VFQX4AwJxG4RtdIFk72xDAE18K8xMb4KQFTbT8Vun690jQfrySj79MuAIc0EaBkppUHQ%2Fftqp904ho990mFrQ7O5XbFJVpjYmtVLOU%2FMztsN27koB2%2B%2BTBneTqorOFhj8iIbRF1HOlqmt1wnOFJvR4b7UXAqfU%2FX6JDttEyqGPhAp9vTxFtGoUDXHBl36Wq%2Bv%2B74uSwQymXUaP4Js46i7ph5KjeJqOrHc%2BxCg5%2FsJyf%2FUFPtze4saR%2FfQdV4xOxInbVS%2BvHLkx9Sf7lnjAca%2Fz7gH6lfjw1eV3WLlD63%2BdZbp2btrkHsejO9tvFIUqW7v605D7LwwiNhfKrm5m%2Ft67RbS2JmE5kiIuxmOSnKI82Ek06iYZIiEc8EgoM4xFnnJ0rZEpO0n0CsMXJD9ljAf4ezpZFIkAnxAh2L%2BAMoVRHNdCFEjSJ6F%2FMlfvbbZ149CP3ufEx7fpZEC7WzseLQ02VcFxuOBlOlGBC1yDCaGW4SFaJbS1vBX9BVpFCmnNUyJ6TBhhfIeEEseDnjW82GwL0HUCW0Ql%2Fl52YA2ndZ0WksbetxlHhfdXkBgc7EWl04F4X38UGStP0v3wMePaZfceCJmvqctd15Y5Bhym7stk%2F8DsAPzGqUtAAA%3D)
-    - (==) Start at instruction 27. Everything before is just setting up the inventory and save files.
+    - (^=) Procedure >> .link([IST Simulator without GAC]https://ist.itntpiston.app/?c=H4sIAAAAAAACA%2B1b%2B4%2FjtvH%2F3X8FgQWSW1QRzl7fpjkgX2Cft0HvsT1vcU2L%2FkBLtK3vSqJKUetz%2FvrOg6Qo2%2Fu6XoAUuCTIWhI1HA5nPvPg6EDcrIpWwH92pcSiMK0VsrO6lXdKrFeqFq2Vxhb1UkhRq7VYykqloxk%2Blq2Y6Y%2BjN8qKsZiV0qrRgbgustuuEVZbWQq9EMdirWSj61bomuZYyw08FTf6JhGNGwy3W6vkrZBWzPWtFpmskIZQtZyXwJfWubByLmiyqfhEJGHWy7KocfYbbbIV%2FP0EA7POWmXak88KbpzKW5WfNA0QORbXqmmUASZP1UIbJXSjalxZtlKw7KJmpnKjG6HulNnYFT7VwJ4BHmUdliLrnHhKR3%2Br1b%2B7onEcjc7xXc9WmBCZvjEgshL4OtVr4OBkATwGBlAAxEQC4iks0DZ0L%2BwEiMKaYrmEd%2BbMe6Zr2JUO3g6bAdxHGwCv40oalYvCqqoduQc73B2ACihhlGxxhzSv380SGCAFgd2xqC29ghRlKXDjkS3RtTAXEoD908Z0jS10nYoPKL910cJwBSrEY1a6zMV3PFeFBApZtrRuJWEno%2FeDsFBZYLlubbSmRDBzVaXyAqiUm5T1uZJ1B%2FpHTxujrcosa%2FgkMA%2FLmOs7lYoXJ3W0TlbSRWc7Q6vWdbnxJIB1MgkcEc8AwxadITWB9%2FndQ9qWwHw0PBFLjSKYrQsLS203oPqVaJVFK2vxSQV8iazU2S3sVs72gnM2srVugWvdgQAdX6wruJpodQujK9gV0mBQ5rUpwCxInGesOopeM12NutO1wJ5XkVfivTaVLE%2BM0eutq4k4LUx%2BsVzCL7KrVhyJq43pSnWlzFyMX8bDR7OV1hZG8FVQwVMw8tmqULAGgI6mAOY%2B4MviYzffwJ%2BTag5CeyUuC6P41U%2BFXQEdGJttWHF7VkZnWt%2BKDxXYl%2F1npfNiUSjzc4tD%2FzX6qEic%2FLTnIJ70vt%2FX0shlWeRgJI6Kh57RTIHmI7ORWYHBtPZ8DU%2FYzAfUpuKizjsjzyQsx9JK25XRsEf73zwBE6hhifzWjIdOQNJlIWt3ORWzrg5U3nZVUeuunVldo6L%2FQzatf%2B0Xo%2BtwcbYCsw1XH%2BVv2gQiV%2FAubsCsKFVtr01RZ6ptYabLUin7VlugDyaMmz5cz0txpcBRbM47MOUatg6hGMj%2FRRt9i6%2FALVCG7JbVaCwu8qXSi3NQu8LijB%2F1RpZvOmlyJwG6gT9Be%2BqsAHb8q2%2BL32S50O0Viqi%2FvJGlHl4XJS4lM4r3wqAxjMUbYBSvV3KBG3GGQDfceNbnUwkrB12FhZc0ghRWL8Bs3hV13l5s8O6HRpZbO30pC7PZkRAIqAXxvQOlyiQSDqLx2rU95CgasoLrH8E5rkVbahuh%2BbnuwEWytxusgbaD1nAk3hXLFV7U8C9OfSmNblezTNLC%2BOqslOtwgaIFqLgAyJeg6RkYmGKfN8J7sWOFYeT2CDd1Weo1ipnw2fv8RakB2SEaIE%2B%2F0g3iIim4CzzA%2BQHY4Tts6CcwZ2zqeM1eHH9FcIOXAxOhkUh6dGowogAbIXkFx9hPJV5IHHjYy5JfPHDwA7zt42tggnijNzS8ikwNL2NjI96Q9JN4w4Exb%2FQi8AYIDx6zgL0Dz9Rqg5HLHViHBp1bI5O%2FBid4q9qtbQE3g%2FMAiwW4ndqmzv3Pigr8NgyvQVVXFFDAqKrCSAe8j9yZFFyv3qLtx8OGgSOveGocm4KSEuFccwDB3hC89ej8u2sWagweeGMbb%2FBepMV8o4e%2FE4Lj%2BCKCtV5JnC3Su0OEIyYI%2FIIGMR%2BRpfTXZCv95ZUfHRldr6jhknEBfzlM4YViNBZUg34RpuCPIabTnRj74huMfsM7BVNhBGSbIgzEn4SCdI9wkHQVkRB%2FIHaDYvwM%2F4hfZjfA7rIAkeM13H6jfUDyRuc5Cm9mpe0UbeZDaOLC7kEslEFcvQQ1GQRDHPvMJfwPZmrAO6KqRpEkRUMYeMouCnkoHJ2rKJWBt%2BE6in84gJNRxLeSgDB1y1H0SSuugGqtr8APASyXWubxHRffO39E8nKezvmTR2TwnEli6pOIIk0x%2BTKqO3SmMR3nhv7c%2B5GnkfbuazyJ3uyBi5wEwedkYOcctnlPdVEWnwvzvHGxbLdCmcnQ53kafNPR%2BDK5gRuOZMb7zWvcQy8yIkCgYEJ08%2FyXM7QcY8PtD2Yp6%2BI35aJMyG8g%2Fklc4IG5BZhCA8EBJkaULAEJ737RTfv8VH3OVIPaj1kxQnJOQYKQn8lbhwskieGEmCQ0jHJZyBi9Cu6k04OgbXRBqW8IQID0O3A5osXUiaI3ZB%2FdqJ%2FmVTRN6kTnwzxHLVweiL8o1XD%2BNYaggURAOSiGQlIgnM8LCh4hsIDbJWSwGIhGc4ArTXktfcLh5vERHAY5dMPZNGcq7Whwk1OQaH96hPnRRTqMNC5vpRx3qSgjlJyeKeDJBUC9u4Zch3J0Kq%2Bg5%2BQUF0dVomvYN7cu2RXSqNe0JQlhQ8KIkzhtFOSjEsL1xAF9wtAfvCxhyQDpe%2FDfdnS9f%2Bh9BlODbUZzXyMx8F2a93Z872q6QTnFVRZoZxxbT3f78lG%2F%2F6V%2B%2Fo%2FpuR%2BONnz4TdsKYTWWBGqwuHlv2OOUwjvWVQostxUVzHOoQLh1hQ3OtMVKDWJNhVJLHwBNrj85vHQINhpcelzZKoZhRgG5vk8uJgOk3wLtrad7APtJqH4gflngKguOeI0sarIXMFqy0ZkCVbfeYs%2BUzIFbsBZQIyX%2B2mG9kAossDV3hfR5Tg5hizcPwI%2Fstgy1G8x6UnFyp4u8j1gQUuIMyVWfcKyrQx4NNgcLXlh4oMINlQvRxoQvodIQlvFRbM9crdgycu%2Bgt0Y%2BZXdfekfDc%2B3ZTXRGIVmcDvdzMtzPQSq5ZzepgDR2BaTfQfm%2BtvY9kd%2BBLrpSoMUsCWtnQpITcnVg1FH12Qrw%2FACa7JjiGlvw6Jw%2Bko%2F0dMCWpXNsTDMJ5VYuJIhxIo4SMU3QOR%2Bjj%2BmxIUUjAfNIQNmskZkSG90ZLNU3XAO3AIpyCbaTjk67DdX1qvkzdmo63Knp4zBx9MSN%2Blo7c%2BJK3o1GrGepJginAJQtlrMeFHHrZfzDscdnyajay3h0cECR4EfdAaUJzPne1ch1HG30QYM%2FHCCdMPQWwBRHgk8oDnBQwcXtmjN7Hrjo6owCS49CRSU2qk%2F0aT6f4wP6aONq6mGGB9L5vnjz3yb23xL55yfyfAYxVCOMoucKD%2FhgIxXElHPjj6Jop4%2FvCWzpcC8KgI%2Bdjj8Q%2FbW2Wyx8pWlAnEJaEldCskqCoARJKgkyECin6JKkNLguyn0B5ZMVT%2F6Pa17vRnzdZIhKhBu5DseN4YRtX6rjjxQfCQM%2BPScMeI5j3X76%2FCBB%2FjdBwu8bnz6f2Qf95F4vufiKXlI%2Bz0smtO1O6ShKiLBi2zM6rxgjzCj2h0dPrHh%2F8zx%2FTM9DqdA%2Bn0JKYTSfQJCsErd0gYtN3MLdBS07cWtOHOD9kdD%2ByXv8DVq%2FQetzoLWHwuk3KPzfhUKBx18hwC6xUn10Dxh6QSdOqMJLNWGRfn3cG%2Bzm08zmaGg2R4%2Fi1fSpaDX%2BHYz81X4jb33n4L1cT%2B7j%2Br664%2BMGHY5%2Bds6DPr07cyet3KQFMVMlpswC60q6G2ttdOeDKDq2h%2FFRs4ZTsReqzqkRrBaNXCos%2BFAnTQJjy66qxeSwr%2FVg2wCWRludOs7oBKu%2Bk2WR04EVJFtzyuaAjWVJOQf8MnjkYrh04fo2Zc3Nkzwo9fLArtEDgV2R21Sjdxujq8bClZX1slQVWgLmmCGD6RsPXlAp9kbqw9dAd5xyabYHxhelApu0cn7IfYcfW4tlU4NqR2kR9jp0aEGtyjRsC1CZpKKrG9m1SvxJ0F%2B4eZSKF0Y1SlJleHz4NSaaplRGg4WTbCS3FC7A9FPxq%2B6%2Bv8MDtSwDY8ZiPdejs860mhpUqqJtqXCtw9m4Y7DvCaR6HXCO5%2BitOL%2BGWZgj32pI%2FYxMyJPGHDI93KvAfPx%2FqssWE3AM8KlFmKj8GyvjqDbv8Rgi4F3oBnaqGYBvOsU9xbs0dI0MYYeAggwBNNL2PSng9bCGseYmVHAsWKmULf%2F2ZxUK%2BcT61f932MfshQ0TOxlcutqZ%2BiwrfIKFsITmncnOYt3tfWdbVwVFVlN%2F0MytQe4U2Q3GsY8%2BBzvR7twWOKlVfwq4BGPBlLv1t3DZXL71C%2FIttWSTOORDpZawq%2BskbqY1Gv2J7zAUDOSwWk7sPax93%2FJpsl2h7W%2BP9kcYS6oopoJRFgudnMrhPC0fjlQ4Fp%2Bkg9I1vj2ci96RTsGG57V4JxwR8xnVngGnfUuHgahkoYzDFxLFKTdzFBZmmwPby770gc9ZaZkB6lH2tfMBzvOtrT7TYbMm7%2BoU%2BAUxq3zwiGta4dm2UPv0FpQSm73E9JVfXQTTBOx7yJOgEcb3o%2FYrPPtzXdh47ue1DKmjM0F9Sl13d1Y0WPJ9Da56P68JdVNQmjWOky8ww1pok2MBUaNCUvdMaZTMNwNX82I%2F3UNcuvQcWE3vBM%2BwoOPstWLn5Sa4Quy8Zvy%2FQPyfO%2Fx%2FcXV9ccgrKuoGLdW%2FBhJeFgDDYgFLgNDYnb6hXK%2F3OBLZOvfRhmZ0G8RETuS1uO6sR8PBNox5Gyb9NuAsk9fir%2B7Ej3H244ywnzzCD%2F%2FHsNs1%2BNM9YQz2j3Ac0jmCieP3aVQSo36vU8AWhLu3qP463%2FQe3DsuKsPyLzyk4WOcDTutMU429ZP9nR0vIiwJo9K5oklrt5oThA0Foi4q1cvsaJ%2FSgsb4erPcx4yjSwQ4hv8uCu1TPprFsGaBETdM5c9kYfMTPJVoQMaO6g%2BO4tZhlGsW32dRTskHTb4eti8LyE1u1VqZf66an8eTlwkE%2BJn6%2Bejlj%2F9ylu4UHkcKHuo%2BgkAK2PioMgvs%2BYOieWfDKfNaZMDCxvvEosYmSW7lqdm7Y4QAdpuyWeMbXr2Dm%2FZmzY0X1AYHoStwQaf9dFID7oOcKGlsBsY6R2xt0JdxHLvlnWKqAUpixJo%2BNbS9DhvtNx1DnswWdzCKTRKmqTtQ3IyW1W7qjL4oyqWVoxlevYGrc7ziGALLAy85HngaF%2FcROf4KRI7HPjL5Fc9BaSkkMTDJNamsFFPQPIKJPtpx73AfBuhNG%2BkN4hYEBSlOkTivuNeTYDNyrD68ZVYKFJ3XGIwHXL4gw5EPJZv7TAGk0DZ4qgvBZkmxFX7b0jvauOFyzDplWFSYR7juSzqcRu3FjImoX9L0oASzBh7QlV9q3B4lfvrpJ%2FT58YJagBr3zc%2FMf3ZGaBUSZO88yWtivAdmvpRmjhJnOaep61C%2Fx%2FqDje8fQqmXvqVJ3BYgXYaUV3vignG07PhlWj2nj7u9ijvfU4TI0cssHNP2cH%2F8cidm4OjFxUpotx4BtiIuv6u8E9zymu523PGNrXOjucrIlpHu921fzHVh4abxDpiCVXd4bLpAf6uH7lMftyKwR624ZFaEWDK%2FkwQRQAmW37rEgqGlWRqZgxPqagv%2BASNq18IramlhyWUJIQwAz8YRW8sS4g0%2BKLd6XfuZ8U1IPkqdSf7QbNgSgKU2ZHe7Xxi%2FWOBP8fDQNPr0zBvHjb6hoDMdFiJm2uVIa9%2Fbiedx1LnpTkt9H886dF2CuOVnhYkQ%2FALHByRkbfsdxhZORmomyl7g2J26SO97fFun64XEetRZ6Or0fUBbd3nvhg2grijS2x%2FNgREnfvYWm2cEYgHD0icUTaNPGZ1POWPIcN%2BIYngPUxhHXrGBZg7ParoDNxZsQA8VeNtBtyoGnu5LTt%2FaFL7sHIpgX2tKv8%2BDQlC%2FiEfAbOAnAn5FaDr4jnULcN6F1PCUIkA8GFhi1oyfkyVblRKnor6Lg9AgM5g2BxIfajdqUFvyMVgDqyc1BRbxMd4nv0EBGx3yUcxC3oK%2BmR3TR0tFHbeJbAnsgAw%2FrmJhRj7MJdFeasU17hNLivC3RvwJgjT0RoVNv1TM%2B91E77vu8xLhmyfXanUTc7unoLirFeddUxaZl31Q7t5JOvXmHIlKAHLfsDZ4mvSxU417lBo2AHsLc78kX2X4Em3f2dtn7gombH0au9X25IMTJAf5P%2BpwLweHSTrO%2FNOdz9W2NveeB5N7T8XQL4i4ZLtTxz0rFeg9aCfd3I4lnYmu0cNGJkqmc8Ri8E409vb7TspTgmNXU6Lvpunr674XcKdejGSNCvEYBLTbMSrWFBWeANmoScyFiZgJU9bOXLpmfM5QlrpPSYabRq4ba2%2BYP2I3kK6UowjuF7DHR4Dg50vMNfeiu%2Fvovo%2BfW%2B9Poohu8kCNhuOxS25aZ0c53VeK8S3BQynzJ40suIVbiCQqfVHxhroqHcnZWps8tD%2BcrWTVQJCB6AC7j%2BDK8mU9L%2FDYuypqyMsicDuKMwd3Ns6Sd1mdrw5yoRUR2Ne%2FKvlZrBR9WuL67ZdUNy%2FqdP9XKicwAAscpXSZGVk1mlep3fdWmKehcDizWPL36uL99M%2BpT9jve2m9Ksrwaf0aS3EJyE97R4Nk3hb1bVBLWoULNG4UqPVbOSdo468I3feFMNMmooBFXvoKDOPCfu7Q5kY8cfGwgwhcLxb4VU46OiNe0UB3E8H%2FAN2BDO0eQwAA) - .link([IST Sim with GAC]https://ist.itntpiston.app/?c=H4sIAAAAAAACA%2B1c64%2FbNrb%2F7r%2BCwABtglWF2ONMtwG6wDwzxeYxG88it7vYD7RM27oji1qSGsf96%2B95kBSl8Uxm0izQu0hbJJZEHR4envM7Dx71QFyvSyvgP7dWYlka64RsnbbyVontWtXCOmlcWa%2BEFLXaipXcqHw0w8fSipn%2BMHqtnBiLWSWdGh2Iq7K4aRvhtJOV0EtxJLZKNrq2Qtc0x1bu4Km41teZaPxguG2dkjdCOjHXN1oUcoM0hKrlvAK%2BtF4IJ%2BeCJpuKj0QSZr2oyhpnv9amWMPfH2Fg0TqnjD3%2BpODGibxRi%2BOmASJH4ko1jTLA5IlaaqOEblSNKyvWCpZd1szUwuhGqFtldm6NTzWwZ4BHWcelyHpBPOWjv9fq323ZeI5GZ%2FhuYCtOiExfGxBZBXyd6C1wcLwEHiMDKABiIgPxlA5oG7oXdwJE4Uy5WsE7c%2Ba90DXsSgtvx80A7pMNgNdxJY1aiNKpjR35B3e4OwAVUMIoaXGHNK%2FfzxIZIAWB3XGoLZ2ClFUlcOORLdFamAsJwP5pY9rGlbrOxXuU37a0MFyBCvGYta4W4juea4MESllZWreSsJPJ%2B1FYqCywXL82WlMmmLnNRi1KoFLtctbnjaxb0D962hjtVOFYwyeReVjGXN%2BqXDw7rpN1spIuW9caWrWuq10gAayTSeCIdAYYtmwNqQm8z%2B8%2Bp22JzCfDM7HSKILZtnSwVLsD1d8IqxxamcUnG%2BBLFJUubmC3FmwvOGcjrfML3OoWBOj5Yl3B1SSrWxq9gV0hDQZl3poSzILEecqqo%2Bg109aoO60F9oKKvBTvtNnI6tgYvR1cTcRJaRbnqxX8Iruy4lBc7kxbqUtl5mL8Ih0%2Bmq21djCCr6IKnoCRz9algjUAdDQlMPceXxYf2vkO%2FjrezEFoL8VFaRS%2F%2BrF0a6ADY4sdK27HyuhU6xvxfgP25f650YtyWSrzs8Wh%2Fxp9UCROftpxkE563%2B8raeSqKhdgJJ5KgJ7RTIHmI7OJWYHBWHe2hSds5j1qU3FeL1ojTyUsx9FK7dpo2KP9bx6DCdSwRH5rxkMnIOmqlLW%2FnIpZW0cqb9pNWevWzpyuUdH%2FIRsbXvvF6DpenK7BbOPVB%2FmbNpHIJbyLGzArK1W7K1PWhbIWZrqolHJvtAP6YMK46f31vBCXChzF7qwFU65h6xCKgfxftdE3%2BArcAmUobliNxuJ8sVJ6eQZqVzqc8YPeyep1K83CS4Bu4E%2FQnroogZ3w6pvyN1kttb1EEXWX17LS%2FeuywqUURvFeGDSGsXgNjOL1Wi5xI04R6OAusO38RP5Wqgus4icShAHqC7KoaATpsF6CJb0t64U93%2BHd942sBpt%2FIUuzuyM0kJkFib4FPSskEo7SCgo3HHKYDFnD9Y%2FgL7fCVtolAH%2BmW%2FCa7AB7a6AdojUcirflao0XNfyLU19Io%2B16VkhaGF%2BdVnIbL1DagB7n4AUkKH8BNqfYDY7wXuprYRh5QoJSXVV6i5InyA5hwLLSAPYQIJDzX%2BsGoZJ03sci4A8B%2F%2FAdtv1jmDO1frxmx46%2FEgTCy57V0EgkPToxGGSA2ZC8oq%2FsphLPJA583smSXzzwiAS87eOrZ5V4o7M9vEqsDy9T%2ByPekPSjeMOBKW%2F0IvAGoA9OtIS9A2dltcFg5hb0WIPObZHJX6NfvFF2sC3geXAeYLEET1S7nCMCdn%2B1JpdC1Jnysq0LdMzBVc7KjdgpiFysHhAu9GaDkZJRTQW8OZi5BOpn312x0FK8wBtDiMF7iZbyjQ7xjgmB04sEyTol8LZG7%2FZBjZggvIsawnwkltBdky10l5dhdGJUnSLGS7Z7%2FOUxgxeKAVjcevpFmIE%2F%2BjBOd1K4S28w4PXvlEyFQY9thmAPfxLw0T2CPtJFRDp6NoQ%2FvIkYDtrwM%2FwjfpldwxpWJewDXsPt1zoEJq%2F1YoESnTnpWkU7%2FBCE%2BPC7FxMVEF%2BvAAl6QRHHQHMJf8BMDXhJ1M8koqSoCANQ2SahD4Wlc5WkNPA2XCdxEAdyMon81hJgpbYcTR9bcQlUa30J%2FgiwuNJykd7xcf59roO932fk8JSJ7pkB%2FGtHnaabfNkMd%2BhMUzreF%2F25cyaPIx182HiSvNmhF3kKwtBJDww4nAvu6rwqP5XmaeNSOQ9CnEnf8QUafNPT%2BDK5gS9OZMZ7z2vcQy8xKoCpaFJ08%2ByXU7Qk4%2BLt92Yl6%2FI35aNPyHsgLsp89IFADKbRQIRAuIxJFJAIPhh9dchb1adCNWgNmC0jNC8oUhDyE7nseIEkMaYQk4yGUY4LmWRQxztpdi%2BYG51TShyjECD9FvyOsJhSUVSH7KN3CdO8TKbJvehC%2BOepxcsD8VelGs7LxhA5kAgoN8V4SArE%2FHlJQSVEF3C7gswWA9RkDvZDuJYuEfHzhDAOIx264a2OMxg76t3k1CTZnw5xfvThDiOPz2cp910pyhQlp20KePJRUOezIQei3J3KLjDAp744aiPahh209UmwkEa9oi3JGCciy4gUmf%2BTID%2FzGirIuWXkEDLvIaJfJmC51yXEH0Mv2fmUzs0wYdh%2BhIEt0gXHp3nPx%2Feusu2VX3wlIo0cHh8zyM8GDV8aJPzR3f7DQUuI0mmvIfrGYkINNjnvTH%2BcU12ItZniz6EqgwH31Qk3sXTR%2FVqs8SAabVB%2B%2BQOwypUrj6ge40a9y4A8gzIaJh4vIX%2F2Ocik5wsGsD54ugfSH4X7B%2BKXJa6SgmMnjCyxhJcJMGuOhxXsgQs2farkArgF6wCFUuJvLVYaqTQDW3NbypAOLSDQCYYCCFPcVLHqg8lRLo5vdbnoYhwEnTSR8sE4jvUVzMPe5mCpDEsWVPKhQiNamwjFVxrCMj5MLZvrHANzDy58MPIxu%2FsiuCKea89uoruKOeW0v5%2BT%2Fn72Ms49u0mlp7EvPf0HlO9ra98j%2Be3poi8igqrUVHUTktyUryCjjqpPTkBsAPDJriutzkWfz1kmedFAB2xZej%2FCNLNYqOV6gxhn4jAT0wzd9xF6oQ4bcjQSMI8MlM0ZWSix063BIn%2FD1XMH8ChXYDv56KTdUUVwM3%2FCTk37OzX9PEwcPnKjvtbOHPtieaMR9VmqGcIpAKXFQtiDIrZBxj8cBXyWjKqdjEcHBxQrftAtUJrAnO98dV2n8UgXVoRjBdIJQ28BTHGs%2BIgawp66wP6SgB2UBGi%2BrhqA79g%2Baw9UBboaz%2B%2BtD3yrB3ylegAfafR1C4PvucLzQthdBaHo3ISTLdr%2Bo3viYTorTOLmI6%2F4DwSH1rXLpa9S9YlTJIySy6LYBMktixIRKLXkkmTWuy7hbRLXvnjz0doo%2F2vUsfMyoRDTBy2ClYWO55jx6G5frhTOKj8TJXx8SpTwFL87fPr0GEL%2BnhjiPxu%2BPp3ZB93oXie6%2FIpOVD7NiWa07V7pKIhIUGPoOL3TTLFmlLrLw0fWzb85pv9HjonSp30uhzTFaD7cYEEIXHrmxeAvSAiZl0DGy888Cv5%2BPfgjuIRvAPwNgJ8CwB1gTr8B5n8fYJ7EIL3CIvn0HsQMws%2B8oEWQdMZizvwx%2BVcPmHsb%2FbvM3z5g%2F8s%2FnP3bPwwAxBOpO8dUH9%2Be%2BgNh7imDSGwjphNu1iQ9yu9GcDvdhtBsjQzA%2BKSRxKvfM1UvqG%2BtFo1cKawyUeNPBmOrdlOLyfOuwIQtDViPtTr3nNHBWn0rq3JB52iQ080pWwQ2VhVlMvDL4EmQ4XqJbzOVNfd68qA8yAObXA8ENnEOqSbvNkZvGgdXTtarSm3QSjCHjXlR1xfxjOq%2F11I%2FfwV0xznXgzsgfVYpsGEn58%2B5TfKDdVirNbi7lGxJkEOLZmVVoWFbgMokF23dyNYq8SdBf8PNw1w8M6pRksrR4%2BdfY6JpTrU7WDjJRnIH5BJgIRe%2F6vb7WzznKwqwcDwh4CJ40RqrqXlmU1pL1XIdj%2FA9g10LIxUJgXM87rfi7ApmYY5CZyS1XzKhQBoz0%2Fz5XgXmLoUTXVnM8zFtoI5movJvLMej2rzDs4%2BIhbF52atmBMXpFPcU79LQLTKEjQwK8g7QSAfbrfhYALwk1ki23DMLjgjLo9Ly73BAopBPLJr9b4tt10HYMLGXwYUv2KlPcoNPsPqW0bwz2Tos9r1rnfWlV2Q1D%2BffjMf%2BcNsPxrGffQ52ov1xMnBSq%2B5wcgXGgj7Ehlu4bK4ZhwWFDmCySRzyfqNWsKvbLO39NZp9DYO7YHSH1XK5IGDe95YPud0abX84OpybrKiMmQvGNqyucoKI81g%2BkdngWHyS9%2Brl%2BHZ%2FLnpHegXrHyPjnXhyzQdjewacdJ0nBqKYpTIeX0gUJ9xzUjqYbQ5sr7qCCj5npWUGqKU6FOx7ToBvDdpi%2B72lvKtT4BfErBa9R1wzi8%2BGQu2SZlBKbEQT05dhdQlME7DvIU%2BCRhjfj9ov8cDRN43jYWPQMqSOzgT1KffN6EXZYJ35Ffi7%2Fbxm1ORB6do4TeLADGuhzQILlBoVkpp8KqPkYtdzNc%2F2032OS5eBA6fpnegZlnTKvlXsvPwEl4idV4z%2F54j%2Fc4%2F%2Fzy6vzp%2Fzisq6QUsNr4GEVyXAsFjCEiCU9kd%2BKNerPY5EWu8%2BbOydd1FM5EReiavWBTTsbcOYt2HSbQPOMnkl%2FuaPGRlnP8wI%2B8kj%2FPAXht22wZ%2F%2BCWNweITjkM4hTJy%2BT6OyFPU7nQK2IDy%2BQfXXi13nwYPjojIv%2F8KTIT472rHTGuNk0zDZ%2F7DjRYQlYWz0QtGktV%2FNMcKGAlGXG9XJ7HCf0oLGhHq23MeMp0sEOOb%2FLkkFcj4PxrBmiRE6TBUOgmHzMzwKaUDGnuoPnuLgBMz3tu%2BzKK%2FkvQbkANsXJeQyN2qrzD%2FXzc%2FjyYsMEoJC%2FXz44sd%2FeUv3Co8jBQ%2F132wghUaZpSocsBdOp%2Bati0fbW1EAC7vgE8t6iYPomKdm744RAthtzmaNbwT1jm46mDX3fVC3HsS1wAW1GNDxELgPcqKksQUY6xyxtUFfxkHuwDulVCOUpIg1fWxoexU3Omw6hjyFK29hFJskTFO3oLgFLcvu6oI%2BgFpIJ0czvHoNV2d4xTEEphMvOB54HBf3ETn6CkSOxiEy%2BRUPX2kpJDEwyS2prBRT0DyCiS7a8e9w8wfojU30BnELgoIcp8i8V9zrSbBROlUf3jInBYouaAzGAz5fkPFIiRLRfaYAUrANHiVDsFlRbIWf4nSONu0LHbNOGRYV5hG%2BSZROxFF7MZ0i6hc0PSjBrIEHdBWWmnZtiZ9%2B%2Bgl9frogC1DjP1Gaha%2FkCK1i8hycJ3lNjPfAzFfSzFHiLOc8993z91h%2FtPH9Qyj10jc0id8CpMuQ8nJPXDBOlp2%2BTKvn3PJuC%2BWdzz9i5BhkFs%2BGO7g%2FenEnZuDoxcdKaLcBAQYRV9hV3gnuzM3vNgLyjcFp1FwVZMtI93vbVYN9WLhrggOmYNWfWJs20h%2B09n3s4lYE9qRjmMyKEEsubiVBBFCC5VufWDC0NCsjF%2BCE2tqBf8CI2ncai1o6WHJVQQgDwLPzxLaygniDT%2Bed3tZhZnwTko9KF5K%2Fi%2Bv3IWBpDtkdtjXj1xT85SAeyiZfygXjuNbXFHTm%2FerETPscaRtaTvGUjxpK%2FWlsaB7axmZQELf8pDARgl%2Fg%2BIAEtiPGHcbOUkZqJspe4Mif5cjge0K3qW%2FRxFLVaWw2Dc1Hg7u8d%2F2%2BVF8x6eyP5sCIE7%2FSS80zAbGIYfkjaizJl5fep5wyZPhPWjG8hymMJ6%2FYQAuPZzXdgRtLNqCHC0JpEy0Gnv7D09BPFT9E7YtgXz9Mt89d11tvEZ8Bs56fiPiVoGnvs9sB4LyNqeEJRYB4kLDCrBm%2FfssGlRKvoqF1hNCgMJg2RxLvaz%2BqV1sKMVgDqyc1BRbxMd4nv0EBGx0dUsxC3oI%2B8R3TB1VlnfamDAR2QIafVrEwI%2B%2FnkmgvteKa%2BLEjRfh7I%2F4EQRp6o9LlXyrm%2FW6i8133eYn4PZbv77pOud1TbbyrFWet%2F4ynr9ydk%2FTqzTkSlQDkvmE2epr8c6cg9yg1bAA2NC7CkkKV4Uu0%2Fc7ePnFXMGHr0thBr1UITpAc5P%2Bow50cPCbpNPPP73xKN9jcex5M7j1FQ78g0pLtnTruaaVA70E76eYwlvQmukUPm5gomc4hiyE40dTb7zt%2FzwmOfU2JPvOmj8W7BsQ79WIka1SMxyCgHcaoWFNUeGLkks40HyZiJkxZO3PpvxHgDGWlu5Skv2nkurH2hvkjdhvpjfIUwf0C9oQIEPx8hbnmXnT3%2F4%2BALn62wZ8kEd3kgRoNx2MX3DPPjnK6rxQT%2BpD7UubPLVlwS78QSVS6ouI1tXJ6krOtNovYVHG6lpsGggxEB9h9BFeWL%2Bt5icfnm7KGvCwBt8M0c%2FBn7Cx5n9WF6iAXWhGBQ%2F1rIz%2BJtaIvXny7%2F4rq5mWd7%2F945hgGYIGjkj4zI6tG86q0%2FywM8zQUDmcWK%2F68Xryb%2FjkPCft9L23XZRX%2FTwBbLMVlID8dHA2SeVPWN1EtaRU%2B0LhWoNZv5JygTdPOYJoNmAsz7RIKWOSlj9UwLuzmjm10xBMXD1uIwPVyiR8L5aNT4hUN9G4i%2BH97wGv2zUMAAA%3D%3D)
+    - (==) Start at instruction 23. Everything before is just setting up the inventory and save files.
     - (==) Avoid autosaves until finished with the glitch
     - (==) Arrowless Tutorial by Tao >> .link([YouTube]https://youtu.be/A7jWeo8S2m8?t=157)
     - _Material<Stamina Vessel, 10>:
@@ -1262,20 +1234,13 @@ _route:
     - _Tod::Noon:
         hide-icon-on-map: true
         comment: If needed to get Beetle to the stable and cold darners.
-    - _Shop<Beedle/テリー>:
-        coord: [-3221.02, 229.42, -1792.25]
-        notes: Buy Warm Darner for quest
     - _Npc::SheikaMale<Lester/レス>:
         comment: Curry for What Ails You/寒い時にはカレーを！
         coord: [-3267.07, 224.60, -1773.77]
         notes: Start quest
-    - _Material<Cold Darner, 2>:
-        notes: Needed for two quests; static spawns
-        hide-icon-on-map: true
-    - _Material<Spicy Peppers>:
-        comment: ポカポカ草の実
-        movements:
-          - to: [-3268.39, 228.08, -1819.81]
+    - _Shop<Beedle/テリー>:
+        coord: [-3221.02, 229.42, -1792.25]
+        notes: Buy Warm Darner for quest
     - _Material<Wildberry>:
         comment: イチゴ
         movements:
@@ -1286,12 +1251,18 @@ _route:
         movements:
           - to: [-3290.29, 227.11, -1797.96]
           - to: [-3290.98, 226.93, -1797.27]
+    - _Material<Cold Darner, 3>:
+        notes: Needed for two quests; static spawns
+        comment: ヒンヤリヤンマ
+        movements:
+          - to: [-3306.25,-1804]
+          - to: [-3358.38, 240.26, -1800.33]
+          - to: [-3370.84, 239.29, -1802.53]
+          - to: [-3382.35, 239.22, -1806.42]
     - _Shop<Slippery Falcon>:
         comment: ちゅん天堂
         notes: Buy Tabantha Wheat, Cane Sugar, Goat Butter, Sunshroom
         movements:
-          - to: [-3306.875,-1805.5]
-          - to: [-3362.875,-1804.375]
           - to: [-3389.25,-1817.625]
           - to: [-3419.25,-1872.25]
           - to: [-3445.625,-1879.75]
@@ -1304,6 +1275,10 @@ _route:
         notes: Buy Snowquill Headdress and Tunic; Snowboots will be used after Naboris.
         movements:
          - to: [-3631.5,-1787.375]
+    - _Cook<Fruit Cake>:
+        comment: フルーツケーキ
+        notes: Apple, Another Fruit, Wheat, Sugar
+        coord: [-3589.07, 296.55, -1805.50]
     - _Npc::Rito<Kaneli/カーン>:
         coord: [-3627.25,-1830.8125]
         comment: Divine Beast Vah Medoh/風の神獣 ヴァ・メドー
@@ -1435,14 +1410,9 @@ _route:
     - _Discover<Riverside Stable>:
         comment: リバーサイド馬宿
         coord: [339.1875,1095.5625]
-    - _Cook<Fruit Cake>:
-        comment: フルーツケーキ
-        notes: Apple, Another Fruit, Wheat, Sugar
-        coord: [318.60, 115.30, 1099.87]
     - _Npc::SheikaMale<Gotter/ゴエタフ>:
         comment: A Royal Recipe/王家秘伝のレシピ
         coord: [325.82, 115.40, 1092.50]
-    - (^=) If it's raining, do this quest later after C65.
     - _Npc::SheikaFemale<Parcy/パリッセ>:
         comment: The Royal Guard's Gear/ハイラル城に眠る武器
         coord: [345.00, 121.73, 1091.50]
@@ -1490,6 +1460,7 @@ _route:
           - to: [1698.25,1083.182907582257]
           - to: [1760.6875,1097.8125]
           - to: [1798.33, 230.97, 1078.18]
+    - _Korok::D05
     - _Npc::SheikaFemale<Rola/セローラ>:
         comment: Arrows of Burning Heat/燃える矢じりで貫いて
         notes: Talk to her twice to start quest; Finish during Kakariko cleanup
@@ -1526,6 +1497,7 @@ _route:
           - to: [1937.8125,1021.7388860840438]
           - to: [1957.4375,1045.3699322879938]
     - _Korok::D06
+    - _Korok::D12
     - Continue:
         movements:
           - to: [1955.3125,1093.9375]
@@ -1648,12 +1620,6 @@ _route:
     - _Npc<Hestu/ボックリン>:
         notes: 5 bow slots; Pick up random materials in the forest to use as scrap for transmutation later in the run.
         coord: [870.83, 131.54, 203.47]
-    - _Chest<Knight's Broadsword>:
-        comment: 騎士の剣
-        coord: [826.64, 112.80, 123.61]
-    - _Npc::SheikaMale<Izra/イッソー>:
-        comment: Riverbed Reward/水底に沈むお宝
-        coord: [837.625,125.5]
     - _Shop<Beedle/テリー>:
         coord: [890.25, 131.28, 157.06]
         notes: Buy smotherwing butterflies; Optional if you have infinite fairies or don't mind Link's pain
@@ -2562,11 +2528,7 @@ _route:
         movements:
           - to: [3489.5,-3335.6875]
         notes: OB AA
-    - .gale() up to Zuna Kai:
-        time-override: 1000
-        gale: 1
-        coord: [3396.125,-3396]
-        notes: It's possible to be too fast for them to have recharged. If that's the case, use the gale at the next convenient time.
+    - Make sure it isn't raining. You can set a fire under a ledge against the wall.
     - _Shrine::ZunaKai:
         comment: ヅナ・カイの祠
     - _Tod::Night:
@@ -2576,6 +2538,8 @@ _route:
         coord: [3250.4375,-3444.875]
         notes: Take several pictures when he is in different positions to make sure one will work for the quest.
     - _Warp::Shrine::ZunaKai
+    - .gale() across toward A02:
+        gale: 1
     - Rock for A02:
         coord: [3369.33, 325.38, -3651.48]
     - _Korok::A02
@@ -2636,7 +2600,19 @@ _route:
         coord: [4245.875,-2747.9375]
         notes: Start quest
     - _Korok::A19
+    - _Material<Zapshroom, 4>:
+        comment: ピリピリダケ
+        movements:
+          - to: [4109.04, 230.79, -2822.56]
+          - to: [4107.80, 230.71, -2822.66]
+          - to: [4089.48, 231.70, -2830.74]
+          - to: [4086.74, 231.51, -2831.30]
     - _Korok::A22
+    - _Material<Zapshroom, 4>:
+        comment: ピリピリダケ
+        notes: Need 5 Zapshrooms to make shock protection food later.
+        movements:
+          - to: [3979.32, 193.54, -2765.92]
     - _Korok::A18
     - _Korok::E12
     - _Korok::A20
@@ -3238,7 +3214,7 @@ _route:
     - _Boss::Talus::Rare:
         comment: イワロック（希少）
         coord: [-3804.76, 602.57, 1204.77]
-        notes: OB AA
+        notes: Shoot bomb arrow between feet to wake up, then OB AA
     - _Boss::Talus::Frost:
         comment: ガチロック
         coord: [-3558.72, 558.36, 1560.07]
@@ -3258,7 +3234,8 @@ _route:
           - to: [-3664.22, 570.35, 1541.10]
     - Snowball for G26:
         coord: [-3666.82, 571.23, 1564.60]
-    - _Korok::G26
+    - _Korok::G26:
+        notes: Carry snowball to hole
     - _Korok::W01
     - _Korok::W02
     - _Korok::G25
@@ -3270,7 +3247,8 @@ _route:
         movements:
           - to: [-4151.57, 208.28, 1934.11]
     - _Korok::G33
-    - _Warp::Shrine::DaqoChisay
+    - _Warp::Shrine::DaqoChisay:
+        notes: Change clothes before warping
     - _Npc::SheikaMale<Bozai/ボテンサ>:
         comment: The Eighth Heroine/八人目の英雄
         coord: [-3762.875,2883.375]
@@ -3297,7 +3275,7 @@ _route:
           - to: [-4855.12, 147.28, 2169.28]
     - _Shrine::TakamaShiri:
         comment: タタカマ・シミリの祠
-        notes: .link([Video]https://youtu.be/RiKGqIux_co)
+        notes: Eat shock protection food - .link([Video]https://youtu.be/RiKGqIux_co)
     - _Korok::W09
     - _Shrine::KemaZoos:
         comment: キマ・ズースの祠
@@ -3346,6 +3324,8 @@ _route:
     - _Korok::H71
     - _Korok::R01:
         notes: .link([Solution]https://raw.githubusercontent.com/31PNMR/hundo-ex-mgr-glitch/main/graphics/R01.png)
+    - _Tod::Night:
+        hide-icon-on-map: true
     - _Shrine::ShiraGomar:
         comment: シリト・ゲオマの祠
         notes: .link([Video]https://youtu.be/Bd64G6xxKW8)
@@ -5139,7 +5119,6 @@ _route:
         gale: 1
     - _Korok::C27
     - _Korok::C31
-    - _Korok::C30
     - _Shrine::KatahChuki:
         comment: カタ・チュキの祠
         notes: .link([Video]https://youtu.be/O8x0RdEbkmo)
@@ -5150,7 +5129,6 @@ _route:
     - Rock for C22:
         coord: [-673.43, 141.49, -518.38]
     - _Korok::C22
-    - _Korok::C25
     - Rock for C21:
         coord: [-777.65, 190.79, -603.21]
     - _Korok::C21
@@ -5341,7 +5319,8 @@ _route:
         comment: EX Ancient Horse Rumors/古代の馬具
         coord: [-2295.86, 455.02, 343.47]
     - _Korok::R61
-    - _Korok::R68
+    - _Korok::R68:
+        notes: Shoot R69 from here.
     - _Korok::R69:
         movements:
           - to: [-2053.49, 258.47, 636.41]
@@ -5353,6 +5332,7 @@ _route:
     - _Warp::Shrine::MoggLatan
     - _Korok::R70
     - _Korok::R73:
+        notes: When boulder gets close to hole, stasis and shoot with 1 arrow.
         movements:
           - to: [-2351.32, 311.12, 741.86]
           - to: [-2351.15, 263.40, 846.18]
