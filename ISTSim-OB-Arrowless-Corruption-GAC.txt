@@ -18,7 +18,7 @@ Save
 # Continue the run as usual
 Pickup 5 NormalArrow 5 NormalArrow 2 BirdEgg 2 Apples 3 HyruleHerb 10 NormalArrow
 Shoot 3 Arrow
-Pickup 1 BokoShield 1 SpiritOrb 1 Ruby 1 Amber 5 FireArrow
+Pickup 1 BokoShield 1 SpiritOrb 1 Ruby 1 Amber 5 FireArrow 5 IceArrow
 With 3 SpicyPepper 2 BirdEgg
 Cook Omelet[modifier=spicy]
 Remove Omelet
@@ -81,9 +81,10 @@ Save As HatenoHard
 # ==== DIC Starts ====
 # Organize Weapons, Bow, Shield in preparation for DIC
 # Drop all weapons except torch and double axe
-# Double axe in slot 2, and equipped
+# Torch in slot 1, Double Axe in slot 2
+# Unequip Weapons
 Drop 1 WoodcuttersAxe 1 EdgeofDuality
-Equip DoubleAxe
+Unequip Weapon
 # Make sure Royal Bow is in slot 5, and equip.
 D&P 1 RoyalBow
 Equip RoyalBow
@@ -94,17 +95,17 @@ Equip MindsEye
 Equip AncientArrow
 # Organize the first 7 items to be corrupted together at the end of the inventory by dropping and picking them up
 # These items are: Wood, Giant Ancient Core, Core, Shaft, Farosh Scale, Gear, Spring
-D&P All Wood All GiantAncientCore All Core All FaroshScale All Shaft All Gear All Spring
+D&P All Wood All GiantAncientCore All Core All Shaft All FaroshScale  All Gear All Spring
 # Move wood into slot 1 by dropping and picking up everything before it.
 D&P All Durian All FleetLotusSeeds All MightyBananas All Sunshroom All Rushroom All EnduraCarrot All SilentPrincess All Honey All Acorn All HeartyBass All HyruleBass All Fairy All Beetle All Flint All Amber All Opal All LuminousStone All LizalfosHorn All LizalfosTalon All LizalfosTail All Screw All FaroshClaw All FaroshHorn All Apple
 # Wood should now be in slot 1. The first item to be corrupted is Farosh Scale, and it will be sold for money.
 Save As HatenoHard
 Reload ToT
-# Drop 2 Weapons
-Drop 2 Weapon
+# Drop 1 Weapon
+Drop 1 Weapon
 Drop 1 TravelersBow
-# Eat 5 Food
-Eat 2 HeartyElixir 1 MightyElixir 2 HeartyElixir
+# Eat 6 Food
+Eat 2 HeartyElixir 1 MightyElixir 2 HeartyElixir 1 MightyElixir
 Reload HatenoHard
 Save As HatenoHard
 Reload HatenoHard
@@ -114,6 +115,8 @@ Reload HatenoHard
 Drop 3 FaroshScale
 Sell All FaroshScale
 Pickup 3 FaroshScale
+# Equip Double Axe so it transfers durability to the bows as you go through corruption cycles.
+Equip DoubleAxe
 Save As HatenoHard
 Reload ToT
 # Drop 0 weapons
@@ -133,9 +136,7 @@ Reload HatenoHard
 Shoot 1 Arrow
 Save As HatenoHard
 Reload HatenoHard
-# Switch to normal arrows for this next part.
-Equip NormalArrow
-# Double check that normal and ancient arrows, material slots 1, 3, 4, 5, 6 are corrupted. If not, retrace your steps and try again.
+# Double check that normal arrows, shock arrows and ancient arrows, material slots 3, 4, 5, 6 are corrupted. If not, retrace your steps and try again.
 Buy 1 BombArrow
 Save As HatenoHard
 Reload ToT
@@ -157,8 +158,6 @@ D&P All HeartyDurian All Apple All FleetLotusSeeds All MightyBanans All Sunshroo
 # After the inventory has been sorted, bring the next 6 items to be corrupted up to the first 6 slots by dropping and picking up stuff.
 # The next 6 items are: Opal, Luminous Stone, Lizalfos Horn, Lizalfos Talon, Lizalfos Tail, Screw
 D&P All Durian All Apple All FleetLotusSeeds All MightyBananas All Sunshroom All Rushroom All EnduraCarrot All SilentPrincess All Honey All Acorn All FaroshScale All FaroshClaw All FaroshHorn All HeartyBass All HyruleBass All Fairy All Beetle All Flint All Amber
-# Switch back to ancient arrows for doing the corruption
-Equip AncientArrow
 Save as HatenoHard
 Reload ToT
 # Drop 0 Weapons
@@ -225,25 +224,28 @@ Reload HatenoHard
 # DIC Round 4
 # Automatically sort inventory with Y.
 D&P All HeartyDurian All Apple All FleetLotusSeeds All MightyBanans All Sunshroom All Rushroom All EnduraCarrot All SilentPrincess All Honey All Acorn All FaroshScale All FaroshClaw All FaroshHorn All HeartyBass All HyruleBass All Fairy All Beetle All Flint All Amber All Opal All LuminousStone All LizalfosHorn All LizalfosTalon All LizalfosTail All Screw All Spring All Gear All Shaft All Core All GiantAncientCore All Wood
-# Bring the last 4 items to the front.
-# Rushroom, Silent Princess, Honey, Acorn
-D&P All Durian All Apple All FleetLotusSeeds All MightyBananas All Sunshroom All EnduraCarrot 
+# Organize for the last 4 items.
+# Top 5 slots are: Sunshroom, Rushroom, Silent Princess, Honey, Acorn
+# Sunshroom won't be corrupted
+D&P All Durian All Apple All FleetLotusSeeds All MightyBananas All EnduraCarrot
+# Prevent Double Axe from overwriting the durability of the Royal Bow by unequipping it.
+Unequip Weapon
 Save as HatenoHard
 Reload ToT
-# Drop 2 Weapons
-Drop 2 Weapons
+# Drop 1 Weapon
+Drop 1 Weapons
 Drop TravelersBow
-# Eat 5 food
-Eat 2 HeartyElixir 1 MightyElixir 2 HeartyElixir
+# Eat 6 food
+Eat 2 HeartyElixir 1 MightyElixir 2 HeartyElixir 1 MightyElixir
 Reload HatenoHard
 Shoot 1 Arrow
 Save as HatenoHard
 Reload ToT
-# Drop 4 Weapons
-Drop 4 Weapons
+# Drop 3 Weapons
+Drop 3 Weapons
 Drop TravelersBow
-# Eat 3 food
-Eat 2 HeartyElixir 1 MightyElixir
+# Eat 4 food
+Eat 2 HeartyElixir 1 MightyElixir 1 HeartyElixir
 Reload HatenoHard
 Shoot 1 Arrow
 Save as HatenoHard
@@ -365,6 +367,10 @@ Sync GameData
 # At this point there will be 61 cooked meals. This means there is no space for other meals that have to go into the inventory for quests. Free up some space by eating the useless roasted endura carrots and fish skewers.
 Eat 2 FishSkewer 2 RoastedEnduraCarrot
 # The Speed Food in slot 4 of the cooked foods is not corrupted. Eating it will free up a slot. For the Trial of the Sword and the Champion's Ballad, there are thirty minute Attack Up 3 meals. The Hearty meals can be used to bring you back to max hearts before going in.
+# Unequip Bows
+Unequip Bows
+# Equip OB as it's used next in Chaas Qeta
+Equip TravelersBow
 Save As HatenoHard
 # A good place to save and close the game is after getting N48. If you save and close the game while in the water, upon reloading Link will be back at the Tech Lab.
 # Do not perform any reloading of saves unti the game has been closed to turn off IST.
