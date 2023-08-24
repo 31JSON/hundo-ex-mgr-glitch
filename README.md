@@ -10,11 +10,11 @@ This version has been modified for using standard movements (no movement-based g
 - Wood, Fire, Bomb and Ancient are the arrows that will be corrupted.
 - Arrowless breaking of inventory slots.
 
-You can view the route at https://celer.itntpiston.app/#/gh/31PNMR/hundo-ex-mgr-glitch
+You can view the route at https://celer.itntpiston.app/#/gh/31JSON/hundo-ex-mgr-glitch
 
 You can see more about the route engine at https://github.com/iTNTPiston/celer
 
-Mist is an open-source minimal speedrun split timer developed by [LtPeriwinkle](https://github.com/LtPeriwinkle/mist). A split file for this route will be available soon. A split file for LiveSplit can be downloaded directly from the Celer web app.
+Mist is an open-source minimal speedrun split timer developed by [LtPeriwinkle](https://codeberg.org/periwinkle/mist). A split file for this route will be available soon. A split file for LiveSplit can be downloaded directly from the Celer web app.
 
 # Thanks
 I appricate the help of zd3nik, savage13, and [KatieShesko](https://www.twitch.tv/katieshesko) for helping to correct errors and beta test the route.
