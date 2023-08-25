@@ -386,116 +386,7 @@ _route:
           - to: [-813.25,1973.8125]
           - to: [-811.875,1966.7437858459407]
     - Drop Tree Branches
-    - _Warp::Shrine::OmanAu
-    - Travel to Outskirt Stable:
-        movements:
-          - to: [-690.5,1477.375]
-          - to: [-678.0625,1446.5]
-          - to: [-769,1436.5625]
-          - to: [-873.875,1446.375]
-          - to: [-929.5625,1446.375]
-          - to: [-949.75,1438.3125]
-          - to: [-998.0625,1455.125]
-          - to: [-1048.8125,1486.75]
-          - to: [-1081.8125,1509.625]
-          - to: [-1099.625,1517]
-          - to: [-1166.75,1507.5625]
-          - to: [-1232.125,1512.9375]
-          - to: [-1239.75,1511.1875]
-          - to: [-1256,1504.125]
-          - to: [-1306,1467.875]
-          - to: [-1326.6875,1450.9375]
-          - to: [-1353.3125,1424.625]
-          - to: [-1361.75,1404.9375]
-          - to: [-1375.9375,1383.4375]
-          - to: [-1372.4375,1358.5]
-          - to: [-1371,1351.9375]
-          - to: [-1374.625,1338.3125]
-          - to: [-1414.6875,1270.0625]
-    - _Shop<Beedle>:
-        notes: Sell Ruby
-        coord: [-1421.55, 137.73, 1280.33]
-    - _Discover<Outskirt Stable>:
-        notes: Register Epona
-        coord: [-1449.5625,1269.0625]
-    - Rota Ooh:
-        notes: Activate only, do not complete shrine right now
-        icon: activated-shrine
-        movements:
-          - to: [-1432.5625,1249.5625]
-          - to: [-1459.6875,1221.9375]
-          - to: [-1489.5625,1215.375]
-          - to: [-1507.4375,1216.8125]
-          - to: [-1514.5625,1230.4375]
-          - to: [-1518.25,1244.875]
-          - to: [-1521.5625,1256.9375]
-          - to: [-1529.25,1264.3125]
-          - to: [-1540.375,1268.9375]
-          - to: [-1552.625,1285.5]
-          - to: [-1558.3125,1298.4375]
-          - to: [-1563.25,1310.5]
-    - Travel to Satori Mountain:
-        movements:
-          - to: [-1563.25,1310.5]
-          - to: [-1558.3125,1298.4375]
-          - to: [-1552.625,1285.5]
-          - to: [-1540.375,1268.9375]
-          - to: [-1529.25,1264.3125]
-          - to: [-1521.5625,1256.9375]
-          - to: [-1518.25,1244.875]
-          - to: [-1514.5625,1230.4375]
-          - to: [-1507.4375,1216.8125] 
-          - to: [-1489.5625,1215.375]
-          - to: [-1471.125,1194.375]
-          - to: [-1474.25,1167.6875]
-          - to: [-1459.4375,1133.8125]
-          - to: [-1455.125,1103.8125]
-          - to: [-1445.5625,1078.625]
-          - to: [-1450.5625,1048.3125]
-          - to: [-1460.5,1031.25]
-          - to: [-1476.25,1019.8125]
-          - to: [-1492.625,1013.25]
-          - to: [-1527.125,1015.1875]
-          - to: [-1551.875,1012.25]
-          - to: [-1576.0625,1014.125]
-          - to: [-1645.375,1020]
-          - to: [-1654.75,1024.75]
-          - to: [-1674.3125,1041.75]
-          - to: [-1699.5625,1045.75]
-          - to: [-1710.625,1051.25]
-          - to: [-1728,1057.9375]
-          - to: [-1782.625,1060.75]
-          - to: [-1824.3125,1075.75]
-          - to: [-1837.875,1078.1875]
-          - to: [-1864.9375,1079.8125]
-          - to: [-1891.75,1079.25]
-          - to: [-1911.625,1072.4375]
-          - to: [-1933.5625,1053.4375]
-          - to: [-1942.8125,1038.125]
-          - to: [-1951.5,1007.75]
-          - to: [-1954.125,991.0625]
-          - to: [-1950.875,971.0625]
-          - to: [-1932.5,945.1875]
-          - to: [-1904.3125,920.625]
-          - to: [-1860.3125,896.0625]
-          - to: [-1816.3125,873.4375]
-          - to: [-1784.6875,850.75]
-          - to: [-1763.875,838.1875]
-          - to: [-1752.5,824.75]
-          - to: [-1756.4375,806.625]
-          - to: [-1760.5,778.0625]
-          - to: [-1778.875,725.75]
-          - to: [-1793,585.25]
-          - to: [-1800.25,486.5]
-          - to: [-1838.6875,470]
-          - to: [-1883.875,467.8125]
-          - to: [-1936.875,468.5]
-          - to: [-1959.9375,470.4375]
-          - to: [-1996.0625,459.25]
-          - to: [-2059.4375,452.875]
-          - to: [-2112.5,439.9375]
-          - to: [-2123.0625,404.875]
-          - to: [-2132.6875,388.25]
+    - BLSS to Mogg Latan
     - _Shrine::MoggLatan:
         notes: Forest Dweller's Bow
     - (==) The Forest Dweller's Bows picked up here can be used but must not be broken until the GEB is duplicated in Gerudo Town.
@@ -563,141 +454,27 @@ _route:
         icon: wood-icon
         notes: Having backup wood is good.
         hide-icon-on-map: true
-    - _Discover<Jeddo Bridge>:
-        movements:
-          - to: [-2106,439.49696606894577]
-          - to: [-1876,463.9978670545315]
-          - to: [-1633,387.2559943122651]
-          - to: [-1687,131.24964144451133]
-          - to: [-1690.0625,130.875]
-    - Ride Epona to Castle:
-        movements:
-          - to: [-1717,24.983340960391615]
-          - to: [-1771,-33.01879198507686]
-          - to: [-1808,-110.02162365406093]
-          - to: [-1849,-170.02383014937368]
-          - to: [-1828,-261.0271766672631]
-          - to: [-1854,-299.0285741142943]
-          - to: [-1777,-375.0313690083567]
-          - to: [-1694,-453.03423745226246]
-          - to: [-1643.5,-539.5095614796865]
-          - to: [-1576.75,-577.2609497329868]
-          - to: [-1490.75,-580.2610600577527]
-          - to: [-1437.3125,-567.9375]
-          - to: [-1437.3125,-567.9375]
-          - to: [-1366,-553.5100763285927]
-          - to: [-1253.75,-532.0096993856432]
-          - to: [-1186,-529.0095890608782]
-          - to: [-1120.5,-505.75873404394406]
-    - _Discover<Carok Bridge>:
-        coord: [-1087.79, 145.00, -474.61]
-    - Continue:
-        movements:
-          - to: [-1043.5625,-436.68859405392595]
-          - to: [-1044.375,-437.125]
-          - to: [-959.1875,-360.125]
-          - to: [-921.125,-323.75]
-          - to: [-921.125,-323.75]
-    - _Korok::C30
-    - _Korok::C25
-    - _Chest<Shock Arrow x5>:
-        icon: shock-arrow-icon
-        movements:
-          - to: [-707.625,-497.25]
-          - to: [-691.875,-521.875]
-          - to: [-698.5625,-537.5]
-          - to: [-696.25,-552.125]
-          - to: [-689.9375,-559.4375]
-          - to: [-666.04, 141.22, -571.08]
-    - Enter Castle:
-        movements:
-          - to: [-666,-572]
-          - to: [-606.5625,-617.5]
-          - to: [-597.1875,-633.125]
-          - to: [-590.75,-634.5]
-          - to: [-574.5,-665]
-          - to: [-569.25,-671.8125]
-          - to: [-559,-683.8125]
-          - to: [-491.8125,-678]
-          - to: [-467.75,-656.1875]
-          - to: [-442.625,-645.3125]
-          - to: [-431.75,-662.3125]
-          - to: [-375.625,-756.875]
-          - to: [-415.75,-769.25]
-          - to: [-460.5,-808.3125]
-          - to: [-473,-821.5625]
-          - to: [-477.625,-844.5625]
-          - to: [-460.3125,-894.5625]
-          - to: [-471.8125,-938.75]
-          - to: [-462.8125,-946.25]
-    - _Equipment::Weapon<Edge of Duality>:
-        icon: edge-of-duality-icon
-        movements:
-          - to: [-411.75,-966.0625]
-          - to: [-413.25,-976.375]
-          - to: [-394.5,-976.3125]
-          - to: [-386.9375,-972.3125]
-          - to: [-371.5625,-973.0625]
-          - to: [-364.0625,-978.9375]
-          - to: [-363.125,-979.25]
-          - to: [-360.625,-967]
-          - to: [-341,-969.3125]
-          - to: [-328.25,-964.25]
-          - to: [-329.125,-978.3125]
-          - to: [-335.5,-979.1875]
-          - to: [-335.5625,-986.0625]
-          - to: [-311.81, 256.46, -997.30]
-    - _Equipment::Bow<Royal Guard's Bow>:
-        icon: royal-guards-bow-icon
-        coord: [-310.25, 261.03, -995.87]
-        notes: Needed for quest, don't break until it's complete.
+    - BLSS to Castle Observation Deck
     - Observation Deck:
         movements:
-          - to: [-342.5625,-997.0012664363721]
-          - to: [-356.0625,-996.7512572426413]
-          - to: [-325.5,-916.4968005817973]
-          - to: [-289.5,-847.2442539184576]
-          - to: [-323,-793.9922956538685]
-          - to: [-273,-748.9906407823837]
+          - to: [-253.0730049352942,-742.3832894831494]
     - _Material<Arrow x5>:
         icon: normal-arrow-icon
         coord: [-249.07, 209.78, -743.54]
     - _Equipment::Bow<Royal Bow>:
         icon: royal-bow-icon
         coord: [-252.19, 210.48, -741.07]
-        notes: Don't use; At this point you should have Traveler's Bow, 2 x Forest Dweller's Bow, Royal Guard's Bow, Royal Bow
     - _Chest<Ancient Arrow x3>:
         icon: ancient-arrow-icon
         coord: [-254.00, 209.67, -742.37]
-    - Enter Castle through Copium Door:
-        coord: [-300.5,-757.3125]
-    - _Material<Lizalfos Horn>:
-        coord: [-322.58, 192.35, -833.74]
-        icon: lizalfos-horn-icon
-    - _Material<Lizalfos Talon>:
-        icon: lizalfos-talon-icon
-    - _Material<Lizalfos Tail>:
-        icon: lizalfos-tail-icon
-    - Leave Castle by Warp:
-        movements:
-          - to: [-254.3125,-568.125]
-            warp: true
     - Kill Guardian Stalker:
         icon: guardian-icon
         movements:
-          - to: [-101.50, 133.07, -416.50]
+          - to: [-357.50, 129.79, -470.50]
     - Kill Guardian Stalker:
         icon: guardian-icon
         movements:
-          - to: [-220.07, 126.78, -431.95]
-    - _Discover<Central Square>:
-        coord: [-253.99, 129.85, -425.96]
-    - _Discover<Hyrule Castle Town Ruins>:
-        coord: [-253.50, 139.00, -379.00]
-    - Kill Guardian Stalker:
-        icon: guardian-icon
-        movements:
-          - to: [-254.50, 130.00, -334.40]
+          - to: [-514.54, 132.98, -477.58]
     - _Material<Ancient Screw, 1>:
         icon: ancient-screw-icon
         hide-icon-on-map: true
@@ -718,106 +495,23 @@ _route:
         icon: giant-ancient-core-icon
         notes: Pick up if dropped.
         hide-icon-on-map: true
-    - _Warp::Shrine::RotaOoh
-    - Outskirt Stable:
-        icon: location
-        coord: [-1449.75,1269.0625]
-        notes: Pick up Epona and head to Kaya Wan
-    - Ride Epona to Gatepost Town Ruins:
+    - _Korok::C26
+    - _Discover<Water Reservoir>:
+        coord: [-597.0625,-516.875]
+    - Rock for C22:
+        coord: [-673.43, 141.49, -518.38]
+        icon: map-marker-icon
+    - _Korok::C22
+    - _Chest<Shock Arrow x5>:
+        icon: shock-arrow-icon
         movements:
-          - to: [-1416,1267.9375]
-          - to: [-1370.625,1349.75]
-          - to: [-1376.3125,1380.0625]
-          - to: [-1360.75,1406.125]
-          - to: [-1353.125,1424.625]
-          - to: [-1321.3125,1455.9375]
-          - to: [-1267.3125,1497.375]
-          - to: [-1237.6875,1511.9375]
-          - to: [-1167.5625,1507.3125]
-          - to: [-1111,1518.375]
-          - to: [-1051.25,1487.5625]
-          - to: [-993.25,1452.375]
-          - to: [-950.5,1437.8125]
-          - to: [-929.375,1446.625]
-          - to: [-874,1446.125]
-          - to: [-786.4375,1436.1875]
-          - to: [-690.25,1443.6875]
-          - to: [-653.4375,1455.6875]
-          - to: [-616.6875,1464.625]
-          - to: [-588.375,1480.0625]
-          - to: [-569.375,1485.625]
-    - _Discover<Gatepost Town Ruins>:
-        coord: [-545.125,1454.9375]
-    - Continue to Kaya Wan:
-        movements:
-          - to: [-490.5,1436.1875]
-          - to: [-461.875,1412.5]
-          - to: [-400.8125,1424.5625]
-          - to: [-363.9375,1423.1875]
-          - to: [-332.5,1410.1875]
-          - to: [-298.3125,1406.8125]
-          - to: [-201.625,1416.9375]
-          - to: [-139.25,1394.8125]
-          - to: [-103.125,1352.75]
-          - to: [-89.5625,1320.5]
-          - to: [-94.25,1277.5625]
-          - to: [-103.75,1234.3125]
-          - to: [-89.3125,1143.6875]
-          - to: [-55.375,1131.5625]
-          - to: [-2.5625,1137.4375]
-          - to: [23.25,1147.0625]
-          - to: [50.1875,1144.9375]
-          - to: [163,1192.875]
-          - to: [178.875,1201.3125]
-          - to: [246.9375,1146.5625]
-          - to: [306.1875,1089.625]
-          - to: [322.375,1074.8125]
-    - _Discover<Horwell Bridge>:
-        movements:
-          - to: [466.4380,963.1875]
-          - to: [492.1880,929.0625]
-          - to: [517.80,901.8125]
-          - to: [576.9380,915.75]
-          - to: [598.4380,935.8125]
-          - to: [625.9380,945.4375]
-          - to: [655.0626,963.625]
-          - to: [680.4380,977.625]
-    - _Discover<Eagus Bridge>:
-        movements:          
-          - to: [708.5,992.9375]
-          - to: [778.5625,1035.8125]
-          - to: [790.625,1046.4375]
-          - to: [818.625,1083.4375]
-          - to: [842,1089.625]
-          - to: [879.5625,1086.6875]
-          - to: [898.4375,1049.1875]
-          - to: [923.0625,1020.125]
-          - to: [937.875,993.375]
-          - to: [970.5,941.4375]
-    - Continue to Kaya Wan:
-        movements:
-          - to: [1002.3125,890.375]
-          - to: [1028.3125,850.6875]
-          - to: [1032.25,818.9375]
-          - to: [1028.1875,806.9375]
-          - to: [1012.375,769.625]
-          - to: [1010.9375,747.9375]
-          - to: [1029.1875,728.9375]
-          - to: [1071.3125,702.875]
-          - to: [1088.375,664.4375]
-          - to: [847.875,347.8125]
-          - to: [823.5,333.5]
-          - to: [769.25,240.75]
-          - to: [767.4375,216.375]
-          - to: [789.25,197.3125]
+          - to: [-666.04, 141.22, -571.08]
+    - BLSS to Kaya Wan
     - _Shrine::KayaWan:
         notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=7708) - Ancient Core, if needed
     - _Npc::SheikaMale<Izra>:
         coord: [837.625,125.5]
         comment: Riverbed Reward
-    - _Material<Hyrule Bass, 1>:
-        icon: hyrule-bass-icon
-        coord: [827.75, 114.20, 124.76]
     - _Chest<Knight's Broadsword>:
         icon: knights-broadsword-icon
         coord: [826.64, 112.80, 123.61]
@@ -826,15 +520,7 @@ _route:
         coord: [837.625,125.5]
     - _Discover<Wetland Stable>:
         coord: [888.06, 131.29, 173.67]
-    - Ride to Kakariko:
-        notes: The orange and blue lines are overlapping.
-        movements:
-          - to: [1190.5,671.4725438081505]
-          - to: [1543.75,1016.4407063090912]
-          - to: [1584.25,1050.1867631326022]
-          - to: [1641.25,1060.9355071578684]
-          - to: [1698.25,1083.182907582257]
-          - to: [1760.6875,1097.8125]         
+    - _Warp::Tower::GreatPlateau
     - _Shop<The Curious Quiver>:
         notes: Buy fire arrows if needed.
         coord: [1830.49, 222.41, 1044.89]
@@ -875,28 +561,9 @@ _route:
         icon: endura-carrot-icon
         coord: [1950.35, 270.12, 835.39]
         notes: Should have 9 in inventory at this point.
-    - _Equipment::Weapon<Torch>:
-        icon: torch-icon
-        notes: Optional if you already have one; Needed for blue flame after glitch
-        coord: [1894.71, 232.26, 968.54]
-    - _Equipment::Weapon<Traveler's Sword>:
-        icon: travelers-sword-icon
-        notes: Optional if you already have one; To take care of Nebb's first weapon before glitch
-        coord: [1931.10, 229.83, 987.25]
-    - Continue to Hestu's Maracas:
-        movements:
-          - to: [1937.25,1020.9375]
-          - to: [1956.3125,1039.75]
-          - to: [1955.9375,1063.1875]
-          - to: [1956.1875,1093.5]
-          - to: [1947.4375,1129.0625]
-          - to: [1965.9375,1158.375]
-          - to: [1968.5,1160.0625]
-          - to: [2060.9375,1193.875]
-          - to: [2091.5625,1217.4748220879]
-          - to: [2105.5625,1254.24367631326]
-          - to: [2115.5,1310.9870459350159]
-          - to: [2114,1367.8554009524141]
+    - WB to top hill:
+        coord: [1870.0020063773936,816.1911276748042]
+    - BLSS to Hestu's Maracas
     - _Chest<Hestu's Maracas>:
         icon: bokkurin-maracas-icon
         movements:
@@ -910,143 +577,43 @@ _route:
           - to: [2099.4375,1393.3524216635105]
           - to: [2096,1395.2272025981501]
           - to: [2069.45, 188.17, 1422.25]
-    - Continue to Double Axe:
-        movements:
-          - to: [2003.4375,1440.3125]
-          - to: [1964.5,1446.625]
-          - to: [1943.125,1437.25]
-          - to: [1920.25,1432.25]
-          - to: [1892.4375,1432.6875]
-          - to: [1867.25,1434.5625]
-          - to: [1847.8125,1430.875]
-          - to: [1811.8125,1466.875]
-          - to: [1757.1875,1596.875]
-          - to: [1742.1875,1639.75]
-          - to: [1752.75,1665.0625]
-    - _Chest<Double Axe>:
-        icon: double-axe-icon
-        coord: [2028.77, 121.99, 1928.97]
-    - Continue to Hateno:
-        movements:
-          - to: [2244,1851.5625]
-          - to: [2286.5,1836.5660435146074]
-          - to: [2356.25,1828.5669781934794]
-          - to: [2381.5,1816.5683802117856]
-          - to: [2402.25,1781.322498640564]
-          - to: [2436.75,1747.0765002344815]
-          - to: [2484,1719.579713193103]
-          - to: [2567.75,1659.5867232846385]
-          - to: [2578.25,1658.5868401194975]
-          - to: [2626.5,1681.5841529177414]
-          - to: [2644.75,1696.832371186143]
-          - to: [2677,1698.832137516425]
-          - to: [2720.75,1717.0800052802497]
-          - to: [2727.5,1728.8286324706569]
-          - to: [2785.75,1760.8248937551716]
-          - to: [2800.25,1786.5718852575537]
-          - to: [2836.75,1831.066686106331]
-          - to: [2835.5,1848.814612287585]
-          - to: [2858.25,1895.55915025793]
-          - to: [2873.5,1911.8072516914726]
-          - to: [2898.5,1957.5519064966757]
-          - to: [2955,1990.2980801550457]
-          - to: [2974,1969.5505044783695]
-          - to: [2987.25,1953.3024030448269]
-          - to: [3025.5,1949.0528995929772]
-          - to: [3052,1979.0493945472099]
-          - to: [3091.5,1996.797320728463]
-          - to: [3110.5,2030.5433775519741]
-          - to: [3134.5,2069.7887917837616]
-          - to: [3121.75,2119.033037666959]
-          - to: [3147,2154.2789192381806]
-          - to: [3194.25,2171.0269622542946]
-          - to: [3225.75,2136.031051474357]
-          - to: [3252.75,2132.2814896050777]
-          - to: [3284,2138.2807885959246]
-    - _Shrine::MyahmAgana:
-        notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=10063)
-    - Get Hearty Bass on the way to Riola Spring:
-        movements:
-          - to: [3284,2138.2807885959246]
-          - to: [3252.75,2132.2814896050777]
-          - to: [3225.75,2136.031051474357]
-          - to: [3194.25,2171.0269622542946]
-          - to: [3147,2154.2789192381806]
-          - to: [3135.0625,2180.0625]
-          - to: [3131.375,2234]
-          - to: [3114.9375,2256.5]
-          - to: [3081.625,2286.0625]
-          - to: [3118,2331.125]
-          - to: [3115.9375,2359.0625]
-          - to: [3089.3125,2411.75]
-          - to: [3079.0625,2427.1875]
-          - to: [3052.6875,2447]
-          - to: [3023.5,2441.25]
-          - to: [3010.5,2427.5625]
-          - to: [2980.875,2415.5625]
-          - to: [2935.125,2443.375]
-          - to: [2923.9375,2472.25]
-          - to: [2949.3125,2496.8125]
-    - _Material<Hearty Bass>:
-        icon: hearty-bass-icon
-        coord: [3008.67, 229.79, 2533.78]
-    - Continue to Riola Spring:
-        movements:
-          - to: [2993.3125,2536.125]
-          - to: [2996.375,2614.4375]
-          - to: [3009.125,2836.0625]
-          - to: [3017.5,2928.625]
-          - to: [3034.875,2992.6875]
-          - to: [3023.625,3059.9375]
-          - to: [2976.625,3060.4375]
-          - to: [2959.5,3057]
-          - to: [2880.6875,3026.6875]
-          - to: [2790.0625,3037.875]
-          - to: [2740.0625,3041.25]
-          - to: [2609.8125,3017.5625]
-          - to: [2545.4375,2983.1875]
-          - to: [2489.0625,2985.6875]
-          - to: [2409.625,3006.75]
-          - to: [2312.4375,3053.8125]
-          - to: [2283.5,3050.8125]
-          - to: [2275.75,3060]
-          - to: [2270.1875,3068.9375]
-          - to: [2265.5,3083.125]
-          - to: [2248.375,3085.1875]
-          - to: [2234.6875,3085.3125]
-          - to: [2216.875,3092.3125]
-          - to: [2155.125,3101.625]
-          - to: [2098.25,3111.6875]
-          - to: [2071.9375,3098.5]
-          - to: [2052.5625,3082.4375]
-          - to: [2037.0625,3048]
-          - to: [2007.375,3004.5625]
-          - to: [1984.875,2962.9375]
-          - to: [1966.0625,2932.5]
-          - to: [1919.125,2925.6875]
-          - to: [1903.6875,2918.9375]
-          - to: [1886.9375,2912.25]
-          - to: [1871.5,2909.375]
-          - to: [1853.8125,2895.875]
-          - to: [1806.4375,2885.0625]
-          - to: [1768.6875,2893.25]
-          - to: [1730.375,2922]
-          - to: [1731.9375,2964.625]
+    - _Warp::Shrine::KehNamut
+    - BLSS to Riola Spring:
+        coord: [1731.9375,2964.625]
     -  Farm Farosh Parts:
         notes: Scale, Horn, Claw
         coord: [1749.25,3004]
     - _Material<Farosh's Scale>:
         icon: farosh-scale-icon
+        hide-icon-on-map: true
     - _Material<Shard of Farosh's Horn>:
         icon: farosh-horn-icon
-        hide-icon-on-map: true
     - _Material<Farosh's Claw>:
         icon: farosh-claw-icon
-    - _Tod::Noon:
-        notes: Pick up torch before leaving
+        hide-icon-on-map: true
+    - BLSS to Ubota Point
+    - _Material<Lizalfos Horn>:
+        coord: [1691.87, 280.72, 3661.50]
+        icon: lizalfos-horn-icon
+        hide-icon-on-map: true
+    - _Material<Lizalfos Talon>:
+        icon: lizalfos-talon-icon
+        hide-icon-on-map: true
+    - _Material<Lizalfos Tail>:
+        icon: lizalfos-tail-icon
+    - _Material<Hearty Bass>:
+        icon: hearty-bass-icon
+        coord: [1643.02, 277.73, 3674.37]
+    - _Material<Hyrule Bass>:
+        icon: hyrule-bass-icon
+        hide-icon-on-map: true
     - _Material<Mighty Bananas, 3>:
         icon: bananas-icon
-        coord: [1724.14, 345.11, 2861.19]
+        coord: [1652.44, 282.35, 3687.13]
+    - _Tod::Noon
+    - BLSS to Hateno
+    - _Shrine::MyahmAgana:
+        notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=10063)
     - _Warp::Shrine::MyahmAgana
     - _Npc::SheikaMale<Nebb>:
         notes: Show him the Traveler's Sword so you can get it out of your inventory.
@@ -1191,182 +758,7 @@ _route:
     - _Korok::D53
 
   - Medoh:
-    - _Warp::Shrine::RotaOoh
-    - _Shrine::RotaOoh:
-        notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=4531)
-    - _Korok::C72
-    - _Korok::C78
-    - _Npc::SheikaFemale<Aliza>:
-        comment: My Hero
-        coord: [-1400.00, 137.72, 1280.00]
-        notes: Goodbye quest; Start the quest
-    - _Npc::SheikaMale<Toffa>:
-        comment: The Royal White Stallion
-        coord: [-1439.25, 137.72, 1278.45]
-        notes: Start the quest
-    - _Npc::SheikaMale<Trott>:
-        comment: A Rare Find
-        coord: [-1432.50, 137.72, 1264.50]
-        notes: Start the quest
-    - _Shop<Beedle>:
-        notes: Buy grasshoppers; Optional if you want to catch them later
-        coord: [-1421.55, 137.73, 1280.33]
-    - _Discover<Tabantha Bridge Stable>:
-        movements:
-          - to: [-1461,1221.3125]
-          - to: [-1471.6875,1194.75]
-          - to: [-1474.75,1168.125]
-          - to: [-1459.8125,1134.8125]
-          - to: [-1456,1104.8125]
-          - to: [-1446.9375,1084.3753]
-          - to: [-1445.4375,1067.0625]
-          - to: [-1453.1875,1043]
-          - to: [-1460.0625,1032.375]
-          - to: [-1489.5,1013.5625]
-          - to: [-1526.625,1015.125]
-          - to: [-1560.125,1012.25]
-          - to: [-1645.0625,1019.25]
-          - to: [-1659.25,1026.625]
-          - to: [-1676.0625,1041.3125]
-          - to: [-1699.9375,1044.75]
-          - to: [-1716.875,1053.9375]
-          - to: [-1781.75,1059.4375]
-          - to: [-1828,1077.125]
-          - to: [-1873.3125,1079.9375]
-          - to: [-1894.625,1077.75]
-          - to: [-1919.875,1068.0625]
-          - to: [-1937.5625,1045.1875]
-          - to: [-1943.8125,1035.5]
-          - to: [-1952.8125,1001]
-          - to: [-1947.375,964.75]
-          - to: [-1925.5,936.875]
-          - to: [-1880.875,906.75]
-          - to: [-1818.125,873.1875]
-          - to: [-1784.8125,849.5]
-          - to: [-1760.875,834]
-          - to: [-1751.8125,823.4375]
-          - to: [-1699.125,789.3125]
-          - to: [-1668.0625,755.8125]
-          - to: [-1644.25,733.875]
-          - to: [-1643.6875,645.9375]
-          - to: [-1638.5,598.3125]
-          - to: [-1617.8125,565.1875]
-          - to: [-1610.6875,517.125]
-          - to: [-1630,460.9375]
-          - to: [-1634.0625,400.5]
-          - to: [-1637.3125,332.5625]
-          - to: [-1673.6875,190.8125]
-          - to: [-1706.0625,70]
-          - to: [-1720.0625,29.5] 
-          - to: [-1771,-33.01879198507686]
-          - to: [-1808,-110.02162365406093]
-          - to: [-1849,-170.02383014937368]
-          - to: [-1828,-261.0271766672631]
-          - to: [-1857.875,-287.5625]
-          - to: [-1936.375,-268.375]
-          - to: [-1947.25,-263.6875]
-          - to: [-1986.75,-234.4375]
-          - to: [-2069.625,-194.18756]
-          - to: [-2114.875,-171.1875]
-          - to: [-2148.8125,-160.875]
-          - to: [-2233.8125,-145.125]
-          - to: [-2300.4375,-142.75]
-          - to: [-2385.4375,-149.5625]
-          - to: [-2468.0625,-163.5625]
-          - to: [-2592.3125,-200.875]
-          - to: [-2630.0625,-224.0625]
-          - to: [-2718.9375,-254.125]
-          - to: [-2740.3125,-268.9375]
-          - to: [-2779.75,-338.3125]
-          - to: [-2805.75,-428.25]
-          - to: [-2809.9375,-461.375]
-          - to: [-2793.5,-504.75]
-          - to: [-2793.6875,-523.375]
-          - to: [-2805.25,-545]
-          - to: [-2819.0625,-556]
-          - to: [-2879.9375,-572.6875]
-          - to: [-2919.125,-580.3125]
-          - to: [-2931.625,-547.75]
-    - _Material<Spicy Peppers>:
-        icon: spicy-pepper-icon
-        movements:
-          - to: [-2899.45, 276.27, -552.89]
-          - to: [-2899.97, 276.27, -553.12]
-          - to: [-2899.82, 276.27, -553.36]
-    - _Material<Wildberry>:
-        icon: wildberry-icon
-        movements:
-          - to: [-2909.05, 276.78, -565.48]
-          - to: [-2909.05, 276.78, -565.48]
-          - to: [-2909.58, 276.78, -565.85]
-    - _Tod::Noon:
-        hide-icon-on-map: true
-        notes: And also not raining
-    - _Npc::SheikaMale<Toren>:
-        comment: A Gift for the Great Fairy
-        coord: [-2916.00, 274.73, -561.00]
-        notes: Start quest
-    - _Npc::SheikaMale<Geggle>:
-        comment: Cliffside Etchings
-        coord: [-2951.3125,-497.5625]
-        notes: Start quest
-    - _Shrine::ShaeLoya:
-        notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=15717) - Falcon Bow
-    - _Discover<Tabantha Great Bridge>:
-        movements:
-          - to: [-2994.5,-587.9050842486095]
-          - to: [-3116.78, 274.30, -581.71]
-    - Continue to Great Fairy Fountain:
-        movements:
-          - to: [-3262.5,-577.4099816215321]
-          - to: [-3301,-557.4193099509066]
-          - to: [-3341.5,-520.4365673602506]
-          - to: [-3401,-521.4361009437816]
-          - to: [-3450,-522.9354013190787]
-          - to: [-3498,-543.4258397814692]
-          - to: [-3526.5,-606.3964555439379]
-          - to: [-3545,-615.3922577957192]
-          - to: [-3606,-607.895755919235]
-          - to: [-3646.25,-640]
-    - _Discover<Great Fairy Fountain>:
-        coord: [-3541.00, 294.88, -745.00]
-    - Continue to Rito Stable:
-        movements:
-          - to: [-3646.25,-640]
-          - to: [-3663,-661.3708026381573]
-          - to: [-3696.5,-680.3619407252509]
-          - to: [-3730,-721.842584441798]
-          - to: [-3753.5,-738.3348885700634]
-          - to: [-3760,-772.8187972018914]
-          - to: [-3736,-801.3055043325321]
-          - to: [-3700.5,-807.3027058337202]
-          - to: [-3642,-818.2975752525635]
-          - to: [-3547.5,-861.7772861361736]
-          - to: [-3511.5,-853.2812506761575]
-          - to: [-3457.5,-869.7735548044229]
-          - to: [-3424.5,-923.7483683151108]
-          - to: [-3387.5,-953.2346090292826]
-          - to: [-3373.5,-958.2322769469388]
-          - to: [-3361.5,-985.7194504940485]
-          - to: [-3336.5,-994.7152527458297]
-          - to: [-3258,-1079.1758405542205]
-          - to: [-3235,-1132.151120481377]
-          - to: [-3180.5,-1166.1352623214398]
-          - to: [-3170,-1185.6261672002988]
-          - to: [-3155,-1195.6215030356116]
-          - to: [-3131.5,-1252.095150505127]
-          - to: [-3098.5,-1329.5590032287992]
-          - to: [-3087,-1381.5347495724245]
-          - to: [-3046,-1431.5114287489869]
-          - to: [-3039.5,-1462.4969698384557]
-          - to: [-3031,-1490.483910177331]
-          - to: [-3031.5,-1602.4316715328314]
-          - to: [-3073.5,-1644.9118488329095]
-          - to: [-3080,-1647.9104495835036]
-          - to: [-3097.5,-1664.9025205035346]
-          - to: [-3174,-1720.8764011812846]
-          - to: [-3234.5,-1790.8437520284724]
-          - to: [-3259,-1803.3379218226132]
+    - _Warp::Shrine::MoggLatan
     - _Discover<Rito Stable>:
         coord: [-3255.57, 224.47, -1757.63]
     - _Material<Wildberry>:
@@ -1537,52 +929,12 @@ _route:
     - _Npc::SheikaMale<Gotter>:
         comment: A Royal Recipe
         coord: [325.82, 115.40, 1092.50]
-    - _Npc::SheikaFemale<Parcy>:
-        comment: The Royal Guard's Gear
-        coord: [345.00, 121.73, 1091.50]
-        notes: Finish quest now with the RGB.
     - _Shop<Beedle>:
         coord: [324.66, 115.40, 1089.03]
         notes: Buy electric darner for quest
     - _Shrine::WahgoKatta:
         notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=7512)
-    - Ride to Kakariko:
-        movements:
-          - to: [466.4375,963.1875]
-          - to: [492.1875,929.0625]
-          - to: [517.75,901.8125]
-          - to: [576.9375,915.75]
-          - to: [598.4375,935.8125]
-          - to: [625.9375,945.4375]
-          - to: [655.0625,963.625]
-          - to: [680.4375,977.625]
-          - to: [708.5,992.9375]
-          - to: [778.5625,1035.8125]
-          - to: [790.625,1046.4375]
-          - to: [818.625,1083.4375]
-          - to: [842,1089.625]
-          - to: [879.5625,1086.6875]
-          - to: [898.4375,1049.1875]
-          - to: [923.0625,1020.125]
-          - to: [937.875,993.375]
-          - to: [970.5,941.4375]
-          - to: [1002.3125,890.375]
-          - to: [1028.3125,850.6875]
-          - to: [1032.25,818.9375]
-          - to: [1028.1875,806.9375]
-          - to: [1012.375,769.625]
-          - to: [1010.9375,747.9375]
-          - to: [1029.1875,728.9375]
-          - to: [1071.3125,702.875]
-          - to: [1088.375,664.4375]
-          - to: [1190.5,671.4725438081505]
-          - to: [1543.75,1016.4407063090912]
-          - to: [1584.25,1050.1867631326022]
-          - to: [1641.25,1060.9355071578684]
-          - to: [1698.25,1083.182907582257]
-          - to: [1760.6875,1097.8125]
-          - to: [1798.33, 230.97, 1078.18]
-    - _Korok::D05
+    - _Warp::Shrine::TalohNaeg
     - _Npc::SheikaFemale<Rola>:
         comment: Arrows of Burning Heat
         notes: Talk to her twice to start quest; Finish during Kakariko cleanup
@@ -1610,39 +962,8 @@ _route:
         icon: pumpkin-icon
         notes: From Olkin; Needed for Riddles quest
         coord: [1870.87, 227.97, 965.85]
-    - Ride to Deuling Peaks Stable:
-        movements:
-          - to: [1917.875,995.92940188384]
-          - to: [1922.25,1019.6141343581194]
-          - to: [1937.8125,1021.7388860840438]
-          - to: [1957.4375,1045.3699322879938]
-    - _Korok::D06
-    - _Korok::D12
-    - Continue:
-        movements:
-          - to: [1955.3125,1093.9375]
-          - to: [1948.5,1128.5625]
-          - to: [1962.8125,1154.75]
-          - to: [2032,1185.9375]
-          - to: [2061.4375,1194.75]
-          - to: [2090.4375,1215.125]
-          - to: [2101.6875,1243.125]
-          - to: [2103.25,1252.5]
-          - to: [2113.9375,1299.625]
-          - to: [2115.75,1350.875]
-          - to: [2113.5,1371.25]
-          - to: [2102.75,1391.1875]
-          - to: [2023.0625,1432.4375]
-          - to: [1987.8125,1445.2838535530245]
-          - to: [1960.125,1445.971273229059]
-          - to: [1943.25,1437.0973101384325]
-          - to: [1927.9375,1435.784963484185]
-          - to: [1908.5625,1430.9730257519432]
-          - to: [1876.5,1434.1601533408302]
-          - to: [1854.4375,1430.6605622628367]
-          - to: [1840.1875,1436.4723831602196]
-          - to: [1811.6875,1467.968702862163]
-          - to: [1771.5,1547.1875]
+    - BLSS to D20:
+        coord: [1868.5,816.3125]
     - _Korok::D20
     - Continue:
         movements:
@@ -3787,6 +3108,8 @@ _route:
     - _Korok::X04
     - _Discover<Lockup>:
         coord: [-444.40, 135.41, -1066.27]
+    - _Equipment::Weapon<Royal Guard's Claymore>:
+        coord: [-414.90, 127.54, -1087.77]
     - _Boss::Hinox::Stal:
         coord: [-491.34, 126.08, -1009.82]
         notes: OB Bomb eye
@@ -3908,6 +3231,8 @@ _route:
     - _Npc::Rito<Kass>:
         comment: The Two Rings
         coord: [-1681.8125,51.1875]
+    - _Discover<Jeddo Bridge>:
+        coord: [-1703.75,79.625]
     - _Korok::R38
     - Shoot through rings:
         coord: [-1855.25,75.9375]
@@ -3950,6 +3275,8 @@ _route:
     - _Korok::C82
     - _Memory::LakeKolomo
     - _Korok::C83
+    - _Discover<Gatepost Town Ruins>:
+        coord: [-545.125,1454.9375]
     - _Chest::Special<Majora's Mask>:
         comment: EX Treasure Ancient Mask
         icon: majoras-mask-icon
@@ -4024,6 +3351,8 @@ _route:
           - to: [-1473.8125,1166.25]
           - to: [-1460.875,1220.3125]
           - to: [-1449.6875,1269.125]
+    - _Discover<Outskirt Stable>:
+        coord: [-1449.75,1269.0625]
     - _Npc::SheikaMale<Toffa>:
         comment: The Royal White Stallion
         coord: [-1439.25, 137.72, 1278.45]
@@ -4033,6 +3362,14 @@ _route:
     - _Npc::SheikaFemale<Aliza>:
         comment: My Hero
         coord: [-1400.00, 137.72, 1280.00]
+    - _Shop<Beedle>:
+        notes: Buy grasshoppers; Optional if you want to catch them later
+        coord: [-1421.55, 137.73, 1280.33]
+    - _Korok::C78
+    - _Korok::C72
+    - _Shrine::RotaOoh:
+        notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=4531)
+
     - _Korok::C85
     - _Korok::R80
     - _Korok::C86
@@ -4646,6 +3983,9 @@ _route:
     - _Korok::C70
     - _Korok::C71
     - _Korok::C65
+    - _Npc::SheikaFemale<Parcy>:
+        comment: The Royal Guard's Gear
+        coord: [345.00, 121.73, 1091.50]
     - _Warp::Shrine::BoshKala
     - _Korok::D27
     - .gale() from cryo block toward D34:
@@ -4711,6 +4051,12 @@ _route:
         fury: 1
     - _Korok::D15
     - _Korok::D13
+    - _Discover<Horwell Bridge>:
+        movements:
+          - to: [680.4380,977.625]
+    - _Discover<Eagus Bridge>:
+        movements:          
+          - to: [970.5,941.4375]
     - _Korok::D01
     - .gale() over to Hila Rao:
         gale: 1
@@ -5080,9 +4426,6 @@ _route:
           - to: [2372.9375,-192.375]
           - to: [2357.625,-225.6875]
           - to: [2353.125,-235.75]
-    - _Discover<Inogo Bridge>:
-        coord: [2344.375,-248.125]
-        notes: Discover during letter delivery
     - Continue to Destination:
         movements:
           - to: [2335.25,-262.0625]
@@ -5219,16 +4562,16 @@ _route:
         icon: npc-rito
         gale: 1
     - _Korok::C27
+    - _Discover<Central Square>:
+        coord: [-253.99, 129.85, -425.96]
+        hide-icon-on-map: true
+    - _Discover<Hyrule Castle Town Ruins>:
+        coord: [-253.50, 139.00, -379.00]
     - _Korok::C31
+    - _Korok::C30
+    - _Korok::C25
     - _Shrine::KatahChuki:
         notes: .link([Video]https://youtu.be/O8x0RdEbkmo)
-    - _Korok::C26
-    - _Discover<Water Reservoir>:
-        coord: [-597.0625,-516.875]
-    - Rock for C22:
-        coord: [-673.43, 141.49, -518.38]
-        icon: map-marker-icon
-    - _Korok::C22
     - Rock for C21:
         coord: [-777.65, 190.79, -603.21]
         icon: map-marker-icon
@@ -5370,6 +4713,8 @@ _route:
         icon: map-marker-icon
     - On the way, do C24
     - _Korok::C24
+    - _Discover<Carok Bridge>:
+        coord: [-1087.79, 145.00, -474.61]
     - _Korok::R26:
         coord: [-1115.56, 151.98, -528.59]
     - _Korok::R27:
@@ -5510,6 +4855,8 @@ _route:
     - _Memory::AncientColumns
     - _Shrine::TenaKosah
     - _Korok::T33
+    - _Discover<Great Fairy Fountain>:
+        coord: [-3541.00, 294.88, -745.00]
     - _Korok::T31
     - _Boss::Talus::Rare:
         coord: [-3248.625,-1078.375]
@@ -5680,9 +5027,19 @@ _route:
         gale: 1
     - _Korok::R30
     - _Korok::R21
+    - _Discover<Tabantha Bridge Stable>:
+        coord: [-2931.57, 274.78, -547.60]
     - _Npc::SheikaMale<Toren>:
         comment: A Gift for the Great Fairy
         coord: [-2916.00, 274.73, -561.00]
+    - _Npc::SheikaMale<Geggle>:
+        comment: Cliffside Etchings
+        coord: [-2951.3125,-497.5625]
+    - _Shrine::ShaeLoya:
+        notes: .link([Video]https://youtu.be/0b0TNce_9tc?t=15717) - Falcon Bow
+    - _Discover<Tabantha Great Bridge>:
+        movements:
+          - to: [-3003.5625,-585.251]
     - _Korok::T34
     - _Korok::R28
     - _Korok::R29
@@ -5793,6 +5150,8 @@ _route:
         icon: map-marker-icon
     - _Korok::Z15
     - _Korok::Z14
+    - _Discover<Inogo Bridge>:
+        coord: [2344.375,-248.125]
     - _Shrine::SohKofi
     - _Korok::Z13
 
@@ -6015,7 +5374,9 @@ _route:
     - .gale() up to the ledge for D04:
         gale: 1
     - _Korok::D04
+    - _Korok::D05
     - _Korok::D08
+    - _Korok::D06
     - If you don't already have a Windcleaver, while waiting for Dorian, make sure you have a weapon slot empty.
     - _Equipment::Weapon<Windcleaver>:
         notes: Kill Yiga Blademaster with normal arrows. Pick up windcleaver as soon as he drops it.
@@ -6034,10 +5395,7 @@ _route:
         coord: [2199.0625,1017.8125]
         gale: 1
     - _Korok::D07
-    - .gale() toward D11 from this location:
-        icon: npc-rito
-        coord: [2066.25,1085.1875]
-        gale: 1
+    - _Korok::D12
     - _Korok::D11
     - _Korok::D10
     - _Korok::D09
