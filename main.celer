@@ -673,6 +673,10 @@ _route:
         hide-icon-on-map: true
 
   - Hateno 1:
+    - _Npc::SheikaMale<Bolson>:
+        comment: Hylian Homeowner
+        notes: Finish house upgrades post IST.
+        coord: [3331.22, 235.28, 2284.61]
     - _Npc::SheikaMale<Medda>:
         line-color: rgb(254, 192, 0)
         comment: The Spring of Wisdom
