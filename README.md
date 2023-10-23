@@ -6,15 +6,15 @@ This version has been modified for using standard movements (no movement-based g
 - Epona will be used in the early game, and then the Master Cycle Zero.
 - At least two giant ancient cores will be obtained so that an ancient bow and ancient shield can be purchased.
 - Hylian Shield durability will be transferred to the ancient shield.
-- Corrputed items will be: Rushroom, Wood, Ancient Cores, Beetles, Opal, Lizalfos Tails, and Hearty Bass.
+- Corrputed items will be: Rushroom, Silent Princess, Honey, Acorn, Hearty Bass, Hyrule Bass, Fairy, Bettle, Opal, Lizalfos Tail, Screw, Spring, Gear, Shaft, Core, Wood, Endura Food, Speed Food, All arrow types.
 - Wood, Fire, Bomb and Ancient are the arrows that will be corrupted.
 - Arrowless breaking of inventory slots.
 
 You can view the route at https://celer.itntpiston.app/#/gh/31PNMR/hundo-ex-mgr-glitch
 
-You can see more about the route engine at https://github.com/iTNTPiston/celer
+You can see more about the route engine at [Pristonight's Celer repo](https://github.com/Pistonight/celer)
 
-Mist is an open-source minimal speedrun split timer developed by [LtPeriwinkle](https://github.com/LtPeriwinkle/mist). A split file for this route will be available soon. A split file for LiveSplit can be downloaded directly from the Celer web app.
+Mist is an open-source minimal speedrun split timer developed by Peri. You can find information on her [codeberg](https://codeberg.org/periwinkle/mist). A split file for LiveSplit can be downloaded directly from the Celer web app, and can be converted to the mist format using the mystify conversion tool.
 
 # Thanks
 I appricate the help of zd3nik, savage13, and [KatieShesko](https://www.twitch.tv/katieshesko) for helping to correct errors and beta test the route.
