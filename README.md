@@ -7,7 +7,6 @@ This version has been modified for using standard movements (no movement-based g
 - At least two giant ancient cores will be obtained so that an ancient bow and ancient shield can be purchased.
 - Hylian Shield durability will be transferred to the ancient shield.
 - Corrputed items will be: Rushroom, Silent Princess, Honey, Acorn, Hearty Bass, Hyrule Bass, Fairy, Bettle, Opal, Lizalfos Tail, Screw, Spring, Gear, Shaft, Core, Wood, Endura Food, Speed Food, All arrow types.
-- Wood, Fire, Bomb and Ancient are the arrows that will be corrupted.
 - Arrowless breaking of inventory slots.
 
 You can view the route at https://celer.itntpiston.app/#/gh/31PNMR/hundo-ex-mgr-glitch
